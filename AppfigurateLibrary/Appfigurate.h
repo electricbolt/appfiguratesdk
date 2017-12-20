@@ -304,6 +304,24 @@ typedef NS_ENUM(NSInteger, APLPredefinedIcon)
  */
 - (NSString* _Nullable) customIdentifier;
 
+/**
+ * iOS automation testing only:
+ * Converts the current state of the APLConfiguration instance into a string
+ * that can be passed as launch arguments to the app when launched as UI
+ * automation test. The allowInvalidSignatures method in the APLConfiguration
+ * instance in the app must return YES for this configuration to be applied.
+ *
+ * - (void)setUp {
+ *   [super setUp];
+ *   Configuration* c = [Configuration new];
+ *   c.webserviceURL = "https://localhost:443/api"; // change URL to dummy server
+ *   XCUIApplication* app = [XCUIApplication new];
+ *   app.launchArguments = [c launchArguments];     // convert to launch argument
+ *   [app launch];                                  // launch app under test
+ * }
+ */
+- (NSArray<NSString*>* _Nonnull) automationLaunchArguments;
+
 #endif
 
 @end

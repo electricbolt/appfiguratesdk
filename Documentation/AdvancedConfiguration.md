@@ -189,12 +189,12 @@ If the `APLKeychainAccessGroup` key is not defined, then keychain access group f
 
 Key                                  | iOS app | iOS app extension | watchOS app
 ----------------------------------------|---------|-------------------|--------------
-APLInstallDelegateMethods | ✓ | 1 | ✓
-APLLogging | ✓ | 1 | ✓
-APLKeychainAccessibility | ✓ | 1 | ✓
-APLKeychainAccessGroup | ✓ | 1 | 2
+APLInstallDelegateMethods | ![Tick](./Images/greentick.png) | 1 | ![Tick](./Images/greentick.png)
+APLLogging | ![Tick](./Images/greentick.png) | 1 | ![Tick](./Images/greentick.png)
+APLKeychainAccessibility | ![Tick](./Images/greentick.png) | 1 | ![Tick](./Images/greentick.png)
+APLKeychainAccessGroup | ![Tick](./Images/greentick.png) | 1 | 2
 
-1=iOS app extensions automatically use the Info.plist file from the containing app - you do not need to modify the iOS app extension's Info.plist file.
+1=iOS app extensions automatically use the `Info.plist` file from the containing app - you do not need to modify the iOS app extension's `Info.plist` file.
 
 2=available soon
 

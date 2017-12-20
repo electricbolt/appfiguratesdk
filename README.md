@@ -7,20 +7,30 @@ Appfigurate is a suite of tools for iOS and watchOS developers and testers, that
 * Examples
 * Documentation
 
+### iPhone
+
+![iPad Multitasking](./Documentation/Images/LetterLearner_iPhone.png)
+
+### iPad multitasking
+
+![iPad Multitasking](./Documentation/Images/LetterLearner_iPad.png)
+
 ## Features
 
 Feature                                 | Appfigurate Simulator | Appfigurate App Store
 --------------------------------------- | --------------------- | ---------------------
-Compatible with Xcode 8 and Xcode 9 | ✓ | ✓
-Configure iOS 8.0+ apps | ✓ | ✓
-Configure iOS 8.0+ app extensions | ✓ | ✓
-Configure watchOS 2.0+ apps | ✓ | ✓
+Compatible with Xcode 8 and Xcode 9 | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
+Configure iOS 8.0+ apps | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
+Configure iOS 8.0+ app extensions | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
+Configure watchOS 2.0+ apps | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
 Configure watchOS 3.0+ app extensions | available soon | available soon
-Apply configuration locally | ✓ | ✓
-Apply configuration remotely (via SMS/Email) |  | ✓
-Your apps metadata shared across all Simulators | ✓ |
-Your apps metadata securely stored on each Device |  | ✓
-Unlock Appfigurate with PIN/TouchID/FaceID |   | ✓ 
+Configure iOS UI automation tests | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
+Supports iPad multitasking | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
+Apply configuration locally | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
+Apply configuration remotely (via SMS/Email) |  | ![Tick](./Documentation/Images/greentick.png)
+Your apps metadata shared across all Simulators | ![Tick](./Documentation/Images/greentick.png) |
+Your apps metadata securely stored on each Device |  | ![Tick](./Documentation/Images/greentick.png)
+Unlock Appfigurate with PIN/TouchID/FaceID |   | ![Tick](./Documentation/Images/greentick.png)
 
 ## Installating Appfigurate app
 
@@ -51,3 +61,5 @@ Follow the [Quick Start Guide](./Documentation/QuickStartGuide.md) to integrate 
 [Additional library functions](./Documentation/AdditionalFunctions.md) - listening for configuration changes.
 
 [Displaying overridden configuration](./Documentation/OverriddenConfiguration.md) - in your iOS app.
+
+[Automation testing configuration](./Documentation/AutomationTestingConfiguration.md) - how to setup.
