@@ -85,7 +85,6 @@ In your apps `Configuration.m` file, paste the .m implementation file output to 
 @implementation Configuration
 
 BOOL_PROPERTY(debugLogging, @"Log debug output to console")
-
 STRING_PROPERTY_LIST_EDIT(serverURL, @"https://[\\w\\.-]+\\.yourappserver.com/.*", @"URL of app server", @{@"Dev":@"https://dev.yourappserver.com/api", @"Prod":@"https://www.yourappserver.com/api"});
 
 - (BOOL) allowInvalidSignatures {
@@ -96,17 +95,17 @@ STRING_PROPERTY_LIST_EDIT(serverURL, @"https://[\\w\\.-]+\\.yourappserver.com/.*
 #endif
 }
 
-- (NSData*) publicKey {
-	NSString* pk = @"-----BEGIN PUBLIC KEY-----\n" \
-	"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1DkaOZj7czu3vNFMSQmi\n" \
-	"Lp2q0nSRIehlXksMJ+GXTa/AAxFe6LsiUHsR+yY6aBDK5Xj8COO04+1VmPJcLBh+\n" \
-	"C6OMtThZvvbvpvU8ReUP0OsG8yKhVB2foHVibUoJ4ZvIeiw8Nw0CW6cK+ZqlkEph\n" \
-	"aeyDg9hMi/C1BW+VX6f9MBP7BX7Ba4MxKvqU9auKM2pajm9CbRMGhjWoxPlbE9eS\n" \
-	"F/U/LJpagESNih+fk/h4w9SxzkfcBoXk/6YFyu17difr/VF4l0SNRPds5fFvUPPe\n" \
-	"89JZUYnEuLcrF6/AD8+KJJ9EToKMLhzBMcoLmoslWYmnjW1OCv6fj8SaY8c3kHvh\n" \
-	"WQIDAQAB\n" \
-	"-----END PUBLIC KEY-----\n";
-	return [pk dataUsingEncoding: NSASCIIStringEncoding];
+- (NSString*) publicKey {
+	// 50 A7 F6 D1 CA 7D
+	return @"-----BEGIN PUBLIC KEY-----\n" \
+		"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1DkaOZj7czu3vNFMSQmi\n" \
+		"Lp2q0nSRIehlXksMJ+GXTa/AAxFe6LsiUHsR+yY6aBDK5Xj8COO04+1VmPJcLBh+\n" \
+		"C6OMtThZvvbvpvU8ReUP0OsG8yKhVB2foHVibUoJ4ZvIeiw8Nw0CW6cK+ZqlkEph\n" \
+		"aeyDg9hMi/C1BW+VX6f9MBP7BX7Ba4MxKvqU9auKM2pajm9CbRMGhjWoxPlbE9eS\n" \
+		"F/U/LJpagESNih+fk/h4w9SxzkfcBoXk/6YFyu17difr/VF4l0SNRPds5fFvUPPe\n" \
+		"89JZUYnEuLcrF6/AD8+KJJ9EToKMLhzBMcoLmoslWYmnjW1OCv6fj8SaY8c3kHvh\n" \
+		"WQIDAQAB\n" \
+		"-----END PUBLIC KEY-----\n";
 }
 
 - (void) reset {
