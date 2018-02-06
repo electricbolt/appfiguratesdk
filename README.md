@@ -1,5 +1,5 @@
 # Appfigurate™
- 
+
 Appfigurate is a suite of tools for iOS and watchOS developers and testers, that allow you to securely configure your apps and app extensions at runtime. Appfigurate increases your efficiency by removing the edit/compile/deploy cycle when you need to make configuration changes. Appfigurate consists of:
 
 * Appfigurate app - both a Simulator and an App Store build - to allow you to configure your apps at runtime
@@ -44,7 +44,7 @@ To install the Appfigurate Simulator app into your iOS Simulator, open `Appfigur
 ![AppfigurateScheme](./Documentation/Images/AppfigurateScheme.png)
 
 ### Device build
--The Appfigurate Simulator app in this repository cannot be installed onto iOS devices. You should install the iOS device build from the [App Store](https://itunes.apple.com/us/app/appfigurate/id1332575368?ls=1&mt=8) instead.
+The Appfigurate Simulator app in this repository cannot be installed onto iOS devices. You should install the iOS device build from the [App Store](https://itunes.apple.com/us/app/appfigurate/id1332575368?ls=1&mt=8) instead.
 
 ## Integrate Appfigurate library
 
