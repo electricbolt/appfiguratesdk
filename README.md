@@ -1,5 +1,5 @@
 # Appfigurate™
-
+ 
 Appfigurate is a suite of tools for iOS and watchOS developers and testers, that allow you to securely configure your apps and app extensions at runtime. Appfigurate increases your efficiency by removing the edit/compile/deploy cycle when you need to make configuration changes. Appfigurate consists of:
 
 * Appfigurate app - both a Simulator and an App Store build - to allow you to configure your apps at runtime
