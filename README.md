@@ -44,7 +44,7 @@ To install the Appfigurate Simulator app into your iOS Simulator, open `Appfigur
 ![AppfigurateScheme](./Documentation/Images/AppfigurateScheme.png)
 
 ### Device build
-The Appfigurate Simulator app in this repository cannot be installed onto iOS devices. You should install the iOS device build from the [App Store](https://itunes.apple.com/us/app/appfigurate/id1332575368?ls=1&mt=8) instead.
+-The Appfigurate Simulator app in this repository cannot be installed onto iOS devices. You should install the iOS device build from the [App Store](https://itunes.apple.com/us/app/appfigurate/id1332575368?ls=1&mt=8) instead.
 
 ## Integrate Appfigurate library
 
