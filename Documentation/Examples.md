@@ -321,7 +321,7 @@ STRING_PROPERTY_LIST_EDIT(serverURL, @"https:\\/\\/[\\w\\.-]+\\.yourappserver.co
 * Tap the `example` row. AppfigurateExample will now be launched on the paired iPhone. The iPhone will proxy the configuration request to the Watch.
 * The screen will briefly flash and then control will be given back to Appfigurate, at which point the current configuration of WatchExample will be displayed on the screen:
 
-![Watch 2](./Images/IOSExampleStep7.png)
+![Watch 2](./Images/iOSExampleStep7.png)
 
 #### Changing and applying configuration
 
