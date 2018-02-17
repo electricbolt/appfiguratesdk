@@ -393,7 +393,7 @@ Low volume (minimum) and High volume (maximum) images
 
 ### publicKey method
 
-`- (NSData* _Nonnull) publicKey`
+`- (NSString* _Nonnull) publicKey`
 
 Override the `publicKey` method to return the public key for this app.
 The Appfigurate app can export the correct public key for the app by:
@@ -435,7 +435,7 @@ The Appfigurate app can export the correct public key for the app by:
 
 `- (BOOL) allowInvalidSignatures`
 
-Override if required. Return `YES` if invalid signatures are allowed to
+Override *if required*. Return `YES` if invalid signatures are allowed to
 apply configuration, or `NO` if only a correct signature is acceptable.
 
 It is best practice to make release builds to only allow correct signatures.
