@@ -52,6 +52,8 @@ Follow the [Quick Start Guide](./Documentation/QuickStartGuide.md) to integrate 
 
 ## Further documentation
 
+[Examples](./Documentation/Examples.md) - examples included in SDK.
+
 [Subclassing APLConfiguration](./Documentation/SubclassingAPLConfiguration.md) - methods to override in your APLConfiguration subclass.
 
 [Security and export compliance](./Documentation/SecurityExportCompliance.md) - best practices.
