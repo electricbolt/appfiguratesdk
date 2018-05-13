@@ -23,7 +23,7 @@ Compatible with Xcode 8 and Xcode 9 | ![Tick](./Documentation/Images/greentick.p
 Configure iOS 8.0+ apps | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
 Configure iOS 8.0+ app extensions | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
 Configure watchOS 2.0+ apps | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
-Configure watchOS 3.0+ app extensions | available soon | available soon
+Configure watchOS 3.0+ app extensions | in development | in development
 Configure iOS UI automation tests | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
 Supports iPad multitasking | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
 Apply configuration locally | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
