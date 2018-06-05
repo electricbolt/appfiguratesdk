@@ -7,6 +7,8 @@ Appfigurate is a suite of tools for iOS and watchOS developers and testers, that
 * Examples
 * Documentation
 
+Supports Xcode 10.0 beta 1 (10L176w) and iOS 12.0 beta 1.
+
 ### iPhone
 
 ![iPad Multitasking](./Documentation/Images/LetterLearner_iPhone.png)
