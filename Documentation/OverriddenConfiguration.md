@@ -1,14 +1,14 @@
 ## Displaying overridden configuration
 
-Sometimes it is useful to display the currently applied overridden configuration in your app. We suggest you display this on your app's home screen (generally your rootViewController).
+Sometimes it is useful to display the currently applied overridden configuration in your app. We suggest you display this on your app's home screen (generally your `rootViewController`).
 
-The provided APLConfigurationLabel displays overridden configuration in a vertical orientation as follows:
+The provided `APLConfigurationLabel` displays overridden configuration in a vertical orientation as follows:
 
 ![Configuration Label](./Images/ConfigurationLabel.png)
 
 > Objective-C
 
-You can add the APLConfigurationLabel to your view controller in a viewDidLoad like this:
+You can add the `APLConfigurationLabel` to your view controller in a `viewDidLoad` like this:
 
 ```objc
 - (void) viewDidLoad {
@@ -31,7 +31,7 @@ override func viewDidLoad() {
 
 ### Creating your own label
 
-If APLConfigurationLabel is not sufficient for your needs, you can create your own label as follows:
+If `APLConfigurationLabel` is not sufficient for your needs, you can create your own label as follows:
 
 > Objective-C
 

@@ -7,8 +7,6 @@ Appfigurate is a suite of tools for iOS and watchOS developers and testers, that
 * Examples
 * Documentation
 
-Supports Xcode 10.0 beta 4 (10L213o) and iOS 12.0 beta 4.
-
 ### iPhone
 
 ![iPad Multitasking](./Documentation/Images/LetterLearner_iPhone.png)
@@ -21,11 +19,11 @@ Supports Xcode 10.0 beta 4 (10L213o) and iOS 12.0 beta 4.
 
 Feature                                 | Appfigurate Simulator | Appfigurate App Store
 --------------------------------------- | --------------------- | ---------------------
-Compatible with Xcode 8 and Xcode 9 | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
+Compatible with Xcode 9 and 10 | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
 Configure iOS 8.0+ apps | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
 Configure iOS 8.0+ app extensions | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
-Configure watchOS 2.0+ apps | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
-Configure watchOS 3.0+ app extensions | in development | in development
+Configure watchOS 2.0+ app extensions | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
+Configure watchOS 3.0+ app intent extensions | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
 Configure iOS UI automation tests | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
 Supports iPad multitasking | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
 Apply configuration locally | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
@@ -41,7 +39,7 @@ Clone the Appfigurate repository using the terminal command:
 >git clone https://github.com/electricbolt/appfiguratesdk.git
 
 ### Simulator build
-To install the Appfigurate Simulator app into your iOS Simulator, open `AppfigurateWorkspace.xcworkspace` in Xcode 8 or above, ensure `Appfigurate` is selected in the Scheme popup, choose your Simulator device e.g. `iPhone SE` and run.
+To install the Appfigurate Simulator app into your iOS Simulator, open `AppfigurateWorkspace.xcworkspace` in Xcode 9 or above, ensure `Appfigurate` is selected in the Scheme popup, choose your Simulator device e.g. `iPhone SE` and run.
 
 ![AppfigurateScheme](./Documentation/Images/AppfigurateScheme.png)
 

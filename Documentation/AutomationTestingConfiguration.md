@@ -1,6 +1,6 @@
 # Automation testing configuration
 
-Appfigurate can change the configuration of an iOS app being automation tested using XCTestCase.
+Appfigurate can change the configuration of an iOS app being automation tested using `XCTestCase`.
 
 An example UI testing bundle `AppfigurateExampleUITests` is available in `AppfigurateExample`. To test, ensure `AppfigurateExample (iOS)` is selected as the scheme, then long tap the run button to show more options and tap `Test` (⌘U).
 
@@ -55,7 +55,7 @@ addUIInterruptionMonitor(withDescription: "Appfigurate") { alert -> Bool in
 
 ### Step 5. Create instance of APLConfiguration subclass
 
-* Create an instance of your APLConfiguration subclass in your XCTestCase. A good place to do this in the setUp method.
+* Create an instance of your `APLConfiguration` subclass in your `XCTestCase`. A good place to do this in the setUp method.
 * Set the properties required to be applied to your app to allow it to be tested correctly.
 
 > Objective-C example
@@ -76,7 +76,7 @@ c.string_Textfield = "thursday"
 
 ### Step 6. Apply configuration to XCUIApplication
 
-* Apply the result of APLConfiguration's automationLaunchArguments method to XCUIApplication's launchArguments property.
+* Apply the result of `APLConfiguration`'s `automationLaunchArguments` method to `XCUIApplication`'s `launchArguments` property.
 * Launch your app.
 
 > Objective-C example

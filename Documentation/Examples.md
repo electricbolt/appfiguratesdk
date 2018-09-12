@@ -5,7 +5,8 @@ The following examples are included in the `AppfigurateExample/` directory of th
 * [AppfigurateExample](#appfigurateexample) - iOS app *(written in Objective-C)*
 * [SwiftExample](#swiftexample) - iOS app *(written in Swift)*
 * [ActionExample Extension](#appfigurateexample-extension) - iOS app extension - embedded in AppfigurateExample *(written in Objective-C)*
-* [WatchExample](#watchexample) - watchOS app - embedded in AppfigurateExample *(written in Objective-C)*
+* [WatchExample](#watchexample) - watchOS app extension - embedded in AppfigurateExample *(written in Objective-C)*
+* [WatchExample Intent Extension](#watchintentextension) - watchOS intent extension - embedded in WatchExample *(written in Objective-C)*
 
 Before running any of these examples, ensure that you have installed Appfigurate Simulator (or a device build from the [App Store](https://itunes.apple.com/us/app/appfigurate/id1332575368?ls=1&mt=8)).
 
@@ -328,3 +329,44 @@ STRING_PROPERTY_LIST_EDIT(serverURL, @"https:\\/\\/[\\w\\.-]+\\.yourappserver.co
 * Change the *boolean* switch to the opposite value.
 * Tap the `Apply ⌄` button in navigation bar. The AppfigurateExample app will now be launched on the iPhone. The iPhone will proxy the configuration payload to the Watch.
 * The WatchExample will have the configuration payload applied, and the screen will update reflecting the new *boolean* value.
+
+## WatchExample Intent Extension
+
+This example is written in Objective-C and requires watchOS 3. 
+
+For Appfigurate to be able to configure app extensions the following must be observed:
+
+* `APLConfiguration` subclass must be shared between watchOS app extension and watchOS intent extension.
+* Since the configuration is stored in the keychain, the keychain must be shared between the watchOS app extension and intent extension
+
+For more information on keychain sharing and associated `Info.plist` attributes, see [Advanced Configuration](AdvancedConfiguration.md).
+
+#### Setup
+
+To test the intent extension, use the instructions for WatchExample above.
+
+#### Testing
+
+Once WatchExample is running, long press the digital crown to invoke Siri.
+
+![Watch 0](./Images/WatchIntent0.png)
+
+Siri will be invoked:
+
+![Watch 1](./Images/WatchIntent1.png)
+
+Speak the following "send message using watch example".
+
+![Watch 2](./Images/WatchIntent2.png)
+
+If Siri responds with "unknown app watch example", then you should try again. Siri can take several minutes to recognise a new intent. See Xcode documentation [Test Your Intents App Extension](https://developer.apple.com/documentation/sirikit/creating_an_intents_app_extension) for more details.
+
+Speak the following "bob".
+
+![Watch 3](./Images/WatchIntent3.png)
+
+In the console, you will see `NSLog` output, showing the current configuration of `boolean` property in the `ExampleConfiguration` class.
+
+![Console 0](./Images/Console0.png)
+
+Using Appfigurate on the paired iPhone, change the `boolean` property to the opposite value and click `Apply`. Speak again to Siri, and notice that the `NSLog` output in console has now changed.

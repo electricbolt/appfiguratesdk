@@ -6,9 +6,9 @@
 
 Appfigurate performs method swizzling on `UIApplicationDelegate` to automatically invoke `APLApplicationDidFinishLaunchingWithOptions()`. Developers who prefer not to use swizzling must do the following:
 
-- Add the Boolean `APLInstallDelegateMethods=NO` in your app's Info.plist file.
-- Call `APLApplicationDidFinishLaunchingWithOptions()` in your app's delegate `application:didFinishLaunchingWithOptions:` method.
-- Call `APLApplicationOpenURL()` in your app's delegate `application:openURL:sourceApplication:annotation:` method (OS8) or `application:openURL:options:` method (OS9+).
+- Add the Boolean `APLInstallDelegateMethods=NO` in your app's `Info.plist` file.
+- Call `APLApplicationDidFinishLaunchingWithOptions()` in your app delegate's `application:didFinishLaunchingWithOptions:` method.
+- Call `APLApplicationOpenURL()` in your app delegate's `application:openURL:sourceApplication:annotation:` method (OS8) or `application:openURL:options:` method (OS9+).
 
 > Objective-C example
 
@@ -58,12 +58,12 @@ Appfigurate performs method swizzling on `UIApplicationDelegate` to automaticall
 
 iOS app extensions don't have any additional startup requirements.
 
-### watchOS apps
+### watchOS app extensions
 
 Appfigurate performs method swizzling on `WKExtensionDelegate` to automatically invoke `APLApplicationDidFinishLaunching()`. Developers who prefer not to use swizzling must do the following:
 
-- Add the Boolean `APLInstallDelegateMethods=NO` in your extension's Info.plist file.
-- Call `APLApplicationDidFinishLaunching()` in your extension's delegate
+- Add the Boolean `APLInstallDelegateMethods=NO` in your extension's `Info.plist` file.
+- Call `APLApplicationDidFinishLaunching()` in your extension delegate's
   `applicationDidFinishLaunching` method.
   
 > Objective-C example
@@ -92,12 +92,16 @@ class ExtensionDelegate: WKExtensionDelegate {
 }
 ```
 
+### watchOS intent extensions
+
+watchOS intent extensions don't have any additional startup requirements.
+
 ## Info.plist configuration
 
 #### APLInstallDelegateMethods (optional)
 
 Appfigurate performs method swizzling on `UIApplicationDelegate` and `WKExtensionDelegate` to automatically invoke the appropriate methods (e.g. `APLApplicationDidFinishLaunching()` and `APLApplicationOpenURL()`). Developers who prefer not to use swizzling must add the
-`APLInstallDelegateMethods` key to the App's Info.plist file.
+`APLInstallDelegateMethods` key to the iOS app's and watchOS app extension's Info.plist file(s).
 
 > Info.plist example
 
@@ -117,7 +121,7 @@ See also `APLApplicationDidFinishLaunching()`
 
 #### APLLogging (optional)
 
-To enable debug logging in the Appfigurate library early on, add the `APLLogging` key to the App's Info.plist file.
+To enable debug logging in the Appfigurate library early on, add the `APLLogging` key to the Info.plist file(s).
 
 > Info.plist example
 
@@ -165,7 +169,9 @@ The default value of `APLKeychainAccessibility` is `Always`.
 
 #### APLKeychainAccessGroup (optional)
 
-In order to share configuration between an app and an app extension, Keychain Sharing must be enabled in the app's and app extensions' Capabilities tab.
+*iOS*: In order to share configuration between an iOS app and an iOS app extension, Keychain Sharing must be enabled in both the app and app extension's Capabilities tabs.
+
+*watchOS*: In order to share configuration between a watchOS app extension and a watchOS intent extension, Keychain Sharing must be enabled in both the app extension and intent extension's Capabilities tabs.
 
 ![KeychainSharing](./Images/KeychainSharing.png)
 
@@ -187,16 +193,16 @@ If the `APLKeychainAccessGroup` key is not defined, then keychain access group f
  
 ### Key availability by platform
 
-Key                                  | iOS app | iOS app extension | watchOS app
-----------------------------------------|---------|-------------------|--------------
-APLInstallDelegateMethods | ![Tick](./Images/greentick.png) | 1 | ![Tick](./Images/greentick.png)
-APLLogging | ![Tick](./Images/greentick.png) | 1 | ![Tick](./Images/greentick.png)
-APLKeychainAccessibility | ![Tick](./Images/greentick.png) | 1 | ![Tick](./Images/greentick.png)
-APLKeychainAccessGroup | ![Tick](./Images/greentick.png) | 1 | 2
+Key                                  | iOS app | iOS app extension | watchOS app extension | watchOS intent extension
+----------------------------------------|---------|-------------------|--------------|--------------------
+APLInstallDelegateMethods | ![Tick](./Images/greentick.png) | 1 | ![Tick](./Images/greentick.png) | 2
+APLLogging | ![Tick](./Images/greentick.png) | 1 | ![Tick](./Images/greentick.png) | 2
+APLKeychainAccessibility | ![Tick](./Images/greentick.png) | 1 | ![Tick](./Images/greentick.png) | 2
+APLKeychainAccessGroup | ![Tick](./Images/greentick.png) | 1 | ![Tick](./Images/greentick.png) | 2
 
 1=iOS app extensions automatically use the `Info.plist` file from the containing app - you do not need to modify the iOS app extension's `Info.plist` file.
 
-2=available soon
+2=watchOS intent extensions automatically use the `Info.plist` file from the containing watch app extension - you do not need to modify the watchOS intent extension's `Info.plist` file.
 
 ## WCSession
 

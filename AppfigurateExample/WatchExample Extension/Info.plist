@@ -2,12 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>APLInstallDelegateMethods</key>
-	<true/>
-	<key>APLKeychainAccessibility</key>
-	<string>Always</string>
-	<key>APLLogging</key>
-	<false/>
+    <key>APLInstallDelegateMethods</key>
+    <true/>
+    <key>APLKeychainAccessGroup</key>
+    <string>nz.co.electricbolt.appfigurateexample.shared</string>
+    <key>APLKeychainAccessibility</key>
+    <string>AlwaysThisDeviceOnly</string>
+    <key>APLLogging</key>
+    <false/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -23,9 +25,9 @@
 	<key>CFBundlePackageType</key>
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.1</string>
+	<string>1.1.0</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.1.1000</string>
+	<string>1.1.0.1000</string>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionAttributes</key>

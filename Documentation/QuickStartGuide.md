@@ -17,7 +17,7 @@ The Appfigurate library can be embedded into your own app in 5 easy steps. In th
 
 ### Step 2: Edit Info.plist
 
-In your apps Info.plist file (right click, Open As->Source Code). Insert the Info.plist snippet output to the Console in step 1.
+In your apps `Info.plist` file (right click, Open As->Source Code). Insert the `Info.plist` snippet output to the Console in step 1.
 
 ```xml
 <key>CFBundleURLTypes</key>
@@ -32,7 +32,7 @@ In your apps Info.plist file (right click, Open As->Source Code). Insert the Inf
 	</dict>
 </array>
 ```
-If you already have an existing CFBundleURLTypes array in your Info.plist file, then insert just the `<dict> ... </dict>` portion.
+If you already have an existing `CFBundleURLTypes` array in your `Info.plist` file, then insert just the `<dict> ... </dict>` portion.
 
 ### Step 3: Add libAppfigurateLibrary.a
 
@@ -118,7 +118,7 @@ STRING_PROPERTY_LIST_EDIT(serverURL, @"https://[\\w\\.-]+\\.yourappserver.com/.*
 
 > Swift
 
-Appfigurate relies heavily upon the C Preprocessor to automatically generate method implementations of your configuration properties; writing an `APLConfiguration` subclass in Swift is not currently supported. (A pure Swift example is available in  AppfigurateExamples/SwiftExample/ExampleConfiguration.swift for reference)
+Appfigurate relies upon the C Preprocessor Macros to automatically generate method implementations of your configuration properties; writing an `APLConfiguration` subclass in Swift is not recommended. (A pure Swift example is available in  AppfigurateExamples/SwiftExample/ExampleConfiguration.swift for reference)
 
 ## Test your configuration subclass
 

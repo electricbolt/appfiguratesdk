@@ -369,7 +369,7 @@ extern BOOL APLApplicationOpenURL(NSURL* _Nonnull url);
 #elif TARGET_OS_WATCH
 
 /**
- * watchOS only:
+ * watchOS extensions only:
  * Appfigurate performs method swizzling on WKExtensionDelegate to automatically
  * invoke APLApplicationDidFinishLaunching(). Developers who prefer not to use
  * swizzling must do the following:
@@ -381,7 +381,7 @@ extern BOOL APLApplicationOpenURL(NSURL* _Nonnull url);
 extern void APLApplicationDidFinishLaunching(void);
 
 /**
- * watchOS only:
+ * watchOS extensions only:
  * If your watch app has its own WCSessionDelegate, then call the following
  * from your session:didReceiveMessage:replyHandler:
  *

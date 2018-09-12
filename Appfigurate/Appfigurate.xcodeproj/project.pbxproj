@@ -23,8 +23,8 @@
 		0BA76FF9170BB10400DECB39 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA76FF8170BB10400DECB39 /* MessageUI.framework */; };
 		0BC1AD8D1A9AF19D0002B33A /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC1AD8C1A9AF19D0002B33A /* LocalAuthentication.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		0BEE31E817979F9A00BFC370 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BEE31E717979F9900BFC370 /* AudioToolbox.framework */; };
-		342A1D7A2029952300FB60C1 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 342A1D792029952300FB60C1 /* libAppfigurateLibrary.a */; };
-		342A1D7C2029953200FB60C1 /* libAppfigurateCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 342A1D7B2029953200FB60C1 /* libAppfigurateCore.a */; };
+		4E151DA32134090000373C81 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E151DA22134090000373C81 /* libAppfigurateLibrary.a */; };
+		4E151DA52134091800373C81 /* libAppfigurateCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E151DA42134091800373C81 /* libAppfigurateCore.a */; };
 		7401BF101E53ADD3009A19D9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7401BF0F1E53ADD3009A19D9 /* Settings.bundle */; };
 		742B26AA1E9C8E9200BEBC31 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 742B26A91E9C8E9200BEBC31 /* LaunchScreen.xib */; };
 		7473E0381D7D390100C87835 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7473E0371D7D390100C87835 /* main.m */; };
@@ -77,8 +77,8 @@
 		0BA76FF8170BB10400DECB39 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		0BC1AD8C1A9AF19D0002B33A /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		0BEE31E717979F9900BFC370 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		342A1D792029952300FB60C1 /* libAppfigurateLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateLibrary.a; path = ../AppfigurateLibrary/libAppfigurateLibrary.a; sourceTree = "<group>"; };
-		342A1D7B2029953200FB60C1 /* libAppfigurateCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateCore.a; path = Appfigurate/libAppfigurateCore.a; sourceTree = "<group>"; };
+		4E151DA22134090000373C81 /* libAppfigurateLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateLibrary.a; path = ../AppfigurateLibrary/libAppfigurateLibrary.a; sourceTree = "<group>"; };
+		4E151DA42134091800373C81 /* libAppfigurateCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateCore.a; path = Appfigurate/libAppfigurateCore.a; sourceTree = "<group>"; };
 		7401BF0F1E53ADD3009A19D9 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		742B26A91E9C8E9200BEBC31 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		746F77911D83C1EE00C2E787 /* Appfigurate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Appfigurate.entitlements; sourceTree = "<group>"; };
@@ -94,8 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				342A1D7C2029953200FB60C1 /* libAppfigurateCore.a in Frameworks */,
-				342A1D7A2029952300FB60C1 /* libAppfigurateLibrary.a in Frameworks */,
+				4E151DA52134091800373C81 /* libAppfigurateCore.a in Frameworks */,
+				4E151DA32134090000373C81 /* libAppfigurateLibrary.a in Frameworks */,
 				74B64F631E5D78E000F58059 /* libsqlite3.tbd in Frameworks */,
 				74B64F611E5D78B600F58059 /* libz.tbd in Frameworks */,
 				0B4BF1861A9402EE007E7C34 /* CoreData.framework in Frameworks */,
@@ -139,8 +139,8 @@
 		0B267028169A4C4300C0394B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				342A1D7B2029953200FB60C1 /* libAppfigurateCore.a */,
-				342A1D792029952300FB60C1 /* libAppfigurateLibrary.a */,
+				4E151DA42134091800373C81 /* libAppfigurateCore.a */,
+				4E151DA22134090000373C81 /* libAppfigurateLibrary.a */,
 				74B64F621E5D78E000F58059 /* libsqlite3.tbd */,
 				74B64F601E5D78B600F58059 /* libz.tbd */,
 				0BC1AD8C1A9AF19D0002B33A /* LocalAuthentication.framework */,

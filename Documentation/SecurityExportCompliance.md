@@ -26,7 +26,7 @@ Exported app metadata is secured using the following:
 
 ## Security best practices
 
-### Protecting your app metadata
+### 1. Protecting your app metadata
 Appfigurate generates a unique 2048-bit RSA private key as part of an app's metadata that is used for signing configuration payloads. To protect app metadata you should follow these best practices:
 
 #### Simulator
@@ -37,21 +37,21 @@ Ensure the device has a strong passcode (six-digit) or custom alphanumeric code.
 
 In Appfigurate, enable PIN/TouchID/FaceID to unlock Appfigurate each time it is run and to restrict your apps metadata from being exported.
 
-#### Use an invalid private key for development
-##### Step 1 - back up the real app's metadata
+### 2. Use an invalid private key for development
+#### Step 1 - back up the real app's metadata
 Export (or backup) the app's metadata (with the real private key) using a strong passphrase and store securely. When exporting, ensure the `Re-export` switch is set to on. 
 
 > If you forget the passphrase to the export or backup, the app's metadata will be lost.
 
-##### Step 2 - Replace the real app's metadata
+#### Step 2 - Replace the real app's metadata
 Delete the (real) app from Appfigurate. Generate a new app using the same URL Scheme. Ensure `APLConfiguration.allowInvalidSignatures` returns YES for debug builds and NO for release builds. 
 
 You will now be able to use Appfigurate for development against debug builds without requiring the real private key. Ensure that you **do not** replace the public key in the `APLConfiguration.publicKey` method with the newly generated app's public key.
 
-#### Sharing between team members
+### 3. Sharing between team members
 If you need to share an app's metadata (with the real private key) across devices in your team, you should limit the ability to re-export the app's metadata on the new device. You can do this when exporting from your device by setting the `Re-export` switch to off. When the app's metadata is imported to the new device, it will not be exportable from that device.
 
-### Release builds
+### 4. Release builds
 
 When including Appfigurate library into release builds (App Store/TestFlight Beta/Enterprise), you should ensure that:
 
