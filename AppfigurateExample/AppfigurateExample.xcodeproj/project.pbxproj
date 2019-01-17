@@ -19,13 +19,13 @@
 		34964732210F0E9700F17BA8 /* WatchExample Intent Extension (watchOS).appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3496472A210F0E9700F17BA8 /* WatchExample Intent Extension (watchOS).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		34964741211054A600F17BA8 /* IntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 34964740211054A600F17BA8 /* IntentHandler.m */; };
 		34964745211054A600F17BA8 /* Intent Extension (iOS).appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3496473D211054A500F17BA8 /* Intent Extension (iOS).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4E151DA8213409BE00373C81 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E151DA7213409BE00373C81 /* libAppfigurateLibrary.a */; };
-		4E151DA9213409EF00373C81 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E151DA7213409BE00373C81 /* libAppfigurateLibrary.a */; };
-		4E151DAA21340A0500373C81 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E151DA7213409BE00373C81 /* libAppfigurateLibrary.a */; };
-		4E151DAB21340A1A00373C81 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E151DA7213409BE00373C81 /* libAppfigurateLibrary.a */; };
-		4E151DAD21340A3500373C81 /* libAppfigurateWatchLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E151DAC21340A3500373C81 /* libAppfigurateWatchLibrary.a */; };
-		4E151DAE21340A4B00373C81 /* libAppfigurateWatchLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E151DAC21340A3500373C81 /* libAppfigurateWatchLibrary.a */; };
-		4E151DAF21340A5E00373C81 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E151DA7213409BE00373C81 /* libAppfigurateLibrary.a */; };
+		4E64586A21EAE946009A4012 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E64586921EAE946009A4012 /* libAppfigurateLibrary.a */; };
+		4E64586B21EAE970009A4012 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E64586921EAE946009A4012 /* libAppfigurateLibrary.a */; };
+		4E64586D21EAE9A6009A4012 /* libAppfigurateWatchLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E64586C21EAE9A6009A4012 /* libAppfigurateWatchLibrary.a */; };
+		4E64586E21EAE9B8009A4012 /* libAppfigurateWatchLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E64586C21EAE9A6009A4012 /* libAppfigurateWatchLibrary.a */; };
+		4E64586F21EAE9D7009A4012 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E64586921EAE946009A4012 /* libAppfigurateLibrary.a */; };
+		4E64587021EAE9FB009A4012 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E64586921EAE946009A4012 /* libAppfigurateLibrary.a */; };
+		4E64587121EAEA34009A4012 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E64586921EAE946009A4012 /* libAppfigurateLibrary.a */; };
 		4EFF76C12113EBB300FFFBC1 /* ExampleConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8819816BF166E008E9937 /* ExampleConfiguration.m */; };
 		7401ED001F6F78F4001AE129 /* ExampleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7484AB631F6F56CA000D66C3 /* ExampleConfiguration.swift */; };
 		740349A11FD5E9F000C9AD60 /* AppfigurateExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 744C77A81FD5E92C00FBFE70 /* AppfigurateExampleUITests.m */; };
@@ -237,8 +237,8 @@
 		3496473F211054A600F17BA8 /* IntentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentHandler.h; sourceTree = "<group>"; };
 		34964740211054A600F17BA8 /* IntentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentHandler.m; sourceTree = "<group>"; };
 		34964742211054A600F17BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E151DA7213409BE00373C81 /* libAppfigurateLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateLibrary.a; path = ../AppfigurateLibrary/libAppfigurateLibrary.a; sourceTree = "<group>"; };
-		4E151DAC21340A3500373C81 /* libAppfigurateWatchLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateWatchLibrary.a; path = ../AppfigurateLibrary/libAppfigurateWatchLibrary.a; sourceTree = "<group>"; };
+		4E64586921EAE946009A4012 /* libAppfigurateLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateLibrary.a; path = ../AppfigurateLibrary/libAppfigurateLibrary.a; sourceTree = "<group>"; };
+		4E64586C21EAE9A6009A4012 /* libAppfigurateWatchLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateWatchLibrary.a; path = ../AppfigurateLibrary/libAppfigurateWatchLibrary.a; sourceTree = "<group>"; };
 		4E7982672113DB8400BAD091 /* Intent Extension (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Intent Extension (iOS).entitlements"; sourceTree = SOURCE_ROOT; };
 		7426AC821E300C5D0075A727 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WatchExample/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		742AA1541E6E2449003E178E /* AppfigurateExample (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AppfigurateExample (iOS).entitlements"; sourceTree = SOURCE_ROOT; };
@@ -284,7 +284,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E151DA8213409BE00373C81 /* libAppfigurateLibrary.a in Frameworks */,
+				4E64586A21EAE946009A4012 /* libAppfigurateLibrary.a in Frameworks */,
 				0BE8817116BF155D008E9937 /* UIKit.framework in Frameworks */,
 				0BE8817316BF155D008E9937 /* Foundation.framework in Frameworks */,
 				0BE8817516BF155D008E9937 /* CoreGraphics.framework in Frameworks */,
@@ -296,7 +296,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E151DAE21340A4B00373C81 /* libAppfigurateWatchLibrary.a in Frameworks */,
+				4E64586E21EAE9B8009A4012 /* libAppfigurateWatchLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +304,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E151DA9213409EF00373C81 /* libAppfigurateLibrary.a in Frameworks */,
+				4E64587121EAEA34009A4012 /* libAppfigurateLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +312,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E151DAF21340A5E00373C81 /* libAppfigurateLibrary.a in Frameworks */,
+				4E64586B21EAE970009A4012 /* libAppfigurateLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +320,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E151DAB21340A1A00373C81 /* libAppfigurateLibrary.a in Frameworks */,
+				4E64587021EAE9FB009A4012 /* libAppfigurateLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +328,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E151DAA21340A0500373C81 /* libAppfigurateLibrary.a in Frameworks */,
+				4E64586F21EAE9D7009A4012 /* libAppfigurateLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +336,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E151DAD21340A3500373C81 /* libAppfigurateWatchLibrary.a in Frameworks */,
+				4E64586D21EAE9A6009A4012 /* libAppfigurateWatchLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,8 +379,8 @@
 		0BE8816F16BF155D008E9937 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4E151DAC21340A3500373C81 /* libAppfigurateWatchLibrary.a */,
-				4E151DA7213409BE00373C81 /* libAppfigurateLibrary.a */,
+				4E64586C21EAE9A6009A4012 /* libAppfigurateWatchLibrary.a */,
+				4E64586921EAE946009A4012 /* libAppfigurateLibrary.a */,
 				74EAC8911D66889E0035C5D9 /* AppfigurateLibrary.xcodeproj */,
 				0B92D7A41717686200DAAFEC /* AdSupport.framework */,
 				0B8CC9CD16BF2955008258CB /* Security.framework */,
@@ -1236,6 +1236,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = "WatchExample Intent Extension (watchOS).entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = "";
@@ -1270,6 +1271,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = "WatchExample Intent Extension (watchOS).entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1433,6 +1435,7 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1464,6 +1467,7 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
@@ -1496,6 +1500,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = "ActionExample Extension (iOS).entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1524,6 +1529,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = "ActionExample Extension (iOS).entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
@@ -1553,6 +1559,7 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1582,6 +1589,7 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
@@ -1614,6 +1622,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = WatchExampleExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1644,6 +1653,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = WatchExampleExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;

@@ -1,5 +1,9 @@
 ### Release History
 
+#### 1.1.2 17 Jan 2019
+* Automatic notification of new releases.
+* Bug fixes.
+
 #### 1.1.1 16 Dec 2018
 * Support for arm64_32 architecture (Apple Watch series 4) in Appfigurate Library.
 * Fix missing Watch Extension icon.
