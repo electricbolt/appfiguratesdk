@@ -1,5 +1,10 @@
 ### Release History
 
+#### 1.1.3 10 Feb 2019
+* App update: Minor bug fixes.
+* SDK update: Added APLAddConfigurationUpdatedBlock() and APLRemoveConfigurationUpdatedBlock() functions to complement the existing delegate based callbacks. 
+* SDK update: APLConfiguration subclass is now instantiated earlier, allowing it to be accessed from within +load methods and \_\_attribute\_\_((constructor)) functions.
+
 #### 1.1.2 17 Jan 2019
 * Automatic notification of new releases.
 * Bug fixes.

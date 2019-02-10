@@ -244,6 +244,8 @@ typedef NS_ENUM(NSInteger, APLPredefinedIcon)
 
 @end
 
+typedef void (^APLConfigurationUpdatedBlock)(NSNotification* note);
+
 //------------------------------------------------------------------------------
 
 @interface APLConfiguration : NSObject
@@ -404,9 +406,17 @@ extern NSString* _Nonnull APLVersion(void);
 
 /**
  * Registers a delegate method that will be called back when Appfigurate has
- * updated the configuration of the app or extension.
+ * updated the configuration of the app or extension. See also
+ * APLRemoveConfigurationUpdatedListener().
  */
 extern void APLAddConfigurationUpdatedListener(_Nonnull id<APLConfigurationUpdated> target);
+
+/**
+ * Registers a block that will be called back when Appfigurate has updated the
+ * configuration of the app or extension. Returns: an opaque object to act as
+ * the observer. See also APLRemoveConfigurationUpdatedBlock().
+ */
+extern id<NSObject> APLAddConfigurationUpdatedBlock(_Nonnull APLConfigurationUpdatedBlock block);
 
 /**
  * Unregisters the delegate method that will be called back when Appfigurate has
@@ -415,6 +425,14 @@ extern void APLAddConfigurationUpdatedListener(_Nonnull id<APLConfigurationUpdat
  * before the target is deallocated.
  */
 extern void APLRemoveConfigurationUpdatedListener(_Nonnull id<APLConfigurationUpdated> target);
+
+/**
+ * Unregisters the block that will be called back when Appfigurate has updated
+ * the configuration of the application. You must call this method before the
+ * block is deallocated. The observer argument is the result of
+ * APLAddConfigurationUpdatedBlock().
+ */
+extern void APLRemoveConfigurationUpdatedBlock(_Nonnull id<NSObject> observer);
 
 /**
  * When YES, debugging messages will be output to the console. The default is NO.
