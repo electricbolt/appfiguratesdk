@@ -85,7 +85,7 @@ class SwiftExampleViewController: UITableViewController {
 
 override func viewDidLoad() {
     APLAddConfigurationUpdatedBlock { (Notification?) in
-	    self.tableView.reloadData()
+        self.tableView.reloadData()
     }
 }
 ...
@@ -97,7 +97,7 @@ override func viewDidLoad() {
 
 Unregisters the block that will be called back when Appfigurate has updated 
 the configuration of the app or extension. You must call this method before the block is deallocated. The observer argument is the result of 
-`APLAddConfigurationUpdatedBlock()`. See also `APLRemoveConfigurationUpdatedListener` function for delegate based callbacks.
+`APLAddConfigurationUpdatedBlock()`. See also `APLRemoveConfigurationUpdatedListener` function for delegate based callback.
 
 ### APLSetLogging function
 
