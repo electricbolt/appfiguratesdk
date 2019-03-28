@@ -19,7 +19,7 @@ Appfigurate is a suite of tools for iOS and watchOS developers and testers, that
 
 Feature                                 | Appfigurate Simulator | Appfigurate App Store
 --------------------------------------- | --------------------- | ---------------------
-Compatible with Xcode 9 and 10 | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
+Compatible with Xcode 10.1+ | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
 Configure iOS 8.0+ apps | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
 Configure iOS 8.0+ app extensions | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
 Configure watchOS 2.0+ app extensions | ![Tick](./Documentation/Images/greentick.png) | ![Tick](./Documentation/Images/greentick.png)
@@ -32,7 +32,7 @@ Your apps metadata shared across all Simulators | ![Tick](./Documentation/Images
 Your apps metadata securely stored on each Device |  | ![Tick](./Documentation/Images/greentick.png)
 Unlock Appfigurate with PIN/TouchID/FaceID |   | ![Tick](./Documentation/Images/greentick.png)
 
-## Installating Appfigurate app
+## Installing Appfigurate app
 
 Clone the Appfigurate repository using the terminal command:
 

@@ -236,6 +236,59 @@ typedef NS_ENUM(NSInteger, APLPredefinedIcon)
     return __VA_ARGS__; \
 }
 
+// Encrypted NSString property list and edit field
+#if DEBUG
+#define ENCRYPTED_STRING_PROPERTY_LIST_EDIT(propertyName, regex, description, ...) \
+- (NSString*) propertyName##Description { \
+    return description; \
+} \
+- (NSString*) propertyName##Regex { \
+    return regex; \
+} \
+- (NSDictionary*) propertyName##Values { \
+    return __VA_ARGS__; \
+}
+#else
+#define ENCRYPTED_STRING_PROPERTY_LIST_EDIT(propertyName, regex, description, ...) \
+- (NSString*) propertyName##Description { \
+    return description; \
+} \
+- (NSString*) propertyName##Regex { \
+    return regex; \
+} \
+- (NSDictionary*) propertyName##Values { \
+    return __VA_ARGS__; \
+} \
+- (BOOL) propertyName##Encrypted { \
+    return YES; \
+}
+#endif
+
+//------------------------------------------------------------------------------
+
+// For an APLConfiguration subclass that has iOS and/or watchOS targets
+// using a shared public key. For DEBUG builds, the plaintext string is expanded.
+// For non-DEBUG builds, the encrypted string is expanded.
+#if DEBUG
+#define ENCRYPTED_STRING(plaintext, encrypted) plaintext
+#else
+#define ENCRYPTED_STRING(plaintext, encrypted) encrypted
+#endif
+
+// For an APLConfiguration subclass that has iOS and watchOS targets
+// using different public keys. For DEBUG builds, the plaintext string is
+// expanded. For non-DEBUG iOS builds, the encryptedIOS string is expanded.
+// For non-DEBUG watchOS builds, the encryptedWatchOS string is expanded.
+#if DEBUG
+#define ENCRYPTED_STRING_IOS_WATCHOS(plaintext, encryptedIOS, encryptedWatchOS) plaintext
+#else
+#if TARGET_OS_IOS
+#define ENCRYPTED_STRING_IOS_WATCHOS(plaintext, encryptedIOS, encryptedWatchOS) encryptedIOS
+#elif TARGET_OS_WATCH
+#define ENCRYPTED_STRING_IOS_WATCHOS(plaintext, encryptedIOS, encryptedWatchOS) encryptedWatchOS
+#endif
+#endif
+
 //------------------------------------------------------------------------------
 
 @protocol APLConfigurationUpdated
@@ -244,7 +297,7 @@ typedef NS_ENUM(NSInteger, APLPredefinedIcon)
 
 @end
 
-typedef void (^APLConfigurationUpdatedBlock)(NSNotification* note);
+typedef void (^APLConfigurationUpdatedBlock)(NSNotification* _Nullable note);
 
 //------------------------------------------------------------------------------
 
@@ -416,7 +469,7 @@ extern void APLAddConfigurationUpdatedListener(_Nonnull id<APLConfigurationUpdat
  * configuration of the app or extension. Returns: an opaque object to act as
  * the observer. See also APLRemoveConfigurationUpdatedBlock().
  */
-extern id<NSObject> APLAddConfigurationUpdatedBlock(_Nonnull APLConfigurationUpdatedBlock block);
+extern id<NSObject> _Nonnull APLAddConfigurationUpdatedBlock(_Nonnull APLConfigurationUpdatedBlock block);
 
 /**
  * Unregisters the delegate method that will be called back when Appfigurate has

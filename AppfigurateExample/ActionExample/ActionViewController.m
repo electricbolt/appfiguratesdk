@@ -41,6 +41,8 @@
                 case 2: cell.textLabel.text = @"string_List"; cell.detailTextLabel.text = c.string_List; break;
                 case 3: cell.textLabel.text = @"string_Textfield_List"; cell.detailTextLabel.text = c.string_Textfield_List; break;
                 case 4: cell.textLabel.text = @"string_RegexTextfield_List"; cell.detailTextLabel.text = c.string_RegexTextfield_List; break;
+                case 5: cell.textLabel.text = @"encrypted_string_Textfield_List"; cell.detailTextLabel.text = c.encrypted_string_Textfield_List; break;
+                case 6: cell.textLabel.text = @"encrypted_string_RegexTextfield_List"; cell.detailTextLabel.text = c.encrypted_string_RegexTextfield_List; break;
             }
             break;
         case 2:
@@ -84,7 +86,7 @@
 - (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     switch (section) {
         case 0: return 1;
-        case 1: return 5;
+        case 1: return 7;
         case 2: return 6;
         case 3: return 6;
         default: return 6;

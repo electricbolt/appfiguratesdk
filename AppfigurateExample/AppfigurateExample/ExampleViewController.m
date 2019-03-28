@@ -40,6 +40,8 @@
                 case 2: cell.detailTextLabel.text = c.string_List; break;
                 case 3: cell.detailTextLabel.text = c.string_Textfield_List; break;
                 case 4: cell.detailTextLabel.text = c.string_RegexTextfield_List; break;
+                case 5: cell.detailTextLabel.text = c.encrypted_string_Textfield_List; break;
+                case 6: cell.detailTextLabel.text = c.encrypted_string_RegexTextfield_List; break;
             }
             break;
         case 2:

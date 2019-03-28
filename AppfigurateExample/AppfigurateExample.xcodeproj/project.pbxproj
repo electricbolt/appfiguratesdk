@@ -13,21 +13,22 @@
 		0BE8817316BF155D008E9937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE8817216BF155D008E9937 /* Foundation.framework */; };
 		0BE8817516BF155D008E9937 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE8817416BF155D008E9937 /* CoreGraphics.framework */; };
 		0BE8817B16BF155D008E9937 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BE8817916BF155D008E9937 /* InfoPlist.strings */; };
-		0BE8817D16BF155D008E9937 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8817C16BF155D008E9937 /* main.m */; };
 		0BE8819916BF166E008E9937 /* ExampleConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8819816BF166E008E9937 /* ExampleConfiguration.m */; };
 		3496472E210F0E9700F17BA8 /* IntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3496472D210F0E9700F17BA8 /* IntentHandler.m */; };
 		34964732210F0E9700F17BA8 /* WatchExample Intent Extension (watchOS).appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3496472A210F0E9700F17BA8 /* WatchExample Intent Extension (watchOS).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		34964741211054A600F17BA8 /* IntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 34964740211054A600F17BA8 /* IntentHandler.m */; };
 		34964745211054A600F17BA8 /* Intent Extension (iOS).appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3496473D211054A500F17BA8 /* Intent Extension (iOS).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4E64586A21EAE946009A4012 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E64586921EAE946009A4012 /* libAppfigurateLibrary.a */; };
-		4E64586B21EAE970009A4012 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E64586921EAE946009A4012 /* libAppfigurateLibrary.a */; };
-		4E64586D21EAE9A6009A4012 /* libAppfigurateWatchLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E64586C21EAE9A6009A4012 /* libAppfigurateWatchLibrary.a */; };
-		4E64586E21EAE9B8009A4012 /* libAppfigurateWatchLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E64586C21EAE9A6009A4012 /* libAppfigurateWatchLibrary.a */; };
-		4E64586F21EAE9D7009A4012 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E64586921EAE946009A4012 /* libAppfigurateLibrary.a */; };
-		4E64587021EAE9FB009A4012 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E64586921EAE946009A4012 /* libAppfigurateLibrary.a */; };
-		4E64587121EAEA34009A4012 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E64586921EAE946009A4012 /* libAppfigurateLibrary.a */; };
+		4E7F572A224B135500795C7B /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F5729224B135500795C7B /* libAppfigurateLibrary.a */; };
+		4E7F572B224B136900795C7B /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F5729224B135500795C7B /* libAppfigurateLibrary.a */; };
+		4E7F572C224B137E00795C7B /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F5729224B135500795C7B /* libAppfigurateLibrary.a */; };
+		4E7F572D224B138C00795C7B /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F5729224B135500795C7B /* libAppfigurateLibrary.a */; };
+		4E7F5730224B13C800795C7B /* libAppfigurateWatchLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F572F224B13C800795C7B /* libAppfigurateWatchLibrary.a */; };
+		4E7F5731224B13DE00795C7B /* libAppfigurateWatchLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F572F224B13C800795C7B /* libAppfigurateWatchLibrary.a */; };
+		4E7F5732224B13EC00795C7B /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F5729224B135500795C7B /* libAppfigurateLibrary.a */; };
+		4EF14773224B00C000BDC421 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8817C16BF155D008E9937 /* main.m */; };
+		4EF14776224B02ED00BDC421 /* ExampleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7484AB631F6F56CA000D66C3 /* ExampleConfiguration.swift */; };
+		4EF14778224B031200BDC421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C73BAB1F6795110003B691 /* AppDelegate.swift */; };
 		4EFF76C12113EBB300FFFBC1 /* ExampleConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8819816BF166E008E9937 /* ExampleConfiguration.m */; };
-		7401ED001F6F78F4001AE129 /* ExampleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7484AB631F6F56CA000D66C3 /* ExampleConfiguration.swift */; };
 		740349A11FD5E9F000C9AD60 /* AppfigurateExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 744C77A81FD5E92C00FBFE70 /* AppfigurateExampleUITests.m */; };
 		74081A861F5A918200D3024C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8818016BF155D008E9937 /* AppDelegate.m */; };
 		7426AC831E300C5D0075A727 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7426AC821E300C5D0075A727 /* Images.xcassets */; };
@@ -36,7 +37,6 @@
 		74437C951DDD5B71001A00C1 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74437C941DDD5B71001A00C1 /* Launch.storyboard */; };
 		748295B91FD3EFB40046D63A /* ExampleConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8819816BF166E008E9937 /* ExampleConfiguration.m */; };
 		74C5228D1DFF7FA200691FFB /* Example.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C5228C1DFF7FA200691FFB /* Example.storyboard */; };
-		74C73BAC1F6795110003B691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C73BAB1F6795110003B691 /* AppDelegate.swift */; };
 		74C73BAE1F6795110003B691 /* SwiftExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C73BAD1F6795110003B691 /* SwiftExampleViewController.swift */; };
 		74C73BB61F6795110003B691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C73BB41F6795110003B691 /* LaunchScreen.storyboard */; };
 		74C73BEE1F679D250003B691 /* SwiftExample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C73BEA1F6798BB0003B691 /* SwiftExample.storyboard */; };
@@ -237,9 +237,9 @@
 		3496473F211054A600F17BA8 /* IntentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentHandler.h; sourceTree = "<group>"; };
 		34964740211054A600F17BA8 /* IntentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentHandler.m; sourceTree = "<group>"; };
 		34964742211054A600F17BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E64586921EAE946009A4012 /* libAppfigurateLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateLibrary.a; path = ../AppfigurateLibrary/libAppfigurateLibrary.a; sourceTree = "<group>"; };
-		4E64586C21EAE9A6009A4012 /* libAppfigurateWatchLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateWatchLibrary.a; path = ../AppfigurateLibrary/libAppfigurateWatchLibrary.a; sourceTree = "<group>"; };
 		4E7982672113DB8400BAD091 /* Intent Extension (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Intent Extension (iOS).entitlements"; sourceTree = SOURCE_ROOT; };
+		4E7F5729224B135500795C7B /* libAppfigurateLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateLibrary.a; path = ../AppfigurateLibrary/libAppfigurateLibrary.a; sourceTree = "<group>"; };
+		4E7F572F224B13C800795C7B /* libAppfigurateWatchLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateWatchLibrary.a; path = ../AppfigurateLibrary/libAppfigurateWatchLibrary.a; sourceTree = "<group>"; };
 		7426AC821E300C5D0075A727 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WatchExample/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		742AA1541E6E2449003E178E /* AppfigurateExample (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AppfigurateExample (iOS).entitlements"; sourceTree = SOURCE_ROOT; };
 		742AA1551E6E2476003E178E /* ActionExample Extension (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ActionExample Extension (iOS).entitlements"; sourceTree = SOURCE_ROOT; };
@@ -284,7 +284,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E64586A21EAE946009A4012 /* libAppfigurateLibrary.a in Frameworks */,
+				4E7F572A224B135500795C7B /* libAppfigurateLibrary.a in Frameworks */,
 				0BE8817116BF155D008E9937 /* UIKit.framework in Frameworks */,
 				0BE8817316BF155D008E9937 /* Foundation.framework in Frameworks */,
 				0BE8817516BF155D008E9937 /* CoreGraphics.framework in Frameworks */,
@@ -296,7 +296,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E64586E21EAE9B8009A4012 /* libAppfigurateWatchLibrary.a in Frameworks */,
+				4E7F5731224B13DE00795C7B /* libAppfigurateWatchLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +304,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E64587121EAEA34009A4012 /* libAppfigurateLibrary.a in Frameworks */,
+				4E7F572B224B136900795C7B /* libAppfigurateLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +312,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E64586B21EAE970009A4012 /* libAppfigurateLibrary.a in Frameworks */,
+				4E7F5732224B13EC00795C7B /* libAppfigurateLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +320,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E64587021EAE9FB009A4012 /* libAppfigurateLibrary.a in Frameworks */,
+				4E7F572D224B138C00795C7B /* libAppfigurateLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +328,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E64586F21EAE9D7009A4012 /* libAppfigurateLibrary.a in Frameworks */,
+				4E7F572C224B137E00795C7B /* libAppfigurateLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +336,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E64586D21EAE9A6009A4012 /* libAppfigurateWatchLibrary.a in Frameworks */,
+				4E7F5730224B13C800795C7B /* libAppfigurateWatchLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,8 +379,8 @@
 		0BE8816F16BF155D008E9937 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4E64586C21EAE9A6009A4012 /* libAppfigurateWatchLibrary.a */,
-				4E64586921EAE946009A4012 /* libAppfigurateLibrary.a */,
+				4E7F572F224B13C800795C7B /* libAppfigurateWatchLibrary.a */,
+				4E7F5729224B135500795C7B /* libAppfigurateLibrary.a */,
 				74EAC8911D66889E0035C5D9 /* AppfigurateLibrary.xcodeproj */,
 				0B92D7A41717686200DAAFEC /* AdSupport.framework */,
 				0B8CC9CD16BF2955008258CB /* Security.framework */,
@@ -712,7 +712,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Electric Bolt Limited";
 				TargetAttributes = {
 					0BE8816C16BF155D008E9937 = {
@@ -783,7 +783,7 @@
 			};
 			buildConfigurationList = 0BE8816816BF155D008E9937 /* Build configuration list for PBXProject "AppfigurateExample" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -913,8 +913,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				74081A861F5A918200D3024C /* AppDelegate.m in Sources */,
-				0BE8817D16BF155D008E9937 /* main.m in Sources */,
 				0BE8819916BF166E008E9937 /* ExampleConfiguration.m in Sources */,
+				4EF14773224B00C000BDC421 /* main.m in Sources */,
 				0B6814E716C9C15500C379BC /* ExampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -949,9 +949,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7401ED001F6F78F4001AE129 /* ExampleConfiguration.swift in Sources */,
+				4EF14778224B031200BDC421 /* AppDelegate.swift in Sources */,
+				4EF14776224B02ED00BDC421 /* ExampleConfiguration.swift in Sources */,
 				74C73BAE1F6795110003B691 /* SwiftExampleViewController.swift in Sources */,
-				74C73BAC1F6795110003B691 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1080,6 +1080,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1131,6 +1132,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1452,7 +1454,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftExample/SwiftExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1485,7 +1487,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftExample/SwiftExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -31,7 +31,9 @@ class SwiftExampleViewController: UITableViewController, APLConfigurationUpdated
                     case 1: cell.detailTextLabel?.text = c.string_RegexTextfield
                     case 2: cell.detailTextLabel?.text = c.string_List
                     case 3: cell.detailTextLabel?.text = c.string_Textfield_List
-                    default: cell.detailTextLabel?.text = c.string_RegexTextfield_List
+                    case 4: cell.detailTextLabel?.text = c.string_RegexTextfield_List
+                    case 5: cell.detailTextLabel?.text = c.encrypted_string_Textfield_List
+                    default: cell.detailTextLabel?.text = c.encrypted_string_RegexTextfield_List
                 }
             case 2:
                 switch indexPath.row {

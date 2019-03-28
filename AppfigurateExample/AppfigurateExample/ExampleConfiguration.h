@@ -15,6 +15,8 @@
 @property(nonatomic, strong) NSString *string_List;
 @property(nonatomic, strong) NSString *string_Textfield_List;
 @property(nonatomic, strong) NSString *string_RegexTextfield_List;
+@property(nonatomic, strong) NSString *encrypted_string_Textfield_List;
+@property(nonatomic, strong) NSString *encrypted_string_RegexTextfield_List;
 
 @property(nonatomic, assign) NSInteger integer_Slider;
 @property(nonatomic, assign) NSInteger integer_Textfield;
