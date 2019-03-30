@@ -39,7 +39,7 @@ Clone the Appfigurate repository using the terminal command:
 >git clone https://github.com/electricbolt/appfiguratesdk.git
 
 ### Simulator build
-To install the Appfigurate Simulator app into your iOS Simulator, open `AppfigurateWorkspace.xcworkspace` in Xcode 8 or above, ensure `Appfigurate` is selected in the Scheme popup, choose your Simulator device e.g. `iPhone SE` and run.
+To install the Appfigurate Simulator app into your iOS Simulator, open `AppfigurateWorkspace.xcworkspace` in Xcode 10.1 or above, ensure `Appfigurate` is selected in the Scheme popup, choose your Simulator device e.g. `iPhone SE` and run.
 
 ![AppfigurateScheme](./Documentation/Images/AppfigurateScheme.png)
 
