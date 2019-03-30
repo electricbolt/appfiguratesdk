@@ -2,7 +2,7 @@
 
 The StringEncryption utility is used in conjunction with the `ENCRYPTED_STRING` and `ENCRYPTED_STRING_IOS_WATCHOS` macros. 
 
-The StringEncryption utility is included in the root of the repository, and is signed and notarized for Gatekeeper.
+The StringEncryption utility is included in the root of the repository, and is signed and notarized for macOS' Gatekeeper.
 
 ![StringEncryption](./Images/StringEncryption.png)
 
@@ -230,7 +230,7 @@ Step 4. Paste the plain text value into the Plain text field of the StringEncryp
 
 The cipher text will be computed automatically and placed into the Encrypted text field of the StringEncryption app.
 
-Step 5. Copy the Encrypted text field from the StringEncryption app and paste into the 2nd parameter of the `ENCRYPTED_STRING_IOS_WATCHOS` macro in Xcode:
+Step 5. Copy the Encrypted text field from the StringEncryption app and paste into the 3rd parameter of the `ENCRYPTED_STRING_IOS_WATCHOS` macro in Xcode:
 
 ```objc
 ENCRYPTED_STRING_PROPERTY_LIST_EDIT(
