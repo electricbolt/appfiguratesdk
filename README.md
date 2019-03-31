@@ -48,7 +48,7 @@ The Appfigurate Simulator app in this repository cannot be installed onto iOS de
 
 ## Integrate Appfigurate library
 
-Follow the [Quick Start Guide](./Documentation/QuickStartGuide.md) to integrate Appfigurate library into your own apps.
+Use the following Quick Start Guides to integrate the Appfigurate Library into your app using [CocoaPods](./Documentation/QuickStartGuide_CocoaPods.md), [Carthage](./Documentation/QuickStartGuide_Carthage.md) or [manually](./Documentation/QuickStartGuide_Manual.md).
 
 ## Further documentation
 

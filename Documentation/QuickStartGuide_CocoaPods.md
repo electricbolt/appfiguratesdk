@@ -1,8 +1,8 @@
 # Appfigurate Library - Quick Start Guide
 
-## Installing the library into your own app
+## Installing the library into your own app using CocoaPods
 
-The Appfigurate library can be embedded into your own app in 5 easy steps. In this guide, replace any references to `quickstart` with your own apps project name or target name (as appropriate).
+The Appfigurate library can be embedded into your own app in 4 easy steps. In this guide, replace any references to `quickstart` with your own apps project name or target name (as appropriate).
 
 ### Step 1: Run Appfigurate Simulator
 
@@ -34,30 +34,17 @@ In your apps `Info.plist` file (right click, Open As->Source Code). Insert the `
 ```
 If you already have an existing `CFBundleURLTypes` array in your `Info.plist` file, then insert just the `<dict> ... </dict>` portion.
 
-### Step 3: Add libAppfigurateLibrary.a
+### Step 3: Adjust Cocoapods Podfile
 
-![Quick Start Configuration](./Images/QuickStartLinkLibrary.png)
+* Add the following to your apps Podfile:
 
-* Select your project `Quickstart` in the project navigator.
-* Select your target `Quickstart` in the project/targets pane.
-* Select `Build Phases` tab
-* Expand section `Link Binary with Libraries`.
-* Tap `+` button
-* On the `Choose frameworks and libaries to add` dialog, tap the `Add Other...` button.
-* Navigate to the cloned Appfigurate repository and select AppfigurateLibrary/libAppfigurateLibrary.a
+```
+pod 'AppfigurateLibrary'
+```
 
-![Quick Start Configuration](./Images/QuickStartLinkedLibrary.png)
+* Run either the `pod install` or `pod update` from the terminal to download and build the AppfigurateLibrary pod.
 
-### Step 4: Apply Search Paths
-
-* Select `Build Settings` tab
-* Scroll down to `Search Paths` section
-* Add the relative path to the Appfigurate repository to the `Header Search Paths`. e.g. `../Appfigurate/AppfigurateLibrary`.
-* Add the relative path to the Appfigurate repository to the `Library Search Paths`.
-
-![Quick Start Configuration](./Images/QuickStartSearchPath.png)
-
-### Step 5: Create APLConfiguration subclass
+### Step 4: Create APLConfiguration subclass
 
 > Objective-C
 
