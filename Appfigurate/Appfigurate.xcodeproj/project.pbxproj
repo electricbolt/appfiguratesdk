@@ -25,8 +25,8 @@
 		0BEE31E817979F9A00BFC370 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BEE31E717979F9900BFC370 /* AudioToolbox.framework */; };
 		4E1BB0BE222FBDED009E9E29 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1BB0B9222FBDEC009E9E29 /* AVFoundation.framework */; };
 		4E1BB0C0222FBDF7009E9E29 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1BB0BF222FBDF6009E9E29 /* CoreImage.framework */; };
-		4E7F5725224B12FB00795C7B /* libAppfigurateCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F5724224B12FB00795C7B /* libAppfigurateCore.a */; };
-		4E7F5727224B130900795C7B /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F5726224B130900795C7B /* libAppfigurateLibrary.a */; };
+		4EACFC902298CDF6001F199B /* libAppfigurateCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EACFC8F2298CDF6001F199B /* libAppfigurateCore.a */; };
+		4EACFC922298CE06001F199B /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EACFC912298CE06001F199B /* libAppfigurateLibrary.a */; };
 		4EE600CF21D382EB0084C002 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE600CA21D382EB0084C002 /* StoreKit.framework */; };
 		7401BF101E53ADD3009A19D9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7401BF0F1E53ADD3009A19D9 /* Settings.bundle */; };
 		742B26AA1E9C8E9200BEBC31 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 742B26A91E9C8E9200BEBC31 /* LaunchScreen.xib */; };
@@ -36,51 +36,6 @@
 		74DFE4091E4A8070000A2868 /* DocumentIcon320.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DFE4071E4A8070000A2868 /* DocumentIcon320.png */; };
 		74DFE40A1E4A8070000A2868 /* DocumentIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DFE4081E4A8070000A2868 /* DocumentIcon.png */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0BDEF7CD1BFDC79200797FDB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0BDEF7C91BFDC79200797FDB /* AppfigurateLibrary.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0BA83C7D16BB5ACF00F656A2;
-			remoteInfo = AppfigurateLibrary;
-		};
-		745F8AB01FA6A51100AC06C0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0BDEF7C91BFDC79200797FDB /* AppfigurateLibrary.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 746974A21F6FD1AE00C7EA96;
-			remoteInfo = AppfiguateLibraryTests;
-		};
-		7473E0171D7D349600C87835 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7473E0131D7D349500C87835 /* AppfigurateCore.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7473DE031D7D2D8C00C87835;
-			remoteInfo = AppfigurateCore;
-		};
-		7473E0191D7D349F00C87835 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7473E0131D7D349500C87835 /* AppfigurateCore.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 7473DE021D7D2D8C00C87835;
-			remoteInfo = AppfigurateCore;
-		};
-		7473E02C1D7D350A00C87835 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7473E0131D7D349500C87835 /* AppfigurateCore.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7473E0201D7D34E800C87835;
-			remoteInfo = AppfigurateCoreTests;
-		};
-		74EE68981E31B78A0049DD57 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0BDEF7C91BFDC79200797FDB /* AppfigurateLibrary.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 74E4D6BF1E0B280400A8C046;
-			remoteInfo = "AppfigurateLibrary (watchOS)";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		0BDEF7C81BFDC6FC00797FDB /* Embed Frameworks */ = {
@@ -124,17 +79,15 @@
 		0B98ACB718F4D1FD00881CD4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0BA76FF8170BB10400DECB39 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		0BC1AD8C1A9AF19D0002B33A /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
-		0BDEF7C91BFDC79200797FDB /* AppfigurateLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppfigurateLibrary.xcodeproj; path = ../AppfigurateLibrary/AppfigurateLibrary.xcodeproj; sourceTree = "<group>"; };
 		0BEE31E717979F9900BFC370 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		4E1BB0B9222FBDEC009E9E29 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4E1BB0BF222FBDF6009E9E29 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
-		4E7F5724224B12FB00795C7B /* libAppfigurateCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateCore.a; path = Appfigurate/libAppfigurateCore.a; sourceTree = "<group>"; };
-		4E7F5726224B130900795C7B /* libAppfigurateLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateLibrary.a; path = ../AppfigurateLibrary/libAppfigurateLibrary.a; sourceTree = "<group>"; };
+		4EACFC8F2298CDF6001F199B /* libAppfigurateCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateCore.a; path = Appfigurate/libAppfigurateCore.a; sourceTree = "<group>"; };
+		4EACFC912298CE06001F199B /* libAppfigurateLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateLibrary.a; path = ../AppfigurateLibrary/libAppfigurateLibrary.a; sourceTree = "<group>"; };
 		4EE600CA21D382EB0084C002 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		7401BF0F1E53ADD3009A19D9 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		742B26A91E9C8E9200BEBC31 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		746F77911D83C1EE00C2E787 /* Appfigurate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Appfigurate.entitlements; sourceTree = "<group>"; };
-		7473E0131D7D349500C87835 /* AppfigurateCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppfigurateCore.xcodeproj; path = ../AppfigurateCore/AppfigurateCore.xcodeproj; sourceTree = "<group>"; };
 		7473E0371D7D390100C87835 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74B64F601E5D78B600F58059 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		74B64F621E5D78E000F58059 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -147,8 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7F5727224B130900795C7B /* libAppfigurateLibrary.a in Frameworks */,
-				4E7F5725224B12FB00795C7B /* libAppfigurateCore.a in Frameworks */,
+				4EACFC922298CE06001F199B /* libAppfigurateLibrary.a in Frameworks */,
+				4EACFC902298CDF6001F199B /* libAppfigurateCore.a in Frameworks */,
 				4E1BB0C0222FBDF7009E9E29 /* CoreImage.framework in Frameworks */,
 				4E1BB0BE222FBDED009E9E29 /* AVFoundation.framework in Frameworks */,
 				4EE600CF21D382EB0084C002 /* StoreKit.framework in Frameworks */,
@@ -195,15 +148,13 @@
 		0B267028169A4C4300C0394B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4E7F5726224B130900795C7B /* libAppfigurateLibrary.a */,
-				4E7F5724224B12FB00795C7B /* libAppfigurateCore.a */,
+				4EACFC912298CE06001F199B /* libAppfigurateLibrary.a */,
+				4EACFC8F2298CDF6001F199B /* libAppfigurateCore.a */,
 				4E1BB0BF222FBDF6009E9E29 /* CoreImage.framework */,
 				4E1BB0B9222FBDEC009E9E29 /* AVFoundation.framework */,
 				4EE600CA21D382EB0084C002 /* StoreKit.framework */,
 				74B64F621E5D78E000F58059 /* libsqlite3.tbd */,
 				74B64F601E5D78B600F58059 /* libz.tbd */,
-				7473E0131D7D349500C87835 /* AppfigurateCore.xcodeproj */,
-				0BDEF7C91BFDC79200797FDB /* AppfigurateLibrary.xcodeproj */,
 				0BC1AD8C1A9AF19D0002B33A /* LocalAuthentication.framework */,
 				0B4BF1851A9402EE007E7C34 /* CoreData.framework */,
 				0BEE31E717979F9900BFC370 /* AudioToolbox.framework */,
@@ -240,25 +191,6 @@
 			path = Appfigurate;
 			sourceTree = "<group>";
 		};
-		0BDEF7CA1BFDC79200797FDB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0BDEF7CE1BFDC79200797FDB /* libAppfigurateLibrary.a */,
-				74EE68991E31B78A0049DD57 /* libAppfigurateWatchLibrary.a */,
-				745F8AB11FA6A51100AC06C0 /* AppfiguateLibraryTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7473E0141D7D349500C87835 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7473E0181D7D349600C87835 /* libAppfigurateCore.a */,
-				7473E02D1D7D350A00C87835 /* AppfigurateCoreTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -276,7 +208,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7473E01A1D7D349F00C87835 /* PBXTargetDependency */,
 			);
 			name = Appfigurate;
 			productName = Appfigurate;
@@ -320,60 +251,12 @@
 			mainGroup = 0B26701A169A4C4300C0394B;
 			productRefGroup = 0B267026169A4C4300C0394B /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 7473E0141D7D349500C87835 /* Products */;
-					ProjectRef = 7473E0131D7D349500C87835 /* AppfigurateCore.xcodeproj */;
-				},
-				{
-					ProductGroup = 0BDEF7CA1BFDC79200797FDB /* Products */;
-					ProjectRef = 0BDEF7C91BFDC79200797FDB /* AppfigurateLibrary.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				0B267024169A4C4300C0394B /* Appfigurate */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		0BDEF7CE1BFDC79200797FDB /* libAppfigurateLibrary.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libAppfigurateLibrary.a;
-			remoteRef = 0BDEF7CD1BFDC79200797FDB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		745F8AB11FA6A51100AC06C0 /* AppfiguateLibraryTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AppfiguateLibraryTests.xctest;
-			remoteRef = 745F8AB01FA6A51100AC06C0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		7473E0181D7D349600C87835 /* libAppfigurateCore.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libAppfigurateCore.a;
-			remoteRef = 7473E0171D7D349600C87835 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		7473E02D1D7D350A00C87835 /* AppfigurateCoreTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AppfigurateCoreTests.xctest;
-			remoteRef = 7473E02C1D7D350A00C87835 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		74EE68991E31B78A0049DD57 /* libAppfigurateWatchLibrary.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libAppfigurateWatchLibrary.a;
-			remoteRef = 74EE68981E31B78A0049DD57 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0B267023169A4C4300C0394B /* Resources */ = {
@@ -416,14 +299,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7473E01A1D7D349F00C87835 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AppfigurateCore;
-			targetProxy = 7473E0191D7D349F00C87835 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0B267041169A4C4300C0394B /* Debug */ = {

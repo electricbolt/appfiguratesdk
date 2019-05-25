@@ -18,13 +18,13 @@
 		34964732210F0E9700F17BA8 /* WatchExample Intent Extension (watchOS).appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3496472A210F0E9700F17BA8 /* WatchExample Intent Extension (watchOS).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		34964741211054A600F17BA8 /* IntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 34964740211054A600F17BA8 /* IntentHandler.m */; };
 		34964745211054A600F17BA8 /* Intent Extension (iOS).appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3496473D211054A500F17BA8 /* Intent Extension (iOS).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4E7F572A224B135500795C7B /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F5729224B135500795C7B /* libAppfigurateLibrary.a */; };
-		4E7F572B224B136900795C7B /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F5729224B135500795C7B /* libAppfigurateLibrary.a */; };
-		4E7F572C224B137E00795C7B /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F5729224B135500795C7B /* libAppfigurateLibrary.a */; };
-		4E7F572D224B138C00795C7B /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F5729224B135500795C7B /* libAppfigurateLibrary.a */; };
-		4E7F5730224B13C800795C7B /* libAppfigurateWatchLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F572F224B13C800795C7B /* libAppfigurateWatchLibrary.a */; };
-		4E7F5731224B13DE00795C7B /* libAppfigurateWatchLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F572F224B13C800795C7B /* libAppfigurateWatchLibrary.a */; };
-		4E7F5732224B13EC00795C7B /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F5729224B135500795C7B /* libAppfigurateLibrary.a */; };
+		4E41BD232298CB0000C01972 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E41BD222298CB0000C01972 /* libAppfigurateLibrary.a */; };
+		4E41BD242298CB2B00C01972 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E41BD222298CB0000C01972 /* libAppfigurateLibrary.a */; };
+		4E41BD262298CB5F00C01972 /* libAppfigurateWatchLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E41BD252298CB5F00C01972 /* libAppfigurateWatchLibrary.a */; };
+		4E41BD272298CB8900C01972 /* libAppfigurateWatchLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E41BD252298CB5F00C01972 /* libAppfigurateWatchLibrary.a */; };
+		4E41BD282298CBA300C01972 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E41BD222298CB0000C01972 /* libAppfigurateLibrary.a */; };
+		4E41BD292298CBBB00C01972 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E41BD222298CB0000C01972 /* libAppfigurateLibrary.a */; };
+		4E41BD2A2298CBD500C01972 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E41BD222298CB0000C01972 /* libAppfigurateLibrary.a */; };
 		4EF14773224B00C000BDC421 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8817C16BF155D008E9937 /* main.m */; };
 		4EF14776224B02ED00BDC421 /* ExampleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7484AB631F6F56CA000D66C3 /* ExampleConfiguration.swift */; };
 		4EF14778224B031200BDC421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C73BAB1F6795110003B691 /* AppDelegate.swift */; };
@@ -70,48 +70,6 @@
 			remoteGlobalIDString = 3496473C211054A500F17BA8;
 			remoteInfo = "Intent Extension";
 		};
-		4EFF76BA2113E0D400FFFBC1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 74EAC8911D66889E0035C5D9 /* AppfigurateLibrary.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 0BA83C7C16BB5ACF00F656A2;
-			remoteInfo = "AppfigurateLibrary (iOS)";
-		};
-		4EFF76BD2113E0DD00FFFBC1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 74EAC8911D66889E0035C5D9 /* AppfigurateLibrary.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 0BA83C7C16BB5ACF00F656A2;
-			remoteInfo = "AppfigurateLibrary (iOS)";
-		};
-		4EFF76BF2113E0EE00FFFBC1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 74EAC8911D66889E0035C5D9 /* AppfigurateLibrary.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 74E4D6BE1E0B280400A8C046;
-			remoteInfo = "AppfigurateLibrary (watchOS)";
-		};
-		745F8AAA1FA6A50900AC06C0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 74EAC8911D66889E0035C5D9 /* AppfigurateLibrary.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 746974A21F6FD1AE00C7EA96;
-			remoteInfo = AppfiguateLibraryTests;
-		};
-		7476A6F81E282A5E00098D77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 74EAC8911D66889E0035C5D9 /* AppfigurateLibrary.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 74E4D6BF1E0B280400A8C046;
-			remoteInfo = "AppfigurateLibrary (watchOS)";
-		};
-		7476A6FB1E282AC000098D77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 74EAC8911D66889E0035C5D9 /* AppfigurateLibrary.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 74E4D6BE1E0B280400A8C046;
-			remoteInfo = "AppfigurateLibrary (watchOS)";
-		};
 		7476A72A1E2843AF00098D77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0BE8816516BF155D008E9937 /* Project object */;
@@ -139,27 +97,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 74D879931E6CEE620017E90C;
 			remoteInfo = ActionExample;
-		};
-		74D879A41E6CEFAC0017E90C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 74EAC8911D66889E0035C5D9 /* AppfigurateLibrary.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 0BA83C7C16BB5ACF00F656A2;
-			remoteInfo = "AppfigurateLibrary (iOS)";
-		};
-		74EAC8951D66889E0035C5D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 74EAC8911D66889E0035C5D9 /* AppfigurateLibrary.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0BA83C7D16BB5ACF00F656A2;
-			remoteInfo = AppfigurateLibrary;
-		};
-		74EAC8981D6688B50035C5D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 74EAC8911D66889E0035C5D9 /* AppfigurateLibrary.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 0BA83C7C16BB5ACF00F656A2;
-			remoteInfo = AppfigurateLibrary;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -237,9 +174,9 @@
 		3496473F211054A600F17BA8 /* IntentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentHandler.h; sourceTree = "<group>"; };
 		34964740211054A600F17BA8 /* IntentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentHandler.m; sourceTree = "<group>"; };
 		34964742211054A600F17BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E41BD222298CB0000C01972 /* libAppfigurateLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateLibrary.a; path = ../AppfigurateLibrary/libAppfigurateLibrary.a; sourceTree = "<group>"; };
+		4E41BD252298CB5F00C01972 /* libAppfigurateWatchLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateWatchLibrary.a; path = ../AppfigurateLibrary/libAppfigurateWatchLibrary.a; sourceTree = "<group>"; };
 		4E7982672113DB8400BAD091 /* Intent Extension (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Intent Extension (iOS).entitlements"; sourceTree = SOURCE_ROOT; };
-		4E7F5729224B135500795C7B /* libAppfigurateLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateLibrary.a; path = ../AppfigurateLibrary/libAppfigurateLibrary.a; sourceTree = "<group>"; };
-		4E7F572F224B13C800795C7B /* libAppfigurateWatchLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateWatchLibrary.a; path = ../AppfigurateLibrary/libAppfigurateWatchLibrary.a; sourceTree = "<group>"; };
 		7426AC821E300C5D0075A727 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WatchExample/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		742AA1541E6E2449003E178E /* AppfigurateExample (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AppfigurateExample (iOS).entitlements"; sourceTree = SOURCE_ROOT; };
 		742AA1551E6E2476003E178E /* ActionExample Extension (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ActionExample Extension (iOS).entitlements"; sourceTree = SOURCE_ROOT; };
@@ -276,7 +213,6 @@
 		74E4D67F1E0B1DD300A8C046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74E4D6B51E0B202700A8C046 /* ExampleRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleRow.h; sourceTree = "<group>"; };
 		74E4D6B61E0B202700A8C046 /* ExampleRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleRow.m; sourceTree = "<group>"; };
-		74EAC8911D66889E0035C5D9 /* AppfigurateLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppfigurateLibrary.xcodeproj; path = ../AppfigurateLibrary/AppfigurateLibrary.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,7 +220,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7F572A224B135500795C7B /* libAppfigurateLibrary.a in Frameworks */,
+				4E41BD232298CB0000C01972 /* libAppfigurateLibrary.a in Frameworks */,
 				0BE8817116BF155D008E9937 /* UIKit.framework in Frameworks */,
 				0BE8817316BF155D008E9937 /* Foundation.framework in Frameworks */,
 				0BE8817516BF155D008E9937 /* CoreGraphics.framework in Frameworks */,
@@ -296,7 +232,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7F5731224B13DE00795C7B /* libAppfigurateWatchLibrary.a in Frameworks */,
+				4E41BD272298CB8900C01972 /* libAppfigurateWatchLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +240,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7F572B224B136900795C7B /* libAppfigurateLibrary.a in Frameworks */,
+				4E41BD2A2298CBD500C01972 /* libAppfigurateLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +248,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7F5732224B13EC00795C7B /* libAppfigurateLibrary.a in Frameworks */,
+				4E41BD242298CB2B00C01972 /* libAppfigurateLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +256,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7F572D224B138C00795C7B /* libAppfigurateLibrary.a in Frameworks */,
+				4E41BD292298CBBB00C01972 /* libAppfigurateLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +264,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7F572C224B137E00795C7B /* libAppfigurateLibrary.a in Frameworks */,
+				4E41BD282298CBA300C01972 /* libAppfigurateLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +272,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7F5730224B13C800795C7B /* libAppfigurateWatchLibrary.a in Frameworks */,
+				4E41BD262298CB5F00C01972 /* libAppfigurateWatchLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,9 +315,8 @@
 		0BE8816F16BF155D008E9937 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4E7F572F224B13C800795C7B /* libAppfigurateWatchLibrary.a */,
-				4E7F5729224B135500795C7B /* libAppfigurateLibrary.a */,
-				74EAC8911D66889E0035C5D9 /* AppfigurateLibrary.xcodeproj */,
+				4E41BD252298CB5F00C01972 /* libAppfigurateWatchLibrary.a */,
+				4E41BD222298CB0000C01972 /* libAppfigurateLibrary.a */,
 				0B92D7A41717686200DAAFEC /* AdSupport.framework */,
 				0B8CC9CD16BF2955008258CB /* Security.framework */,
 				0BE8817016BF155D008E9937 /* UIKit.framework */,
@@ -534,16 +469,6 @@
 			name = "Common (iOS & watchOS)";
 			sourceTree = "<group>";
 		};
-		74EAC8921D66889E0035C5D9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				74EAC8961D66889E0035C5D9 /* libAppfigurateLibrary.a */,
-				7476A6F91E282A5E00098D77 /* libAppfigurateWatchLibrary.a */,
-				745F8AAB1FA6A50900AC06C0 /* AppfiguateLibraryTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		74EE68941E31B0120049DD57 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -569,7 +494,6 @@
 			);
 			dependencies = (
 				7476A72D1E2846AB00098D77 /* PBXTargetDependency */,
-				74EAC8991D6688B50035C5D9 /* PBXTargetDependency */,
 				74D8799E1E6CEE630017E90C /* PBXTargetDependency */,
 				34964744211054A600F17BA8 /* PBXTargetDependency */,
 			);
@@ -589,7 +513,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				4EFF76C02113E0EE00FFFBC1 /* PBXTargetDependency */,
 			);
 			name = "WatchExample Intent Extension (watchOS)";
 			productName = "WatchExample Intent Extension";
@@ -607,7 +530,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				4EFF76BB2113E0D400FFFBC1 /* PBXTargetDependency */,
 			);
 			name = "Intent Extension (iOS)";
 			productName = "Intent Extension";
@@ -643,7 +565,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				4EFF76BE2113E0DD00FFFBC1 /* PBXTargetDependency */,
 			);
 			name = "SwiftExample (iOS)";
 			productName = SwiftExample;
@@ -661,7 +582,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				74D879A51E6CEFAC0017E90C /* PBXTargetDependency */,
 			);
 			name = "ActionExample Extension (iOS)";
 			productName = ActionExample;
@@ -697,7 +617,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7476A6FC1E282AC000098D77 /* PBXTargetDependency */,
 				34964731210F0E9700F17BA8 /* PBXTargetDependency */,
 			);
 			name = "WatchExample Extension (watchOS)";
@@ -792,12 +711,6 @@
 			mainGroup = 0BE8816416BF155D008E9937;
 			productRefGroup = 0BE8816E16BF155D008E9937 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 74EAC8921D66889E0035C5D9 /* Products */;
-					ProjectRef = 74EAC8911D66889E0035C5D9 /* AppfigurateLibrary.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				0BE8816C16BF155D008E9937 /* AppfigurateExample (iOS) */,
@@ -811,30 +724,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		745F8AAB1FA6A50900AC06C0 /* AppfiguateLibraryTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AppfiguateLibraryTests.xctest;
-			remoteRef = 745F8AAA1FA6A50900AC06C0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		7476A6F91E282A5E00098D77 /* libAppfigurateWatchLibrary.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libAppfigurateWatchLibrary.a;
-			remoteRef = 7476A6F81E282A5E00098D77 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		74EAC8961D66889E0035C5D9 /* libAppfigurateLibrary.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libAppfigurateLibrary.a;
-			remoteRef = 74EAC8951D66889E0035C5D9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0BE8816B16BF155D008E9937 /* Resources */ = {
@@ -988,26 +877,6 @@
 			target = 3496473C211054A500F17BA8 /* Intent Extension (iOS) */;
 			targetProxy = 34964743211054A600F17BA8 /* PBXContainerItemProxy */;
 		};
-		4EFF76BB2113E0D400FFFBC1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "AppfigurateLibrary (iOS)";
-			targetProxy = 4EFF76BA2113E0D400FFFBC1 /* PBXContainerItemProxy */;
-		};
-		4EFF76BE2113E0DD00FFFBC1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "AppfigurateLibrary (iOS)";
-			targetProxy = 4EFF76BD2113E0DD00FFFBC1 /* PBXContainerItemProxy */;
-		};
-		4EFF76C02113E0EE00FFFBC1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "AppfigurateLibrary (watchOS)";
-			targetProxy = 4EFF76BF2113E0EE00FFFBC1 /* PBXContainerItemProxy */;
-		};
-		7476A6FC1E282AC000098D77 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "AppfigurateLibrary (watchOS)";
-			targetProxy = 7476A6FB1E282AC000098D77 /* PBXContainerItemProxy */;
-		};
 		7476A72B1E2843AF00098D77 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 74E4D6711E0B1DD300A8C046 /* WatchExample Extension (watchOS) */;
@@ -1027,16 +896,6 @@
 			isa = PBXTargetDependency;
 			target = 74D879931E6CEE620017E90C /* ActionExample Extension (iOS) */;
 			targetProxy = 74D8799D1E6CEE630017E90C /* PBXContainerItemProxy */;
-		};
-		74D879A51E6CEFAC0017E90C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "AppfigurateLibrary (iOS)";
-			targetProxy = 74D879A41E6CEFAC0017E90C /* PBXContainerItemProxy */;
-		};
-		74EAC8991D6688B50035C5D9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AppfigurateLibrary;
-			targetProxy = 74EAC8981D6688B50035C5D9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

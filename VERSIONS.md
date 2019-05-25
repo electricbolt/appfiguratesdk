@@ -1,5 +1,8 @@
 ### Release History
 
+#### 1.2.1 22 May 2019
+* SDK update only: Added APLSaveConfiguration() and APLRestoreConfiguration() to save and restore keychain.
+
 #### 1.2.0 28 Mar 2019
 * Requires Xcode 10.1+. As of 27 Mar 2019, [Apple requires all apps to use iOS 12.1 SDK](https://developer.apple.com/news/?id=03202019a).
 * App update: Minor bug fixes.

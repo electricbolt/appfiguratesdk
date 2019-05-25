@@ -491,3 +491,32 @@ extern void APLRemoveConfigurationUpdatedBlock(_Nonnull id<NSObject> observer);
  * When YES, debugging messages will be output to the console. The default is NO.
  */
 extern void APLSetLogging(BOOL logging);
+
+/**
+ * Saves the configuration persisted in the keychain into temporary storage.
+ * Some apps have functionality to erase the keychain to reset apps back to
+ * 'factory defaults'. This has the side effect of removing any Appfigurate
+ * configuration persisted in the keychain. Usage example:
+ *
+ * - (void) eraseKeychain {
+ *    APLSaveConfiguration();
+ *    NSArray* secItemClasses = @[(__bridge id) kSecClassGenericPassword,
+ *      (__bridge id) kSecClassInternetPassword,
+ *      (__bridge id) kSecClassCertificate,
+ *      (__bridge id) kSecClassKey,
+ *      (__bridge id) kSecClassIdentity];
+ *    for (id secItemClass in secItemClasses) {
+ *      NSDictionary *spec = @{(__bridge id)kSecClass: secItemClass};
+ *      SecItemDelete((__bridge CFDictionaryRef)spec);
+ *    }
+ *    APLRestoreConfiguration();
+ * }
+ *
+ */
+extern void APLSaveConfiguration(void);
+
+/**
+ * Restores the configuration from temporary storage back into the keychain.
+ * See APLSaveConfiguration() for more details and usage example.
+ */
+extern void APLRestoreConfiguration(void);
