@@ -10,6 +10,7 @@
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
+        NSLog(@"identifierForVendor=%@", [[UIDevice currentDevice] identifierForVendor]);
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

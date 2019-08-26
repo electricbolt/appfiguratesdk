@@ -25,8 +25,9 @@
 		0BEE31E817979F9A00BFC370 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BEE31E717979F9900BFC370 /* AudioToolbox.framework */; };
 		4E1BB0BE222FBDED009E9E29 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1BB0B9222FBDEC009E9E29 /* AVFoundation.framework */; };
 		4E1BB0C0222FBDF7009E9E29 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1BB0BF222FBDF6009E9E29 /* CoreImage.framework */; };
-		4EACFC902298CDF6001F199B /* libAppfigurateCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EACFC8F2298CDF6001F199B /* libAppfigurateCore.a */; };
-		4EACFC922298CE06001F199B /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EACFC912298CE06001F199B /* libAppfigurateLibrary.a */; };
+		4E23969523136931006E4D22 /* libAppfigurateCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E23969423136931006E4D22 /* libAppfigurateCore.a */; };
+		4E2396972313693F006E4D22 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2396962313693F006E4D22 /* libAppfigurateLibrary.a */; };
+		4EDF2F4722FE9132002DB2F3 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDF2F4122FE9132002DB2F3 /* MultipeerConnectivity.framework */; };
 		4EE600CF21D382EB0084C002 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE600CA21D382EB0084C002 /* StoreKit.framework */; };
 		7401BF101E53ADD3009A19D9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7401BF0F1E53ADD3009A19D9 /* Settings.bundle */; };
 		742B26AA1E9C8E9200BEBC31 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 742B26A91E9C8E9200BEBC31 /* LaunchScreen.xib */; };
@@ -82,8 +83,9 @@
 		0BEE31E717979F9900BFC370 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		4E1BB0B9222FBDEC009E9E29 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4E1BB0BF222FBDF6009E9E29 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
-		4EACFC8F2298CDF6001F199B /* libAppfigurateCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateCore.a; path = Appfigurate/libAppfigurateCore.a; sourceTree = "<group>"; };
-		4EACFC912298CE06001F199B /* libAppfigurateLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateLibrary.a; path = ../AppfigurateLibrary/libAppfigurateLibrary.a; sourceTree = "<group>"; };
+		4E23969423136931006E4D22 /* libAppfigurateCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateCore.a; path = Appfigurate/libAppfigurateCore.a; sourceTree = "<group>"; };
+		4E2396962313693F006E4D22 /* libAppfigurateLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateLibrary.a; path = ../AppfigurateLibrary/libAppfigurateLibrary.a; sourceTree = "<group>"; };
+		4EDF2F4122FE9132002DB2F3 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 		4EE600CA21D382EB0084C002 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		7401BF0F1E53ADD3009A19D9 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		742B26A91E9C8E9200BEBC31 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -100,8 +102,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EACFC922298CE06001F199B /* libAppfigurateLibrary.a in Frameworks */,
-				4EACFC902298CDF6001F199B /* libAppfigurateCore.a in Frameworks */,
+				4E2396972313693F006E4D22 /* libAppfigurateLibrary.a in Frameworks */,
+				4E23969523136931006E4D22 /* libAppfigurateCore.a in Frameworks */,
+				4EDF2F4722FE9132002DB2F3 /* MultipeerConnectivity.framework in Frameworks */,
 				4E1BB0C0222FBDF7009E9E29 /* CoreImage.framework in Frameworks */,
 				4E1BB0BE222FBDED009E9E29 /* AVFoundation.framework in Frameworks */,
 				4EE600CF21D382EB0084C002 /* StoreKit.framework in Frameworks */,
@@ -148,8 +151,9 @@
 		0B267028169A4C4300C0394B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4EACFC912298CE06001F199B /* libAppfigurateLibrary.a */,
-				4EACFC8F2298CDF6001F199B /* libAppfigurateCore.a */,
+				4E2396962313693F006E4D22 /* libAppfigurateLibrary.a */,
+				4E23969423136931006E4D22 /* libAppfigurateCore.a */,
+				4EDF2F4122FE9132002DB2F3 /* MultipeerConnectivity.framework */,
 				4E1BB0BF222FBDF6009E9E29 /* CoreImage.framework */,
 				4E1BB0B9222FBDEC009E9E29 /* AVFoundation.framework */,
 				4EE600CA21D382EB0084C002 /* StoreKit.framework */,
