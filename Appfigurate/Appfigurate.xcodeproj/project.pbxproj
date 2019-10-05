@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,7 @@
 		0B181400169A5861006A7EE4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1813FE169A5860006A7EE4 /* MobileCoreServices.framework */; };
 		0B181401169A5861006A7EE4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1813FF169A5861006A7EE4 /* Security.framework */; };
 		0B181403169A586C006A7EE4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B181402169A586C006A7EE4 /* MapKit.framework */; };
-		0B26702A169A4C4300C0394B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B267029169A4C4300C0394B /* UIKit.framework */; };
+		0B26702A169A4C4300C0394B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B267029169A4C4300C0394B /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		0B26702C169A4C4300C0394B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B26702B169A4C4300C0394B /* Foundation.framework */; };
 		0B26702E169A4C4300C0394B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B26702D169A4C4300C0394B /* CoreGraphics.framework */; };
 		0B31AC9D1A9406610006FD0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B31AC9C1A9406610006FD0C /* Images.xcassets */; };
@@ -25,8 +25,8 @@
 		0BEE31E817979F9A00BFC370 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BEE31E717979F9900BFC370 /* AudioToolbox.framework */; };
 		4E1BB0BE222FBDED009E9E29 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1BB0B9222FBDEC009E9E29 /* AVFoundation.framework */; };
 		4E1BB0C0222FBDF7009E9E29 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1BB0BF222FBDF6009E9E29 /* CoreImage.framework */; };
-		4E23969523136931006E4D22 /* libAppfigurateCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E23969423136931006E4D22 /* libAppfigurateCore.a */; };
-		4E2396972313693F006E4D22 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2396962313693F006E4D22 /* libAppfigurateLibrary.a */; };
+		4E99E79523444D3F00E2216C /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E99E79423444D3F00E2216C /* libAppfigurateLibrary.a */; };
+		4E99E79723444D4D00E2216C /* libAppfigurateCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E99E79623444D4D00E2216C /* libAppfigurateCore.a */; };
 		4EDF2F4722FE9132002DB2F3 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDF2F4122FE9132002DB2F3 /* MultipeerConnectivity.framework */; };
 		4EE600CF21D382EB0084C002 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE600CA21D382EB0084C002 /* StoreKit.framework */; };
 		7401BF101E53ADD3009A19D9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7401BF0F1E53ADD3009A19D9 /* Settings.bundle */; };
@@ -83,8 +83,8 @@
 		0BEE31E717979F9900BFC370 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		4E1BB0B9222FBDEC009E9E29 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4E1BB0BF222FBDF6009E9E29 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
-		4E23969423136931006E4D22 /* libAppfigurateCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateCore.a; path = Appfigurate/libAppfigurateCore.a; sourceTree = "<group>"; };
-		4E2396962313693F006E4D22 /* libAppfigurateLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateLibrary.a; path = ../AppfigurateLibrary/libAppfigurateLibrary.a; sourceTree = "<group>"; };
+		4E99E79423444D3F00E2216C /* libAppfigurateLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateLibrary.a; path = ../AppfigurateLibrary/libAppfigurateLibrary.a; sourceTree = "<group>"; };
+		4E99E79623444D4D00E2216C /* libAppfigurateCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateCore.a; path = Appfigurate/libAppfigurateCore.a; sourceTree = "<group>"; };
 		4EDF2F4122FE9132002DB2F3 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 		4EE600CA21D382EB0084C002 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		7401BF0F1E53ADD3009A19D9 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
@@ -102,8 +102,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E2396972313693F006E4D22 /* libAppfigurateLibrary.a in Frameworks */,
-				4E23969523136931006E4D22 /* libAppfigurateCore.a in Frameworks */,
+				4E99E79723444D4D00E2216C /* libAppfigurateCore.a in Frameworks */,
+				4E99E79523444D3F00E2216C /* libAppfigurateLibrary.a in Frameworks */,
 				4EDF2F4722FE9132002DB2F3 /* MultipeerConnectivity.framework in Frameworks */,
 				4E1BB0C0222FBDF7009E9E29 /* CoreImage.framework in Frameworks */,
 				4E1BB0BE222FBDED009E9E29 /* AVFoundation.framework in Frameworks */,
@@ -151,8 +151,8 @@
 		0B267028169A4C4300C0394B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4E2396962313693F006E4D22 /* libAppfigurateLibrary.a */,
-				4E23969423136931006E4D22 /* libAppfigurateCore.a */,
+				4E99E79623444D4D00E2216C /* libAppfigurateCore.a */,
+				4E99E79423444D3F00E2216C /* libAppfigurateLibrary.a */,
 				4EDF2F4122FE9132002DB2F3 /* MultipeerConnectivity.framework */,
 				4E1BB0BF222FBDF6009E9E29 /* CoreImage.framework */,
 				4E1BB0B9222FBDEC009E9E29 /* AVFoundation.framework */,
@@ -229,7 +229,6 @@
 				ORGANIZATIONNAME = "Electric Bolt Limited";
 				TargetAttributes = {
 					0B267024169A4C4300C0394B = {
-						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 0;
@@ -245,7 +244,7 @@
 				};
 			};
 			buildConfigurationList = 0B26701F169A4C4300C0394B /* Build configuration list for PBXProject "Appfigurate" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -421,9 +420,10 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Appfigurate/Appfigurate.entitlements;
 				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = Appfigurate/Appfigurate.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.3.1.1001;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -433,13 +433,17 @@
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../**";
 				INFOPLIST_FILE = "Appfigurate/Appfigurate-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../**",
-					"$(PROJECT_DIR)/Appfigurate",
 					"$(PROJECT_DIR)Library",
+					"$(PROJECT_DIR)/Appfigurate",
 				);
+				MARKETING_VERSION = 1.3.1;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -461,9 +465,10 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Appfigurate/Appfigurate.entitlements;
 				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = Appfigurate/Appfigurate.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.3.1.1001;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -473,13 +478,17 @@
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../**";
 				INFOPLIST_FILE = "Appfigurate/Appfigurate-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../**",
-					"$(PROJECT_DIR)/Appfigurate",
 					"$(PROJECT_DIR)Library",
+					"$(PROJECT_DIR)/Appfigurate",
 				);
+				MARKETING_VERSION = 1.3.1;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",

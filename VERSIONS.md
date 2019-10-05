@@ -1,5 +1,9 @@
 ### Release History
 
+#### 1.3.1 6 October 2019
+* **App update:** Minor fixes to UI for iOS 13 compatibility.
+* **SDK update:** Support for Xcode 11, drop support for Xcode 9.
+
 #### 1.3.0 27 August 2019
 * **App update:** Share app metadata quickly using Multipeer connectivity. (≡ ‣ Import apps ‣ Multipeer).
 * **App update:** The shared Simulator database stored in `~/Library/Application Support/Appfigurate` is upgraded to 1.3.0 and is incompatible with <= 1.2.1. Please ensure you update Appfigurate to 1.3.0 in all Simulators you use.
@@ -11,7 +15,7 @@
 * **App update:** Refreshed look and feel.
 * **SDK update:** StringEncryption macOS app removed and replaced with [AppfigurateSE app, available on macOS App Store](https://apps.apple.com/us/app/appfiguratese/id1466929147?ls=1&mt=12). Includes source editor extension for Xcode to automatically generate encrypted string list items (currently Objective-C only).
 * **SDK update:** Reformatted [API documentation](https://www.electricbolt.co.nz/api/) available.
-* **SDK update:** Preliminary support for Xcode 11.0 (tested with beta 5).
+* **SDK update:** Preliminary support for Xcode 11 (tested with beta 5).
 * **SDK update:** Library now throws an NSException (only when `allowInvalidSignatures` return `YES`, e.g. Debug builds) in the following scenarios: Invalid APLKeychainAccessibility value, Invalid configuration after reset method, Invalid list values found not conforming to regex.
 
 #### 1.2.1 22 May 2019
@@ -39,10 +43,10 @@
 
 #### 1.1.0 12 Sep 2018
 * **SDK update:** Support for watchOS app intent extensions (e.g. SiriKit)
-* **SDK update:** Support for Xcode 10, drop support for Xcode 8
+* **SDK update:** Support for Xcode 10, drop support for Xcode 8.
 
 #### 1.0.1 9 Feb 2018
-* **App update:** Device builds have optional PIN/TouchID/FaceID authentication
+* **App update:** Device builds have optional PIN/TouchID/FaceID authentication.
 
 #### 1.0.0 17 Jan 2018
-* Initial public release, supports Xcode 8 and Xcode 9
+* Initial public release, supports Xcode 8 and Xcode 9.

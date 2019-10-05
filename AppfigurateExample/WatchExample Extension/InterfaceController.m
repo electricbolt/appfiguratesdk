@@ -17,7 +17,7 @@
 
 - (void) awakeWithContext:(id)context {
     [super awakeWithContext:context];
-    [self.table setNumberOfRows:24 withRowType:@"exampleRow"];
+    [self.table setNumberOfRows:26 withRowType:@"exampleRow"];
     APLAddConfigurationUpdatedListener(self);
     [self updateTable];
 }

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,13 +18,13 @@
 		34964732210F0E9700F17BA8 /* WatchExample Intent Extension (watchOS).appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3496472A210F0E9700F17BA8 /* WatchExample Intent Extension (watchOS).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		34964741211054A600F17BA8 /* IntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 34964740211054A600F17BA8 /* IntentHandler.m */; };
 		34964745211054A600F17BA8 /* Intent Extension (iOS).appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3496473D211054A500F17BA8 /* Intent Extension (iOS).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4E41BD232298CB0000C01972 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E41BD222298CB0000C01972 /* libAppfigurateLibrary.a */; };
-		4E41BD242298CB2B00C01972 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E41BD222298CB0000C01972 /* libAppfigurateLibrary.a */; };
-		4E41BD262298CB5F00C01972 /* libAppfigurateWatchLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E41BD252298CB5F00C01972 /* libAppfigurateWatchLibrary.a */; };
-		4E41BD272298CB8900C01972 /* libAppfigurateWatchLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E41BD252298CB5F00C01972 /* libAppfigurateWatchLibrary.a */; };
-		4E41BD282298CBA300C01972 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E41BD222298CB0000C01972 /* libAppfigurateLibrary.a */; };
-		4E41BD292298CBBB00C01972 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E41BD222298CB0000C01972 /* libAppfigurateLibrary.a */; };
-		4E41BD2A2298CBD500C01972 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E41BD222298CB0000C01972 /* libAppfigurateLibrary.a */; };
+		4E440CF823444BB500F29825 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E440CF723444BB500F29825 /* libAppfigurateLibrary.a */; };
+		4E440CF923444BDE00F29825 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E440CF723444BB500F29825 /* libAppfigurateLibrary.a */; };
+		4E440CFA23444BF400F29825 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E440CF723444BB500F29825 /* libAppfigurateLibrary.a */; };
+		4E440CFB23444C0300F29825 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E440CF723444BB500F29825 /* libAppfigurateLibrary.a */; };
+		4E440CFD23444C2400F29825 /* libAppfigurateWatchLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E440CFC23444C2400F29825 /* libAppfigurateWatchLibrary.a */; };
+		4E440CFE23444C4300F29825 /* libAppfigurateWatchLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E440CFC23444C2400F29825 /* libAppfigurateWatchLibrary.a */; };
+		4E440CFF23444C6000F29825 /* libAppfigurateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E440CF723444BB500F29825 /* libAppfigurateLibrary.a */; };
 		4EF14773224B00C000BDC421 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8817C16BF155D008E9937 /* main.m */; };
 		4EF14776224B02ED00BDC421 /* ExampleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7484AB631F6F56CA000D66C3 /* ExampleConfiguration.swift */; };
 		4EF14778224B031200BDC421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C73BAB1F6795110003B691 /* AppDelegate.swift */; };
@@ -174,8 +174,8 @@
 		3496473F211054A600F17BA8 /* IntentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentHandler.h; sourceTree = "<group>"; };
 		34964740211054A600F17BA8 /* IntentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentHandler.m; sourceTree = "<group>"; };
 		34964742211054A600F17BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E41BD222298CB0000C01972 /* libAppfigurateLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateLibrary.a; path = ../AppfigurateLibrary/libAppfigurateLibrary.a; sourceTree = "<group>"; };
-		4E41BD252298CB5F00C01972 /* libAppfigurateWatchLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateWatchLibrary.a; path = ../AppfigurateLibrary/libAppfigurateWatchLibrary.a; sourceTree = "<group>"; };
+		4E440CF723444BB500F29825 /* libAppfigurateLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateLibrary.a; path = ../AppfigurateLibrary/libAppfigurateLibrary.a; sourceTree = "<group>"; };
+		4E440CFC23444C2400F29825 /* libAppfigurateWatchLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateWatchLibrary.a; path = ../AppfigurateLibrary/libAppfigurateWatchLibrary.a; sourceTree = "<group>"; };
 		4E7982672113DB8400BAD091 /* Intent Extension (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Intent Extension (iOS).entitlements"; sourceTree = SOURCE_ROOT; };
 		7426AC821E300C5D0075A727 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WatchExample/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		742AA1541E6E2449003E178E /* AppfigurateExample (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AppfigurateExample (iOS).entitlements"; sourceTree = SOURCE_ROOT; };
@@ -220,7 +220,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E41BD232298CB0000C01972 /* libAppfigurateLibrary.a in Frameworks */,
+				4E440CF823444BB500F29825 /* libAppfigurateLibrary.a in Frameworks */,
 				0BE8817116BF155D008E9937 /* UIKit.framework in Frameworks */,
 				0BE8817316BF155D008E9937 /* Foundation.framework in Frameworks */,
 				0BE8817516BF155D008E9937 /* CoreGraphics.framework in Frameworks */,
@@ -232,7 +232,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E41BD272298CB8900C01972 /* libAppfigurateWatchLibrary.a in Frameworks */,
+				4E440CFE23444C4300F29825 /* libAppfigurateWatchLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +240,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E41BD2A2298CBD500C01972 /* libAppfigurateLibrary.a in Frameworks */,
+				4E440CF923444BDE00F29825 /* libAppfigurateLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +248,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E41BD242298CB2B00C01972 /* libAppfigurateLibrary.a in Frameworks */,
+				4E440CFF23444C6000F29825 /* libAppfigurateLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +256,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E41BD292298CBBB00C01972 /* libAppfigurateLibrary.a in Frameworks */,
+				4E440CFB23444C0300F29825 /* libAppfigurateLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +264,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E41BD282298CBA300C01972 /* libAppfigurateLibrary.a in Frameworks */,
+				4E440CFA23444BF400F29825 /* libAppfigurateLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +272,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E41BD262298CB5F00C01972 /* libAppfigurateWatchLibrary.a in Frameworks */,
+				4E440CFD23444C2400F29825 /* libAppfigurateWatchLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,8 +315,8 @@
 		0BE8816F16BF155D008E9937 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4E41BD252298CB5F00C01972 /* libAppfigurateWatchLibrary.a */,
-				4E41BD222298CB0000C01972 /* libAppfigurateLibrary.a */,
+				4E440CFC23444C2400F29825 /* libAppfigurateWatchLibrary.a */,
+				4E440CF723444BB500F29825 /* libAppfigurateLibrary.a */,
 				0B92D7A41717686200DAAFEC /* AdSupport.framework */,
 				0B8CC9CD16BF2955008258CB /* Security.framework */,
 				0BE8817016BF155D008E9937 /* UIKit.framework */,
@@ -636,7 +636,6 @@
 				TargetAttributes = {
 					0BE8816C16BF155D008E9937 = {
 						LastSwiftMigration = 0900;
-						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
@@ -648,7 +647,6 @@
 					};
 					34964729210F0E9700F17BA8 = {
 						CreatedOnToolsVersion = 9.4.1;
-						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
@@ -657,7 +655,6 @@
 					};
 					3496473C211054A500F17BA8 = {
 						CreatedOnToolsVersion = 9.4.1;
-						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
@@ -666,16 +663,13 @@
 					};
 					748295AE1FD3EF3A0046D63A = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Manual;
 						TestTargetID = 0BE8816C16BF155D008E9937;
 					};
 					74C73BA81F6795110003B691 = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Manual;
 					};
 					74D879931E6CEE620017E90C = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
@@ -684,11 +678,9 @@
 					};
 					74E4D6651E0B1DD300A8C046 = {
 						CreatedOnToolsVersion = 8.2;
-						ProvisioningStyle = Manual;
 					};
 					74E4D6711E0B1DD300A8C046 = {
 						CreatedOnToolsVersion = 8.2;
-						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
@@ -701,7 +693,7 @@
 				};
 			};
 			buildConfigurationList = 0BE8816816BF155D008E9937 /* Build configuration list for PBXProject "AppfigurateExample" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1028,7 +1020,8 @@
 				LIBRARY_SEARCH_PATHS = "../AppfigurateLibrary/**";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1040,13 +1033,18 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "AppfigurateExample (iOS).entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.3.1.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "AppfigurateExample/AppfigurateExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1065,13 +1063,18 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "AppfigurateExample (iOS).entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.3.1.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "AppfigurateExample/AppfigurateExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1097,15 +1100,22 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = "WatchExample Intent Extension (watchOS).entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.3.1.1000;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "WatchExample Intent Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks @executable_path/../../../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.3.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.watchkitapp.watchkitextension.intentextension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1132,9 +1142,10 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = "WatchExample Intent Extension (watchOS).entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.3.1.1000;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1142,7 +1153,13 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "WatchExample Intent Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks @executable_path/../../../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.3.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.watchkitapp.watchkitextension.intentextension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1169,8 +1186,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = "Intent Extension (iOS).entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.3.1.1000;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1178,7 +1196,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "Intent Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.3.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.intentextension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1203,9 +1226,10 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = "Intent Extension (iOS).entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.3.1.1000;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1214,7 +1238,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "Intent Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.3.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.intentextension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1235,7 +1264,8 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = "";
@@ -1244,11 +1274,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = AppfigurateExampleUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.AppfigurateExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "AppfigurateExample (iOS)";
 			};
@@ -1265,7 +1300,8 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1276,11 +1312,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = AppfigurateExampleUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.AppfigurateExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "AppfigurateExample (iOS)";
 			};
@@ -1296,16 +1337,21 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.3.1.1000;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = SwiftExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.SwiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1328,10 +1374,11 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.3.1.1000;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1339,13 +1386,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = SwiftExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.SwiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftExample/SwiftExample-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1361,16 +1413,22 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = "ActionExample Extension (iOS).entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.3.1.1000;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = ActionExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.3.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.ActionExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1390,10 +1448,11 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = "ActionExample Extension (iOS).entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.3.1.1000;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1401,7 +1460,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = ActionExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.3.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.ActionExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1420,15 +1484,17 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.3.1.1000;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				IBSC_MODULE = WatchExample_Extension;
 				INFOPLIST_FILE = WatchExample/Info.plist;
+				MARKETING_VERSION = 1.3.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.watchkitapp;
 				PRODUCT_NAME = WatchExample;
@@ -1450,10 +1516,11 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.3.1.1000;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1461,6 +1528,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				IBSC_MODULE = WatchExample_Extension;
 				INFOPLIST_FILE = WatchExample/Info.plist;
+				MARKETING_VERSION = 1.3.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.watchkitapp;
 				PRODUCT_NAME = WatchExample;
@@ -1483,15 +1551,21 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = WatchExampleExtension.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.3.1.1000;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "WatchExample Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.3.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.watchkitapp.watchkitextension;
 				PRODUCT_NAME = WatchExampleExtension;
@@ -1514,17 +1588,23 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = WatchExampleExtension.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.3.1.1000;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "WatchExample Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.3.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.watchkitapp.watchkitextension;
 				PRODUCT_NAME = WatchExampleExtension;
