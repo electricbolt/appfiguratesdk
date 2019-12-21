@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AppfigurateLibrary"
-  s.version      = "1.3.1"
+  s.version      = "1.4.0"
   s.summary      = "Secure runtime configuration for iOS and watchOS, apps and app extensions"
   s.description  = "Appfigurate is a suite of tools for iOS and watchOS developers and testers, that allow you to securely configure your apps and app extensions at runtime. Appfigurate increases your efficiency by removing the edit/compile/deploy cycle when you need to make configuration changes. This cocoapod only adds the client library to your app, you will also need to install Appfigurate app into your iOS Simulator - 'git clone https://github.com/electricbolt/appfiguratesdk.git'"
   s.homepage     = "https://github.com/electricbolt/appfiguratesdk"
