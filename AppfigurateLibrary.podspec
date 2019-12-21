@@ -102,7 +102,7 @@ New Zealand.
   }
 
   s.author                     = { 'Electric Bolt Limited' => 'support@electricbolt.co.nz' }
-  s.source                     = { :git => "https://github.com/electricbolt/appfiguratesdk.git", :tag => '1.3.1' }
+  s.source                     = { :git => "https://github.com/electricbolt/appfiguratesdk.git", :tag => '1.4.0' }
   s.ios.deployment_target      = '8.0'
   s.watchos.deployment_target  = '2.0'
   s.source_files               = 'AppfigurateLibrary/*.h'
