@@ -48,6 +48,34 @@ DOUBLE_PROPERTY_LIST(double_List, @"Double - fixed list", @{@"None":@-100.0,@"Lo
 DOUBLE_PROPERTY_LIST_EDIT(double_Textfield_List, 0.0, 100.0, @"", @"Double - textfield, customizable list", @{@"Failed":@0.0,@"Pass":@80.0,@"Excellence":@90.0});
 DOUBLE_PROPERTY_LIST_EDIT(double_RegexTextfield_List, 0.0, 366.0, @"^(0?[0-9]?[0-9]|[1-2][0-9][0-9]|3[0-5][0-9]|36[0-5])?(?:\\.\\d+)?$", @"Double - textfield with regex, customizable list", @{@"0 days":@0.0,@"1 month":@30.0,@"1 Year":@365.0});
 
+ACTION_METHOD(randomIntegers, @"Set all integer properties to random values") {
+    self.integer_Slider = rand() % 1001;
+    self.integer_Textfield = (rand() % 10) + 10;
+    self.integer_RegexTextfield = (rand() % 998) + 1;
+    switch (rand() % 5) {
+        case 0: self.integer_List = -100; break;
+        case 1: self.integer_List = -50; break;
+        case 2: self.integer_List = 0; break;
+        case 3: self.integer_List = 50; break;
+        default: self.integer_List = 100;
+    }
+    switch (rand() % 3) {
+        case 0: self.integer_Textfield_List = 0; break;
+        case 1: self.integer_Textfield_List = 80; break;
+        default: self.integer_Textfield_List = 90;
+    }
+    self.integer_RegexTextfield_List = rand() % 366;
+}
+
+ACTION_METHOD(resetIntegers, @"Reset integer properties to defaults") {
+    self.integer_Slider = 500;
+    self.integer_Textfield = 10;
+    self.integer_RegexTextfield = 500;
+    self.integer_List = 0;
+    self.integer_Textfield_List = 80;
+    self.integer_RegexTextfield_List = 30;
+}
+
 - (BOOL) allowInvalidSignatures {
 #if DEBUG
     return YES;

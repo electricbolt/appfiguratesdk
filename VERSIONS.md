@@ -1,5 +1,9 @@
 ### Release History
 
+#### 1.4.0 21 December 2019
+* **App update:** Support for iOS 13 Dark Mode.
+* **SDK update:** Added ability to execute custom actions declared in an `APLConfiguration` subclass. Check API documentation for [ACTION_METHOD](https://www.electricbolt.co.nz/api/) macro.
+
 #### 1.3.1 6 October 2019
 * **App update:** Minor fixes to UI for iOS 13 compatibility.
 * **SDK update:** Support for Xcode 11, drop support for Xcode 9.

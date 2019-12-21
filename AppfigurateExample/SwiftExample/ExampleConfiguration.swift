@@ -548,7 +548,43 @@ import Foundation
                 "1 month":30.0,
                 "1 Year":365.0]
     }
+    
+    @objc func randomIntegersDescription() -> String {
+        return "Set all integer properties to random values";
+    }
+    
+    @objc func randomIntegersAction() {
+        integer_Slider = Int.random(in: 0...1000)
+        integer_Textfield = Int.random(in: 10...20)
+        integer_RegexTextfield = Int.random(in: 1...999)
+        switch (Int.random(in: 0...4)) {
+            case 0: integer_List = -100;
+            case 1: integer_List = -50;
+            case 2: integer_List = 0;
+            case 3: integer_List = 50;
+            default: integer_List = 100;
+        }
+        switch (Int.random(in: 0...2)) {
+            case 0: integer_Textfield_List = 0;
+            case 1: integer_Textfield_List = 80;
+            default: integer_Textfield_List = 90;
+        }
+        integer_RegexTextfield_List = Int.random(in: 0...366)
+    }
 
+    @objc func resetIntegersDescription() -> String {
+        return "Reset integer properties to defaults"
+    }
+    
+    @objc func resetIntegersAction() {
+        integer_Slider = 500
+        integer_Textfield = 10
+        integer_RegexTextfield = 500
+        integer_List = 0
+        integer_Textfield_List = 80
+        integer_RegexTextfield_List = 30
+    }
+    
     @objc override func allowInvalidSignatures() -> Bool {
 #if DEBUG
         return true

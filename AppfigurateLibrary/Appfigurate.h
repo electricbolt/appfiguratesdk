@@ -44,6 +44,14 @@ typedef NS_ENUM(NSInteger, APLPredefinedIcon) {
 
 //------------------------------------------------------------------------------
 
+#define ACTION_METHOD(actionName, description) \
+- (NSString*) actionName##Description { \
+    return description; \
+} \
+- (void) actionName##Action
+
+//------------------------------------------------------------------------------
+
 // * BOOL *
 
 // BOOL property
