@@ -46,11 +46,20 @@
 	<array>
 		<dict>
 			<key>CFBundleURLName</key>
+			<string>appfigurate.internal</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>appfiguratei</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLName</key>
 			<string>nz.co.electricbolt.appfigurate</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>appfigurate</string>
 				<string>appfigurate1</string>
+				<string>appfigurate2</string>
 			</array>
 		</dict>
 	</array>

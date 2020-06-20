@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = "AppfigurateLibrary"
-  s.version      = "1.4.0"
+  s.version      = "2.0.0"
   s.summary      = "Secure runtime configuration for iOS and watchOS, apps and app extensions"
-  s.description  = "Appfigurate is a suite of tools for iOS and watchOS developers and testers, that allow you to securely configure your apps and app extensions at runtime. Appfigurate increases your efficiency by removing the edit/compile/deploy cycle when you need to make configuration changes. This cocoapod only adds the client library to your app, you will also need to install Appfigurate app into your iOS Simulator - 'git clone https://github.com/electricbolt/appfiguratesdk.git'"
+  s.description  = "Appfigurate provides the ability to change configuration properties in iOS and watchOS, apps and app extensions, securely, at runtime. This cocoapod only adds the client library to your app, you will also need to install Appfigurate app into your iOS Simulator - 'git clone https://github.com/electricbolt/appfiguratesdk.git'"
   s.homepage     = "https://github.com/electricbolt/appfiguratesdk"
   s.license	     = {
       :type => 'Copyright',
@@ -11,7 +11,7 @@ Appfigurate™ License Agreement.
 
 1. Preamble
 
-1.1 The Appfigurate SDK (“SDK”) comprising of iOS & watchOS static libraries, header files, examples, documentation and Appfigurate Simulator app are licensed to you subject to the terms of this License Agreement. This License Agreement forms a legally binding contract between you and Electric Bolt in relation to your use of the SDK.
+1.1 The Appfigurate SDK (“SDK”) comprising of a static XCFramework, header files, examples, documentation and Appfigurate Simulator app are licensed to you subject to the terms of this License Agreement. This License Agreement forms a legally binding contract between you and Electric Bolt in relation to your use of the SDK.
 
 1.2 "Electric Bolt" means Electric Bolt Limited, a limited liability company registered in
 New Zealand.
@@ -20,13 +20,13 @@ New Zealand.
 
 2.1 In order to use the SDK, you must first agree to this License Agreement. You may not use the SDK if you do not accept this License Agreement.
 
-2.2 You can accept this License Agreement by embedding the iOS or watchOS libraries into your own apps, or by using the Appfigurate Simulator app. You agree that use of the SDK constitutes acceptance of the Licensing Agreement from that point onwards.
+2.2 You can accept this License Agreement by linking the static XCFramework into your own apps, or by using the Appfigurate Simulator app. You agree that use of the SDK constitutes acceptance of the Licensing Agreement from that point onwards.
 
 2.3 If you are agreeing to be bound by this License Agreement on behalf of your employer or other entity, you represent and warrant that you have full legal authority to bind your employer or such entity to this License Agreement. If you do not have the requisite authority, you may not accept the Licensing Agreement or use the SDK on behalf of your employer or other entity.
 
 3. SDK License from Electric Bolt
 
-3.1 Subject to the terms of this License Agreement, Electric Bolt grants you a limited, worldwide, royalty-free, non-sublicenseable, non-assignable and non-exclusive license to use the SDK to embed the iOS or watchOS libraries into your own apps.
+3.1 Subject to the terms of this License Agreement, Electric Bolt grants you a limited, worldwide, royalty-free, non-sublicenseable, non-assignable and non-exclusive license to use the SDK to link the static XCFramework into your own apps.
 
 3.2 You agree that the form and nature of the SDK that Electric Bolt provides may change without prior notice to you and that future versions of the SDK may be incompatible with apps developed on previous versions of the SDK. You agree that Electric Bolt may stop (permanently or temporarily) providing the SDK (or any features within the SDK) to you at Electric Bolt’s sole discretion, without prior notice.
 
@@ -102,11 +102,9 @@ New Zealand.
   }
 
   s.author                     = { 'Electric Bolt Limited' => 'support@electricbolt.co.nz' }
-  s.source                     = { :git => "https://github.com/electricbolt/appfiguratesdk.git", :tag => '1.4.0' }
+  s.source                     = { :git => "https://github.com/electricbolt/appfiguratesdk.git", :tag => '2.0.0' }
   s.ios.deployment_target      = '8.0'
   s.watchos.deployment_target  = '2.0'
-  s.source_files               = 'AppfigurateLibrary/*.h'
-  s.ios.vendored_libraries     = 'AppfigurateLibrary/libAppfigurateLibrary.a'
-  s.watchos.vendored_libraries = 'AppfigurateLibrary/libAppfigurateWatchLibrary.a'
+  s.vendored_frameworks        = 'AppfigurateLibrary.xcframework'
   
 end

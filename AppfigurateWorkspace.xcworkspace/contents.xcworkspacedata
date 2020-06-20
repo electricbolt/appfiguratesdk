@@ -5,6 +5,9 @@
       location = "group:Appfigurate/Appfigurate.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:AppfigurateExample/AppfigurateExample.xcodeproj">
+      location = "group:ObjCExample/ObjCExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SwiftExample/SwiftExample.xcodeproj">
    </FileRef>
 </Workspace>
