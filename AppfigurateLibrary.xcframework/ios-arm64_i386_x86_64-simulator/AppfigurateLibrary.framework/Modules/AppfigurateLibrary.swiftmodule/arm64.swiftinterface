@@ -1,0 +1,551 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-module-flags: -target arm64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AppfigurateLibrary
+@_exported import AppfigurateLibrary
+import Foundation
+import Swift
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class APLPropertyWrapperIntrospection : ObjectiveC.NSObject {
+  @objc public static func shared() -> AppfigurateLibrary.APLPropertyWrapperIntrospection
+  @objc public func getPropertyName(_ name: Swift.String!, configuration: AppfigurateLibrary.APLConfiguration!) -> [Swift.AnyHashable : Any]!
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class APLDemangle : ObjectiveC.NSObject {
+  @objc public static func demangle(symbol: Swift.String) -> Swift.String?
+  @objc deinit
+  @objc override dynamic public init()
+}
+public protocol AppfigurateProperty {
+}
+public protocol _BoolProtocol {
+}
+extension Bool : AppfigurateLibrary._BoolProtocol {
+}
+@propertyWrapper public struct BoolProperty<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._BoolProtocol {
+  public let description: Swift.String
+  public let restart: Swift.Bool
+  public init(description: Swift.String, restart: Swift.Bool)
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+public protocol _IntProtocol {
+}
+extension Int : AppfigurateLibrary._IntProtocol {
+}
+@propertyWrapper public struct IntPropertySlider<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._IntProtocol {
+  public let description: Swift.String
+  public let restart: Swift.Bool
+  public let min: Swift.Int
+  public let max: Swift.Int
+  public let icon: AppfigurateLibrary.APLIconSlider
+  public init(min: Swift.Int, max: Swift.Int, icon: AppfigurateLibrary.APLIconSlider, description: Swift.String, restart: Swift.Bool)
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+@propertyWrapper public struct IntPropertyEdit<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._IntProtocol {
+  public let description: Swift.String
+  public let restart: Swift.Bool
+  public let min: Swift.Int
+  public let max: Swift.Int
+  public let regex: Swift.String
+  public init(min: Swift.Int, max: Swift.Int, regex: Swift.String, description: Swift.String, restart: Swift.Bool)
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+@propertyWrapper public struct IntPropertyList<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._IntProtocol {
+  public let description: Swift.String
+  public let restart: Swift.Bool
+  public let values: [Swift.String : Swift.Int]
+  public init(description: Swift.String, restart: Swift.Bool, values: [Swift.String : Swift.Int])
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+@propertyWrapper public struct IntPropertyListEdit<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._IntProtocol {
+  public let description: Swift.String
+  public let restart: Swift.Bool
+  public let min: Swift.Int
+  public let max: Swift.Int
+  public let regex: Swift.String
+  public let values: [Swift.String : Swift.Int]
+  public init(min: Swift.Int, max: Swift.Int, regex: Swift.String, description: Swift.String, restart: Swift.Bool, values: [Swift.String : Swift.Int])
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+public protocol _FloatProtocol {
+}
+extension Float : AppfigurateLibrary._FloatProtocol {
+}
+@propertyWrapper public struct FloatPropertySlider<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._FloatProtocol {
+  public let description: Swift.String
+  public let restart: Swift.Bool
+  public let min: Swift.Float
+  public let max: Swift.Float
+  public let icon: AppfigurateLibrary.APLIconSlider
+  public init(min: Swift.Float, max: Swift.Float, icon: AppfigurateLibrary.APLIconSlider, description: Swift.String, restart: Swift.Bool)
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+@propertyWrapper public struct FloatPropertyEdit<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._FloatProtocol {
+  public let description: Swift.String
+  public let restart: Swift.Bool
+  public let min: Swift.Float
+  public let max: Swift.Float
+  public let regex: Swift.String
+  public init(min: Swift.Float, max: Swift.Float, regex: Swift.String, description: Swift.String, restart: Swift.Bool)
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+@propertyWrapper public struct FloatPropertyList<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._FloatProtocol {
+  public let description: Swift.String
+  public let restart: Swift.Bool
+  public let values: [Swift.String : Swift.Float]
+  public init(description: Swift.String, restart: Swift.Bool, values: [Swift.String : Swift.Float])
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+@propertyWrapper public struct FloatPropertyListEdit<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._FloatProtocol {
+  public let description: Swift.String
+  public let restart: Swift.Bool
+  public let min: Swift.Float
+  public let max: Swift.Float
+  public let regex: Swift.String
+  public let values: [Swift.String : Swift.Float]
+  public init(min: Swift.Float, max: Swift.Float, regex: Swift.String, description: Swift.String, restart: Swift.Bool, values: [Swift.String : Swift.Float])
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+public protocol _DoubleProtocol {
+}
+extension Double : AppfigurateLibrary._DoubleProtocol {
+}
+@propertyWrapper public struct DoublePropertySlider<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._DoubleProtocol {
+  public let description: Swift.String
+  public let restart: Swift.Bool
+  public let min: Swift.Double
+  public let max: Swift.Double
+  public let icon: AppfigurateLibrary.APLIconSlider
+  public init(min: Swift.Double, max: Swift.Double, icon: AppfigurateLibrary.APLIconSlider, description: Swift.String, restart: Swift.Bool)
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+@propertyWrapper public struct DoublePropertyEdit<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._DoubleProtocol {
+  public let description: Swift.String
+  public let restart: Swift.Bool
+  public let min: Swift.Float
+  public let max: Swift.Float
+  public let regex: Swift.String
+  public init(min: Swift.Float, max: Swift.Float, regex: Swift.String, description: Swift.String, restart: Swift.Bool)
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+@propertyWrapper public struct DoublePropertyList<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._DoubleProtocol {
+  public let description: Swift.String
+  public let restart: Swift.Bool
+  public let values: [Swift.String : Swift.Float]
+  public init(description: Swift.String, restart: Swift.Bool, values: [Swift.String : Swift.Float])
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+@propertyWrapper public struct DoublePropertyListEdit<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._DoubleProtocol {
+  public let description: Swift.String
+  public let restart: Swift.Bool
+  public let min: Swift.Double
+  public let max: Swift.Double
+  public let regex: Swift.String
+  public let values: [Swift.String : Swift.Double]
+  public init(min: Swift.Double, max: Swift.Double, regex: Swift.String, description: Swift.String, restart: Swift.Bool, values: [Swift.String : Swift.Double])
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+public protocol _StringProtocol {
+}
+extension String : AppfigurateLibrary._StringProtocol {
+}
+@propertyWrapper public struct StringPropertyEdit<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._StringProtocol {
+  public let description: Swift.String
+  public let restart: Swift.Bool
+  public let regex: Swift.String
+  public init(regex: Swift.String, description: Swift.String, restart: Swift.Bool)
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+@propertyWrapper public struct StringPropertyList<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._StringProtocol {
+  public let description: Swift.String
+  public let restart: Swift.Bool
+  public let values: [Swift.String : Swift.String]
+  public init(description: Swift.String, restart: Swift.Bool, values: [Swift.String : Swift.String])
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+@propertyWrapper public struct StringPropertyListEdit<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._StringProtocol {
+  public let description: Swift.String
+  public let restart: Swift.Bool
+  public let regex: Swift.String
+  public let values: [Swift.String : Swift.String]
+  public init(regex: Swift.String, description: Swift.String, restart: Swift.Bool, values: [Swift.String : Swift.String])
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+@propertyWrapper public struct EncryptedStringPropertyListEdit<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._StringProtocol {
+  public let description: Swift.String
+  public let restart: Swift.Bool
+  public let regex: Swift.String
+  public let values: [Swift.String : Swift.String]
+  public let encrypted: Swift.Bool
+  public init(regex: Swift.String, description: Swift.String, encrypted: Swift.Bool, restart: Swift.Bool, values: [Swift.String : Swift.String])
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+public func _APLParseMangledSwiftSymbol(_ mangled: Swift.String, isType: Swift.Bool = false) throws -> AppfigurateLibrary._APLSwiftSymbol
+public func _APLParseMangledSwiftSymbol<C>(_ mangled: C, isType: Swift.Bool = false, symbolicReferenceResolver: ((Swift.Int32, Swift.Int) throws -> AppfigurateLibrary._APLSwiftSymbol)? = nil) throws -> AppfigurateLibrary._APLSwiftSymbol where C : Swift.Collection, C.Element == Swift.UnicodeScalar
+extension _APLSwiftSymbol : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+  public func print(using options: AppfigurateLibrary._APLSymbolPrintOptions = .default) -> Swift.String
+}
+public struct _APLSymbolPrintOptions : Swift.OptionSet {
+  public let rawValue: Swift.Int
+  public static let synthesizeSugarOnTypes: AppfigurateLibrary._APLSymbolPrintOptions
+  public static let displayDebuggerGeneratedModule: AppfigurateLibrary._APLSymbolPrintOptions
+  public static let qualifyEntities: AppfigurateLibrary._APLSymbolPrintOptions
+  public static let displayExtensionContexts: AppfigurateLibrary._APLSymbolPrintOptions
+  public static let displayUnmangledSuffix: AppfigurateLibrary._APLSymbolPrintOptions
+  public static let displayModuleNames: AppfigurateLibrary._APLSymbolPrintOptions
+  public static let displayGenericSpecializations: AppfigurateLibrary._APLSymbolPrintOptions
+  public static let displayProtocolConformances: AppfigurateLibrary._APLSymbolPrintOptions
+  public static let displayWhereClauses: AppfigurateLibrary._APLSymbolPrintOptions
+  public static let displayEntityTypes: AppfigurateLibrary._APLSymbolPrintOptions
+  public static let shortenPartialApply: AppfigurateLibrary._APLSymbolPrintOptions
+  public static let shortenThunk: AppfigurateLibrary._APLSymbolPrintOptions
+  public static let shortenValueWitness: AppfigurateLibrary._APLSymbolPrintOptions
+  public static let shortenArchetype: AppfigurateLibrary._APLSymbolPrintOptions
+  public static let showPrivateDiscriminators: AppfigurateLibrary._APLSymbolPrintOptions
+  public static let showFunctionArgumentTypes: AppfigurateLibrary._APLSymbolPrintOptions
+  public init(rawValue: Swift.Int)
+  public static let `default`: AppfigurateLibrary._APLSymbolPrintOptions
+  public static let simplified: AppfigurateLibrary._APLSymbolPrintOptions
+  public typealias Element = AppfigurateLibrary._APLSymbolPrintOptions
+  public typealias ArrayLiteralElement = AppfigurateLibrary._APLSymbolPrintOptions
+  public typealias RawValue = Swift.Int
+}
+public struct _APLSwiftSymbol {
+  public let kind: AppfigurateLibrary._APLSwiftSymbol.Kind
+  public var children: [AppfigurateLibrary._APLSwiftSymbol]
+  public let contents: AppfigurateLibrary._APLSwiftSymbol.Contents
+  public enum Contents {
+    case none
+    case index(Swift.UInt64)
+    case name(Swift.String)
+  }
+  public init(kind: AppfigurateLibrary._APLSwiftSymbol.Kind, children: [AppfigurateLibrary._APLSwiftSymbol] = [], contents: AppfigurateLibrary._APLSwiftSymbol.Contents = .none)
+}
+extension _APLSwiftSymbol {
+  public enum Kind {
+    case `class`
+    case `enum`
+    case `extension`
+    case `protocol`
+    case protocolSymbolicReference
+    case `static`
+    case `subscript`
+    case allocator
+    case anonymousContext
+    case anonymousDescriptor
+    case argumentTuple
+    case associatedConformanceDescriptor
+    case associatedType
+    case associatedTypeDescriptor
+    case associatedTypeGenericParamRef
+    case associatedTypeMetadataAccessor
+    case associatedTypeRef
+    case associatedTypeWitnessTableAccessor
+    case assocTypePath
+    case autoClosureType
+    case boundGenericClass
+    case boundGenericEnum
+    case boundGenericFunction
+    case boundGenericOtherNominalType
+    case boundGenericProtocol
+    case boundGenericStructure
+    case boundGenericTypeAlias
+    case builtinTypeName
+    case cFunctionPointer
+    case classMetadataBaseOffset
+    case constructor
+    case coroutineContinuationPrototype
+    case curryThunk
+    case deallocator
+    case declContext
+    case defaultArgumentInitializer
+    case defaultAssociatedConformanceAccessor
+    case defaultAssociatedTypeMetadataAccessor
+    case dependentAssociatedTypeRef
+    case dependentGenericConformanceRequirement
+    case dependentGenericLayoutRequirement
+    case dependentGenericParamCount
+    case dependentGenericParamType
+    case dependentGenericSameTypeRequirement
+    case dependentGenericSignature
+    case dependentGenericType
+    case dependentMemberType
+    case dependentPseudogenericSignature
+    case destructor
+    case didSet
+    case directMethodReferenceAttribute
+    case directness
+    case dispatchThunk
+    case dynamicAttribute
+    case dynamicSelf
+    case emptyList
+    case enumCase
+    case errorType
+    case escapingAutoClosureType
+    case existentialMetatype
+    case explicitClosure
+    case extensionDescriptor
+    case fieldOffset
+    case firstElementMarker
+    case fullTypeMetadata
+    case function
+    case functionSignatureSpecialization
+    case functionSignatureSpecializationParam
+    case functionSignatureSpecializationParamKind
+    case functionSignatureSpecializationParamPayload
+    case functionType
+    case genericPartialSpecialization
+    case genericPartialSpecializationNotReAbstracted
+    case genericProtocolWitnessTable
+    case genericProtocolWitnessTableInstantiationFunction
+    case genericSpecialization
+    case genericSpecializationNotReAbstracted
+    case genericSpecializationParam
+    case genericTypeMetadataPattern
+    case genericTypeParamDecl
+    case getter
+    case global
+    case globalGetter
+    case identifier
+    case implConvention
+    case implErrorResult
+    case implEscaping
+    case implFunctionAttribute
+    case implFunctionType
+    case implicitClosure
+    case implParameter
+    case implResult
+    case index
+    case infixOperator
+    case initializer
+    case inlinedGenericFunction
+    case inOut
+    case isSerialized
+    case iVarDestroyer
+    case iVarInitializer
+    case keyPathEqualsThunkHelper
+    case keyPathGetterThunkHelper
+    case keyPathHashThunkHelper
+    case keyPathSetterThunkHelper
+    case labelList
+    case lazyProtocolWitnessTableAccessor
+    case lazyProtocolWitnessTableCacheVariable
+    case localDeclName
+    case materializeForSet
+    case mergedFunction
+    case metaclass
+    case metatype
+    case metatypeRepresentation
+    case methodDescriptor
+    case methodLookupFunction
+    case modifyAccessor
+    case module
+    case moduleDescriptor
+    case nativeOwningAddressor
+    case nativeOwningMutableAddressor
+    case nativePinningAddressor
+    case nativePinningMutableAddressor
+    case noEscapeFunctionType
+    case nominalTypeDescriptor
+    case nonObjCAttribute
+    case number
+    case objCAttribute
+    case objCBlock
+    case otherNominalType
+    case outlinedAssignWithCopy
+    case outlinedAssignWithTake
+    case outlinedBridgedMethod
+    case outlinedConsume
+    case outlinedCopy
+    case outlinedDestroy
+    case outlinedInitializeWithCopy
+    case outlinedInitializeWithTake
+    case outlinedRelease
+    case outlinedRetain
+    case outlinedVariable
+    case owned
+    case owningAddressor
+    case owningMutableAddressor
+    case partialApplyForwarder
+    case partialApplyObjCForwarder
+    case postfixOperator
+    case prefixOperator
+    case privateDeclName
+    case propertyDescriptor
+    case protocolConformance
+    case protocolConformanceDescriptor
+    case protocolDescriptor
+    case protocolList
+    case protocolListWithAnyObject
+    case protocolListWithClass
+    case protocolRequirementsBaseDescriptor
+    case protocolWitness
+    case protocolWitnessTable
+    case protocolWitnessTableAccessor
+    case protocolWitnessTablePattern
+    case reabstractionThunk
+    case reabstractionThunkHelper
+    case readAccessor
+    case reflectionMetadataAssocTypeDescriptor
+    case reflectionMetadataBuiltinDescriptor
+    case reflectionMetadataFieldDescriptor
+    case reflectionMetadataSuperclassDescriptor
+    case relatedEntityDeclName
+    case resilientProtocolWitnessTable
+    case retroactiveConformance
+    case returnType
+    case setter
+    case shared
+    case silBoxImmutableField
+    case silBoxLayout
+    case silBoxMutableField
+    case silBoxType
+    case silBoxTypeWithLayout
+    case specializationPassID
+    case structure
+    case suffix
+    case sugaredOptional
+    case sugaredArray
+    case sugaredDictionary
+    case sugaredParen
+    case typeSymbolicReference
+    case thinFunctionType
+    case throwsAnnotation
+    case tuple
+    case tupleElement
+    case tupleElementName
+    case type
+    case typeAlias
+    case typeList
+    case typeMangling
+    case typeMetadata
+    case typeMetadataAccessFunction
+    case typeMetadataCompletionFunction
+    case typeMetadataInstantiationCache
+    case typeMetadataInstantiationFunction
+    case typeMetadataLazyCache
+    case typeMetadataSingletonInitializationCache
+    case uncurriedFunctionType
+    case unmanaged
+    case unowned
+    case unsafeAddressor
+    case unsafeMutableAddressor
+    case valueWitness
+    case valueWitnessTable
+    case variable
+    case variadicMarker
+    case vTableAttribute
+    case vTableThunk
+    case weak
+    case willSet
+    public static func == (a: AppfigurateLibrary._APLSwiftSymbol.Kind, b: AppfigurateLibrary._APLSwiftSymbol.Kind) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+    public func hash(into hasher: inout Swift.Hasher)
+  }
+}
+public enum _APLSwiftSymbolParseError : Swift.Error {
+  case utf8ParseError
+  case unexpected(at: Swift.Int)
+  case matchFailed(wanted: Swift.String, at: Swift.Int)
+  case expectedInt(at: Swift.Int)
+  case endedPrematurely(count: Swift.Int, at: Swift.Int)
+  case searchFailed(wanted: Swift.String, after: Swift.Int)
+  case integerOverflow(at: Swift.Int)
+}
+
+
+
+extension AppfigurateLibrary._APLSwiftSymbol.Kind : Swift.Equatable {}
+extension AppfigurateLibrary._APLSwiftSymbol.Kind : Swift.Hashable {}
+@inlinable public func ENCRYPTED() -> Swift.Bool {
+  var debug = false
+  assert({debug = true; return true}())
+  if debug {
+    APLLogS(.debug, "ENCRYPTED inlinable -> false")
+    return false
+  } else {
+    APLLogS(.debug, "ENCRYPTED inlinable -> true")
+    return true
+  }
+}
+@inlinable public func ENCRYPTED_STRING(_ plain: Swift.String, _ cipher: Swift.String) -> Swift.String {
+  var debug = false
+  assert({debug = true; return true}())
+  if debug {
+    APLLogS(.debug, "ENCRYPTED_STRING inlinable -> plain")
+    return plain
+  } else {
+    APLLogS(.debug, "ENCRYPTED_STRING inlinable -> cipher")
+    return cipher
+  }
+}
+@inlinable public func ENCRYPTED_STRING_IOS_WATCHOS(_ plain: Swift.String, _ cipherIOS: Swift.String, _ cipherWatchOS: Swift.String) -> Swift.String {
+  var debug = false
+  assert({debug = true; return true}())
+  if debug {
+    APLLogS(.debug, "ENCRYPTED_STRING_IOS_WATCHOS inlinable -> plain")
+    return plain
+  } else {
+    #if os(iOS)
+       APLLogS(.debug, "ENCRYPTED_STRING_IOS_WATCHOS inlinable -> cipherIOS")
+       return cipherIOS
+    #else
+       APLLogS(.debug, "ENCRYPTED_STRING_IOS_WATCHOS inlinable -> cipherWatchOS")
+       return cipherWatchOS
+    #endif
+  }
+}

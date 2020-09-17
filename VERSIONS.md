@@ -1,5 +1,18 @@
 ### Release History
 
+#### 2.0.2 17 September 2020
+
+* **Xcode:** 12.0+, **Minimum deployment target:** iOS 9.0, watchOS 3.0
+* **App:** Changes required for compatibility with iOS 14
+* **SDK:** Adds support for Swift Package Manager. Existing integration technologies (Manual, Carthage, Cocoapods) continue to be available.
+* **SDK:** Appfigurate Library security enhancements - digital signature verification of applied configuration via secure enclave on eligible devices.
+* **SDK:** Partial Apple Silicon support - Appfigurate Library contains arm64 architecture for iOS and watchOS Simulators. A future release will support running Appfigurate Simulator on Apple Silicon Macs. 
+
+#### 2.0.1 13 July 2020
+
+* **Xcode:** 11.5+, **Minimum deployment target:** iOS 9.0, watchOS 3.0
+* **SDK:** [Bug fix](https://github.com/electricbolt/appfiguratesdk/issues/1) for [AppfigurateSE macOS app](https://apps.apple.com/us/app/appfiguratese/id1466929147?ls=1&mt=12) only.
+
 #### 2.0.0 21 June 2020
 
 * **Xcode:** 11.5+, **Minimum deployment target:** iOS 9.0, watchOS 3.0

@@ -26,8 +26,8 @@
 		4E1BB0BE222FBDED009E9E29 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1BB0B9222FBDEC009E9E29 /* AVFoundation.framework */; };
 		4E1BB0C0222FBDF7009E9E29 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1BB0BF222FBDF6009E9E29 /* CoreImage.framework */; };
 		4E5D322B244DAC73002D2691 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5D3229244DAC73002D2691 /* WatchConnectivity.framework */; };
-		4E7E8E1C2462AC18005D86BD /* libAppfigurateCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7E8E1B2462AC02005D86BD /* libAppfigurateCore.a */; };
 		4EA3F0FC2415C97D00B3765B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EA3F0FB2415C97D00B3765B /* LaunchScreen.storyboard */; };
+		4ED7831725009B27000333D2 /* libAppfigurateCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED7831625009B27000333D2 /* libAppfigurateCore.a */; };
 		4EDF2F4722FE9132002DB2F3 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDF2F4122FE9132002DB2F3 /* MultipeerConnectivity.framework */; };
 		4EE600CF21D382EB0084C002 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE600CA21D382EB0084C002 /* StoreKit.framework */; };
 		7401BF101E53ADD3009A19D9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7401BF0F1E53ADD3009A19D9 /* Settings.bundle */; };
@@ -74,8 +74,8 @@
 		4E1BB0B9222FBDEC009E9E29 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4E1BB0BF222FBDF6009E9E29 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		4E5D3229244DAC73002D2691 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
-		4E7E8E1B2462AC02005D86BD /* libAppfigurateCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateCore.a; path = Appfigurate/libAppfigurateCore.a; sourceTree = "<group>"; };
 		4EA3F0FB2415C97D00B3765B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ED7831625009B27000333D2 /* libAppfigurateCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppfigurateCore.a; path = Appfigurate/libAppfigurateCore.a; sourceTree = "<group>"; };
 		4EDF2F4122FE9132002DB2F3 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 		4EE600CA21D382EB0084C002 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		7401BF0F1E53ADD3009A19D9 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
@@ -92,7 +92,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7E8E1C2462AC18005D86BD /* libAppfigurateCore.a in Frameworks */,
 				4EDF2F4722FE9132002DB2F3 /* MultipeerConnectivity.framework in Frameworks */,
 				4E1BB0C0222FBDF7009E9E29 /* CoreImage.framework in Frameworks */,
 				4E1BB0BE222FBDED009E9E29 /* AVFoundation.framework in Frameworks */,
@@ -114,6 +113,7 @@
 				0B1813F4169A5611006A7EE4 /* QuartzCore.framework in Frameworks */,
 				0B26702A169A4C4300C0394B /* UIKit.framework in Frameworks */,
 				0B26702C169A4C4300C0394B /* Foundation.framework in Frameworks */,
+				4ED7831725009B27000333D2 /* libAppfigurateCore.a in Frameworks */,
 				0B26702E169A4C4300C0394B /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,7 +141,7 @@
 		0B267028169A4C4300C0394B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4E7E8E1B2462AC02005D86BD /* libAppfigurateCore.a */,
+				4ED7831625009B27000333D2 /* libAppfigurateCore.a */,
 				4E5D3229244DAC73002D2691 /* WatchConnectivity.framework */,
 				4EDF2F4122FE9132002DB2F3 /* MultipeerConnectivity.framework */,
 				4E1BB0BF222FBDF6009E9E29 /* CoreImage.framework */,
@@ -214,7 +214,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastTestingUpgradeCheck = 0510;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Electric Bolt Limited";
 				TargetAttributes = {
 					0B267024169A4C4300C0394B = {
@@ -314,6 +314,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -339,7 +340,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
@@ -371,6 +372,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -388,7 +390,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
@@ -412,9 +414,9 @@
 				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = Appfigurate/Appfigurate.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2.0.0.1000;
-				DEVELOPMENT_TEAM = KLCLPVKM8C;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2.0.2.1003;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = "Appfigurate/Appfigurate-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -426,7 +428,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Appfigurate",
 				);
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 2.0.2;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -452,9 +454,9 @@
 				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = Appfigurate/Appfigurate.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2.0.0.1000;
-				DEVELOPMENT_TEAM = KLCLPVKM8C;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2.0.2.1003;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = "Appfigurate/Appfigurate-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -466,7 +468,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Appfigurate",
 				);
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 2.0.2;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
