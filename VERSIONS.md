@@ -1,5 +1,11 @@
 ### Release History
 
+#### 2.1.0 27 September 2020
+
+* **Xcode:** 12.0+, **Minimum deployment target:** iOS 10.0, watchOS 3.0
+* **App:** Full Apple Silicon support - Appfigurate Simulator now contains arm64 architecture alongside existing i386 and x86_64 architectures.
+* **App:** Fix broken multipeer import/export on OS 14.
+
 #### 2.0.2 17 September 2020
 
 * **Xcode:** 12.0+, **Minimum deployment target:** iOS 9.0, watchOS 3.0

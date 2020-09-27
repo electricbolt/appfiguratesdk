@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1T4PWfHF6zeEzxAqWJGWtN0mDHg=
+		MNQhluO1lwxB+cfxFfNInmIwLMQ=
 		</data>
 		<key>Modules/AppfigurateLibrary.swiftmodule/Project/arm64-apple-watchos-simulator.swiftsourceinfo</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/AppfigurateLibrary.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		2cmYN+VTm8jSw3FFIA6z86aDmIQ=
+		XhP8TyofKZAa3K2ESUduuc9fEJg=
 		</data>
 		<key>Modules/AppfigurateLibrary.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/AppfigurateLibrary.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		2cmYN+VTm8jSw3FFIA6z86aDmIQ=
+		XhP8TyofKZAa3K2ESUduuc9fEJg=
 		</data>
 		<key>Modules/AppfigurateLibrary.swiftmodule/i386-apple-watchos-simulator.swiftdoc</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/AppfigurateLibrary.swiftmodule/i386-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		dNvBxR/79FicBSWy3wLPu8/7WLg=
+		flEauLN6NAqiF8wPpTvSlC9Pj0s=
 		</data>
 		<key>Modules/AppfigurateLibrary.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Modules/AppfigurateLibrary.swiftmodule/i386.swiftmodule</key>
 		<data>
-		dNvBxR/79FicBSWy3wLPu8/7WLg=
+		flEauLN6NAqiF8wPpTvSlC9Pj0s=
 		</data>
 		<key>Modules/AppfigurateLibrary.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Modules/AppfigurateLibrary.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		ZTi4jV19BqC25s78hQY0GkurCtg=
+		oTm9LdJs6lIDLjzq9/tj6hlgGns=
 		</data>
 		<key>Modules/AppfigurateLibrary.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Modules/AppfigurateLibrary.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		ZTi4jV19BqC25s78hQY0GkurCtg=
+		oTm9LdJs6lIDLjzq9/tj6hlgGns=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -248,11 +248,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2cmYN+VTm8jSw3FFIA6z86aDmIQ=
+			XhP8TyofKZAa3K2ESUduuc9fEJg=
 			</data>
 			<key>hash2</key>
 			<data>
-			aNAe8800luNZjMVTpLVvPYDJJaq9CnazfTC0Olmcsyc=
+			SdpaSKX6T+724S0ernKE6vStYPL4ppPfUIJuqBIBIJ0=
 			</data>
 		</dict>
 		<key>Modules/AppfigurateLibrary.swiftmodule/arm64.swiftdoc</key>
@@ -281,11 +281,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2cmYN+VTm8jSw3FFIA6z86aDmIQ=
+			XhP8TyofKZAa3K2ESUduuc9fEJg=
 			</data>
 			<key>hash2</key>
 			<data>
-			aNAe8800luNZjMVTpLVvPYDJJaq9CnazfTC0Olmcsyc=
+			SdpaSKX6T+724S0ernKE6vStYPL4ppPfUIJuqBIBIJ0=
 			</data>
 		</dict>
 		<key>Modules/AppfigurateLibrary.swiftmodule/i386-apple-watchos-simulator.swiftdoc</key>
@@ -314,11 +314,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dNvBxR/79FicBSWy3wLPu8/7WLg=
+			flEauLN6NAqiF8wPpTvSlC9Pj0s=
 			</data>
 			<key>hash2</key>
 			<data>
-			/xUi0+PSOfeaFYZrzVVswemJMT8aJYK0JRWMii0L4s0=
+			Jy+/0QVKQDiX7WIELgQat3WOaaCqwQ0i7d/J5I+V/n8=
 			</data>
 		</dict>
 		<key>Modules/AppfigurateLibrary.swiftmodule/i386.swiftdoc</key>
@@ -347,11 +347,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dNvBxR/79FicBSWy3wLPu8/7WLg=
+			flEauLN6NAqiF8wPpTvSlC9Pj0s=
 			</data>
 			<key>hash2</key>
 			<data>
-			/xUi0+PSOfeaFYZrzVVswemJMT8aJYK0JRWMii0L4s0=
+			Jy+/0QVKQDiX7WIELgQat3WOaaCqwQ0i7d/J5I+V/n8=
 			</data>
 		</dict>
 		<key>Modules/AppfigurateLibrary.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
@@ -380,11 +380,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZTi4jV19BqC25s78hQY0GkurCtg=
+			oTm9LdJs6lIDLjzq9/tj6hlgGns=
 			</data>
 			<key>hash2</key>
 			<data>
-			9GmlK7keIeBdH0U6JZsE5rI7ps0AqGWgYqLMeyh48+I=
+			EpjzAqwKwYg3xwdUEdsduoNHyQzkmnLhkbTR8J5xIa0=
 			</data>
 		</dict>
 		<key>Modules/AppfigurateLibrary.swiftmodule/x86_64.swiftdoc</key>
@@ -413,11 +413,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZTi4jV19BqC25s78hQY0GkurCtg=
+			oTm9LdJs6lIDLjzq9/tj6hlgGns=
 			</data>
 			<key>hash2</key>
 			<data>
-			9GmlK7keIeBdH0U6JZsE5rI7ps0AqGWgYqLMeyh48+I=
+			EpjzAqwKwYg3xwdUEdsduoNHyQzkmnLhkbTR8J5xIa0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
