@@ -4,10 +4,4 @@
    <FileRef
       location = "group:Appfigurate/Appfigurate.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:ObjCExample/ObjCExample.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:SwiftExample/SwiftExample.xcodeproj">
-   </FileRef>
 </Workspace>

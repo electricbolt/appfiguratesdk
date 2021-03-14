@@ -1,5 +1,13 @@
 ### Release History
 
+#### 2.1.1 14 March 2021
+
+* **Xcode:** 12.4+, **Minimum deployment target:** iOS 10.0, watchOS 3.0
+* **App:** Due to incomplete emulation of iOS in macOS Big Sur on Apple Silicon, Appfigurate can not be downloaded from the App Store and run as an [iOS App on macOS](https://developer.apple.com/documentation/apple_silicon/running_your_ios_apps_on_macos) app. Appfigurate App Store continues to function on a real iPhone, iPod or iPad device.
+* **SDK:** Due to incomplete emulation of iOS in macOS Big Sur on Apple Silicon, Appfigurate Library will ignore any attempted configuration changes when *your* app is run as an [iOS app on macOS](https://developer.apple.com/documentation/apple_silicon/running_your_ios_apps_on_macos) app. Appfigurate Library continues to function on a real iPhone, iPod, iPad or Simulator device.
+* **SDK:** For `SwiftExample/Common/ExampleConfiguration.swift` removed use of `#if DEBUG` active compliation condition and replaced with `ENCRYPTED()` function. Online documentation also updated to remove [Step 2: DEBUG active compilation condition](https://github.com/electricbolt/appfiguratesdk/wiki/integration#integrating-appfigurate-library-using-swift).
+* **SDK:** Moved SwiftExample and ObjCExample into their own repositories.
+
 #### 2.1.0 27 September 2020
 
 * **Xcode:** 12.0+, **Minimum deployment target:** iOS 10.0, watchOS 3.0
