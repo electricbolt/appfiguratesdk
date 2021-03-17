@@ -1,5 +1,13 @@
 ### Release History
 
+#### 2.2.0 17 March 2021
+
+* **Xcode:** 12.4+, **Minimum deployment target:** iOS 10.0, watchOS 3.0
+* **SDK:** Removal of `APLConfigurationClass` from `Info.plist` for increased reliability and faster startup time of your app. You must add an implementation of the `APLConfigurationClass` function into your app as per the prototype in `Appfigurate.h`, otherwise a linker error will be issued. The suggested location is to place this function at the end of your `APLConfiguration` subclass file.
+* **App:** Output Objective-C implementation now includes APLConfigurationClass() function (≡ ‣ [App name] ‣ OBJ-C LIBRARY INTEGRATION section ‣ Output implementation).
+* **App:** Output Swift implementation now includes APLConfigurationClass() function (≡ ‣ [App name] ‣ SWIFT LIBRARY INTEGRATION section ‣ Output implementation).
+* **App:** Output Info.plist snippet no longer includes APLConfigurationClass declaration (≡ ‣ [App name] ‣ OBJ-C/SWIFT LIBRARY INTEGRATION section ‣ Output Info.plist snippet).
+
 #### 2.1.1 14 March 2021
 
 * **Xcode:** 12.4+, **Minimum deployment target:** iOS 10.0, watchOS 3.0

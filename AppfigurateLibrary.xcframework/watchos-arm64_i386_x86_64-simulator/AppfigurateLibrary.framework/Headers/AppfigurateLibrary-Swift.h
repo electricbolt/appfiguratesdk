@@ -208,13 +208,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-
-SWIFT_CLASS("_TtC18AppfigurateLibrary11APLDemangle")
-@interface APLDemangle : NSObject
-+ (NSString * _Nullable)demangleWithSymbol:(NSString * _Nonnull)symbol SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class APLConfiguration;
 
 SWIFT_CLASS("_TtC18AppfigurateLibrary31APLPropertyWrapperIntrospection")
@@ -440,13 +433,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-
-SWIFT_CLASS("_TtC18AppfigurateLibrary11APLDemangle")
-@interface APLDemangle : NSObject
-+ (NSString * _Nullable)demangleWithSymbol:(NSString * _Nonnull)symbol SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class APLConfiguration;
 
 SWIFT_CLASS("_TtC18AppfigurateLibrary31APLPropertyWrapperIntrospection")
@@ -671,13 +657,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="AppfigurateLibrary",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
-
-
-SWIFT_CLASS("_TtC18AppfigurateLibrary11APLDemangle")
-@interface APLDemangle : NSObject
-+ (NSString * _Nullable)demangleWithSymbol:(NSString * _Nonnull)symbol SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
 
 @class APLConfiguration;
 

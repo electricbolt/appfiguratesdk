@@ -21,17 +21,12 @@
  - Invalid APLKeychainAccessibility value '%@' in Info.plist.
  - Invalid configuration after reset method.
  - APLConfiguration subclass not found.
- - Missing APLConfigurationClass value in Info.plist
- - Invalid APLConfigurationClass value '%@' in Info.plist. Module names are not
-   permitted.
- - Invalid APLConfigurationClass value '%@' in Info.plist. Class could not be
-   instantiated.
- - Missing application launch scheme CFBundleURLName/CFBundleURLSchemes in
-   Info.plist.
+ - Missing application launch scheme CFBundleURLName/CFBundleURLSchemes in Info.plist.
  - Invalid APLLogging value '%@' in Info.plist.
- - APLInstallDelegateMethods value in Info.plist is no longer required as
-   Appfigurate Library no longer supports swizzling UIApplicationDelegate or
-   WKExtensionDelegate.
+ - APLInstallDelegateMethods value in Info.plist is no longer required as Appfigurate Library no longer supports
+   swizzling UIApplicationDelegate or WKExtensionDelegate.
+ - APLConfigurationClass value in Info.plist has been replaced with APLConfigurationClass function.
+ - APLAlwaysRealizeSwift value in Info.plist has been replaced with APLConfigurationClass function.
  */
 extern NSString* _Nonnull AppfigurateLibraryException;
 
@@ -976,3 +971,28 @@ extern void APLSaveConfiguration(void);
  and usage example.
  */
 extern void APLRestoreConfiguration(void);
+
+/**
+ **Availability: All.**
+ 
+ The application or framework that links in AppfigurateLibrary.xcframework must define a function with the following
+ prototype that returns the Class (Obj-C) or AnyClass (Swift) of your APLConfiguration subclass.
+ 
+ > Objective-C example
+ 
+ ```objc
+ - (Class) _Nonnull APLConfigurationClass(void) {
+   return [ExampleConfiguration class];
+ }
+ ```
+ 
+ > Swift example
+ 
+ ```
+ @_cdecl("APLConfigurationClass")
+ func APLConfigurationClass() -> AnyClass {
+     return ExampleConfiguration.self;
+ }
+ ```
+ */
+extern Class _Nonnull APLConfigurationClass(void);
