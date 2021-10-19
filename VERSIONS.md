@@ -1,6 +1,6 @@
 ### Release History
 
-#### 2.2.0 19 Oct 2021 (Updated)
+#### 2.2.0 19 October 2021 (Updated)
 
 * **Xcode:** Tested for compatibility with Xcode 13
 
