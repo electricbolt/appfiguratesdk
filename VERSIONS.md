@@ -1,5 +1,9 @@
 ### Release History
 
+#### 2.2.0 19 Oct 2021 (Updated)
+
+* **Xcode:** Tested for compatibility with Xcode 13
+
 #### 2.2.0 17 March 2021
 
 * **Xcode:** 12.4+, **Minimum deployment target:** iOS 10.0, watchOS 3.0
