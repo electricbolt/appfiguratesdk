@@ -1,5 +1,10 @@
 ### Release History
 
+#### 2.2.1 30 March 2022
+
+* **Xcode:** 13.2+, **Minimum deployment target:** iOS 10.0, watchOS 3.0
+* **SDK:** Bug fix for iOS Extensions and watchOS Intent Extensions to read the current APLConfiguration from shared keychain.
+
 #### 2.2.0 17 March 2021
 
 * **Xcode:** 12.4+, **Minimum deployment target:** iOS 10.0, watchOS 3.0
