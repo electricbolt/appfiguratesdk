@@ -2,7 +2,14 @@
 
 #### 1. Preamble
 
-1.1 The Appfigurate SDK (“SDK”) comprising of a static XCFramework, header files, examples, documentation and Appfigurate Simulator app are licensed to you subject to the terms of this License Agreement. This License Agreement forms a legally binding contract between you and Electric Bolt in relation to your use of the SDK.
+1.1 The Appfigurate SDK (“SDK”) comprising of:
+(a) XCFramework, header files and examples for iOS and watchOS; and
+(b) AAR library and examples for Android; and
+(c) Plugin and examples for Flutter; and
+(d) Appfigurate Simulator app; and
+(e) Appfigurate Emulator app; and
+(f) Documentation;
+are licensed to you subject to the terms of this License Agreement. This License Agreement forms a legally binding contract between you and Electric Bolt in relation to your use of the SDK.
 
 1.2 "Electric Bolt" means Electric Bolt Limited, a limited liability company registered in New Zealand.
 
@@ -10,13 +17,13 @@
 
 2.1 In order to use the SDK, you must first agree to this License Agreement. You may not use the SDK if you do not accept this License Agreement.
 
-2.2 You can accept this License Agreement by linking the static XCFramework into your own apps, or by using the Appfigurate Simulator app. You agree that use of the SDK constitutes acceptance of the Licensing Agreement from that point onwards.
+2.2 You can accept this License Agreement by including the XCFramework, AAR library or Flutter plugin into your own apps, or by using the Appfigurate Simulator or Appfigurate Emulator app. You agree that use of the SDK constitutes acceptance of the Licensing Agreement from that point onwards.
 
 2.3 If you are agreeing to be bound by this License Agreement on behalf of your employer or other entity, you represent and warrant that you have full legal authority to bind your employer or such entity to this License Agreement. If you do not have the requisite authority, you may not accept the Licensing Agreement or use the SDK on behalf of your employer or other entity.
 
 #### 3. SDK License from Electric Bolt
 
-3.1 Subject to the terms of this License Agreement, Electric Bolt grants you a limited, worldwide, royalty-free, non-sublicenseable, non-assignable and non-exclusive license to use the SDK to link the static XCFramework into your own apps.
+3.1 Subject to the terms of this License Agreement, Electric Bolt grants you a limited, worldwide, royalty-free, non-sublicenseable, non-assignable and non-exclusive license to use the SDK to include the XCFramework, AAR library or Flutter plugin into your own apps.
 
 3.2 You agree that the form and nature of the SDK that Electric Bolt provides may change without prior notice to you and that future versions of the SDK may be incompatible with apps developed on previous versions of the SDK. You agree that Electric Bolt may stop (permanently or temporarily) providing the SDK (or any features within the SDK) to you at Electric Bolt’s sole discretion, without prior notice.
 
@@ -32,13 +39,15 @@
 
 4.2 You agree to use the SDK and write apps only for purposes that are permitted by (a) this License Agreement and (b) any applicable law, regulation or generally accepted practices or guidelines in relevant jurisdictions.
 
-4.3 You agree that you will only run the Appfigurate Simulator app in an iOS Simulator on a Apple Mac computer.
+4.3 You agree that you will only run the Appfigurate Simulator app in an iOS Simulator on an Apple Mac computer.
 
-4.4 You agree that for apps distributed through the (Apple) App Store, you will not include any hidden features that could be enabled by your usage of the SDK without fully disclosing them to App Review.
+4.4 You agree that you will only run the Appfigurate Emulator app in the Android Studio Emulator.
 
-4.5 You agree you will not reverse engineer, decompile, disassemble or otherwise attempt to derive the source code, techniques, processes, algorithms, know-how or other information from the binary code portions of the SDK (collectively, "Reverse Engineering") or permit or induce the foregoing.
+4.5 You agree that for apps distributed through the (Apple) App Store, you will not include any hidden features that could be enabled by your usage of the SDK without fully disclosing them to App Review.
 
-4.6 You agree that you are solely responsible for (and that Electric Bolt has no responsibility to you or to any third party for) any breach of your obligations under this License Agreement, any applicable third party contract or Terms of Service, or any applicable law or regulation, and for the consequences (including any loss or damage which Electric Bolt or any third party may suffer) of any such breach.
+4.6 You agree you will not reverse engineer, decompile, disassemble or otherwise attempt to derive the source code, techniques, processes, algorithms, know-how or other information from the binary code portions of the SDK (collectively, "Reverse Engineering") or permit or induce the foregoing.
+
+4.7 You agree that you are solely responsible for (and that Electric Bolt has no responsibility to you or to any third party for) any breach of your obligations under this License Agreement, any applicable third party contract or Terms of Service, or any applicable law or regulation, and for the consequences (including any loss or damage which Electric Bolt or any third party may suffer) of any such breach.
 
 #### 5. Terminating this License Agreement
 
