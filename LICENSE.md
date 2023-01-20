@@ -6,9 +6,10 @@
 (a) XCFramework, header files and examples for iOS and watchOS; and
 (b) AAR library and examples for Android; and
 (c) Plugin and examples for Flutter; and
-(d) Appfigurate Simulator app; and
-(e) Appfigurate Emulator app; and
-(f) Documentation;
+(d) AppfigurateSE macOS app; and
+(e) Appfigurate Simulator app; and
+(f) Appfigurate Emulator app; and
+(g) Documentation;
 are licensed to you subject to the terms of this License Agreement. This License Agreement forms a legally binding contract between you and Electric Bolt in relation to your use of the SDK.
 
 1.2 "Electric Bolt" means Electric Bolt Limited, a limited liability company registered in New Zealand.
@@ -17,7 +18,7 @@ are licensed to you subject to the terms of this License Agreement. This License
 
 2.1 In order to use the SDK, you must first agree to this License Agreement. You may not use the SDK if you do not accept this License Agreement.
 
-2.2 You can accept this License Agreement by including the XCFramework, AAR library or Flutter plugin into your own apps, or by using the Appfigurate Simulator or Appfigurate Emulator app. You agree that use of the SDK constitutes acceptance of the Licensing Agreement from that point onwards.
+2.2 You can accept this License Agreement by including the XCFramework, AAR library or Flutter plugin into your own apps, or by using the AppfigurateSE macOS app, Appfigurate Simulator or Appfigurate Emulator app. You agree that use of the SDK constitutes acceptance of the Licensing Agreement from that point onwards.
 
 2.3 If you are agreeing to be bound by this License Agreement on behalf of your employer or other entity, you represent and warrant that you have full legal authority to bind your employer or such entity to this License Agreement. If you do not have the requisite authority, you may not accept the Licensing Agreement or use the SDK on behalf of your employer or other entity.
 
