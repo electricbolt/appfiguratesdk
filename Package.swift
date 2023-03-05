@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "Appfigurate",
     platforms: [
-        .iOS(.v10), .watchOS(.v3)
+        .iOS(.v13), .watchOS(.v5)
     ],
     products: [
         .library(
