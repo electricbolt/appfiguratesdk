@@ -8968,5 +8968,76 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": []
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple-privacy\/AppfigurateLibrary\/AppfigurateLibrary\/APLPropertyWrapperIntrospection.swift",
+      "kind": "StringLiteral",
+      "offset": 691,
+      "length": 57,
+      "value": "\"PropertyWrapperIntrospection - checking for debug build\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple-privacy\/AppfigurateLibrary\/AppfigurateLibrary\/APLPropertyWrapperIntrospection.swift",
+      "kind": "StringLiteral",
+      "offset": 795,
+      "length": 13,
+      "value": "\"Debug build\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple-privacy\/AppfigurateLibrary\/AppfigurateLibrary\/APLPropertyWrapperIntrospection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 829,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple-privacy\/AppfigurateLibrary\/AppfigurateLibrary\/APLPropertyWrapperIntrospection.swift",
+      "kind": "StringLiteral",
+      "offset": 1976,
+      "length": 3,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple-privacy\/AppfigurateLibrary\/AppfigurateLibrary\/APLPropertyWrapperIntrospection.swift",
+      "kind": "StringLiteral",
+      "offset": 2617,
+      "length": 6,
+      "value": "\"icon\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple-privacy\/AppfigurateLibrary\/AppfigurateLibrary\/APLPropertyWrapperIntrospection.swift",
+      "kind": "StringLiteral",
+      "offset": 2735,
+      "length": 6,
+      "value": "\"icon\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple-privacy\/AppfigurateLibrary\/AppfigurateLibrary\/APLEncryptedString.swift",
+      "kind": "StringLiteral",
+      "offset": 1634,
+      "length": 20,
+      "value": "\"ENCRYPTED -> false\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple-privacy\/AppfigurateLibrary\/AppfigurateLibrary\/APLEncryptedString.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1667,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple-privacy\/AppfigurateLibrary\/AppfigurateLibrary\/APLEncryptedString.swift",
+      "kind": "StringLiteral",
+      "offset": 1772,
+      "length": 27,
+      "value": "\"ENCRYPTED_STRING -> plain\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple-privacy\/AppfigurateLibrary\/AppfigurateLibrary\/APLEncryptedString.swift",
+      "kind": "StringLiteral",
+      "offset": 1957,
+      "length": 39,
+      "value": "\"ENCRYPTED_STRING_IOS_WATCHOS -> plain\""
+    }
+  ]
 }
