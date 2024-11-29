@@ -1,6 +1,5 @@
 framework module AppfigurateLibrary {
     umbrella header "Appfigurate.h"
-    header "APLLog.h"
     export *
     module * { export * }
 }
