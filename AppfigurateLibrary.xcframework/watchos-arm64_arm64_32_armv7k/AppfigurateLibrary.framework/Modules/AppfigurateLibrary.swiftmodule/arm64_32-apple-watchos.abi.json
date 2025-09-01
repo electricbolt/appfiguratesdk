@@ -495,7 +495,267 @@
         "sugared_genericSig": "<T where T : AppfigurateLibrary._BoolProtocol>",
         "declAttributes": [
           "AccessControl",
-          "PropertyWrapper"
+          "PropertyWrapper",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RemoteBoolProperty",
+        "printedName": "RemoteBoolProperty",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AppfigurateLibrary18RemoteBoolPropertyV11descriptionSSvp",
+            "mangledName": "$s18AppfigurateLibrary18RemoteBoolPropertyV11descriptionSSvp",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary18RemoteBoolPropertyV11descriptionSSvg",
+                "mangledName": "$s18AppfigurateLibrary18RemoteBoolPropertyV11descriptionSSvg",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._BoolProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._BoolProtocol>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "key",
+            "printedName": "key",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AppfigurateLibrary18RemoteBoolPropertyV3keySSvp",
+            "mangledName": "$s18AppfigurateLibrary18RemoteBoolPropertyV3keySSvp",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary18RemoteBoolPropertyV3keySSvg",
+                "mangledName": "$s18AppfigurateLibrary18RemoteBoolPropertyV3keySSvg",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._BoolProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._BoolProtocol>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(key:description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteBoolProperty",
+                "printedName": "AppfigurateLibrary.RemoteBoolProperty<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:18AppfigurateLibrary18RemoteBoolPropertyV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18AppfigurateLibrary18RemoteBoolPropertyV3key11descriptionACyxGSS_SStcfc",
+            "mangledName": "$s18AppfigurateLibrary18RemoteBoolPropertyV3key11descriptionACyxGSS_SStcfc",
+            "moduleName": "AppfigurateLibrary",
+            "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._BoolProtocol>",
+            "sugared_genericSig": "<T where T : AppfigurateLibrary._BoolProtocol>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AppfigurateLibrary18RemoteBoolPropertyV12wrappedValuexvp",
+            "mangledName": "$s18AppfigurateLibrary18RemoteBoolPropertyV12wrappedValuexvp",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary18RemoteBoolPropertyV12wrappedValuexvg",
+                "mangledName": "$s18AppfigurateLibrary18RemoteBoolPropertyV12wrappedValuexvg",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._BoolProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._BoolProtocol>",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary18RemoteBoolPropertyV12wrappedValuexvs",
+                "mangledName": "$s18AppfigurateLibrary18RemoteBoolPropertyV12wrappedValuexvs",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._BoolProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._BoolProtocol>",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary18RemoteBoolPropertyV12wrappedValuexvM",
+                "mangledName": "$s18AppfigurateLibrary18RemoteBoolPropertyV12wrappedValuexvM",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._BoolProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._BoolProtocol>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18AppfigurateLibrary18RemoteBoolPropertyV",
+        "mangledName": "$s18AppfigurateLibrary18RemoteBoolPropertyV",
+        "moduleName": "AppfigurateLibrary",
+        "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._BoolProtocol>",
+        "sugared_genericSig": "<T where T : AppfigurateLibrary._BoolProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -938,7 +1198,8 @@
         "sugared_genericSig": "<T where T : AppfigurateLibrary._IntProtocol>",
         "declAttributes": [
           "AccessControl",
-          "PropertyWrapper"
+          "PropertyWrapper",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -2243,6 +2504,265 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "RemoteIntPropertyEdit",
+        "printedName": "RemoteIntPropertyEdit",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AppfigurateLibrary21RemoteIntPropertyEditV11descriptionSSvp",
+            "mangledName": "$s18AppfigurateLibrary21RemoteIntPropertyEditV11descriptionSSvp",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary21RemoteIntPropertyEditV11descriptionSSvg",
+                "mangledName": "$s18AppfigurateLibrary21RemoteIntPropertyEditV11descriptionSSvg",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._IntProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._IntProtocol>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "key",
+            "printedName": "key",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AppfigurateLibrary21RemoteIntPropertyEditV3keySSvp",
+            "mangledName": "$s18AppfigurateLibrary21RemoteIntPropertyEditV3keySSvp",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary21RemoteIntPropertyEditV3keySSvg",
+                "mangledName": "$s18AppfigurateLibrary21RemoteIntPropertyEditV3keySSvg",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._IntProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._IntProtocol>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(key:description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteIntPropertyEdit",
+                "printedName": "AppfigurateLibrary.RemoteIntPropertyEdit<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:18AppfigurateLibrary21RemoteIntPropertyEditV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18AppfigurateLibrary21RemoteIntPropertyEditV3key11descriptionACyxGSS_SStcfc",
+            "mangledName": "$s18AppfigurateLibrary21RemoteIntPropertyEditV3key11descriptionACyxGSS_SStcfc",
+            "moduleName": "AppfigurateLibrary",
+            "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._IntProtocol>",
+            "sugared_genericSig": "<T where T : AppfigurateLibrary._IntProtocol>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AppfigurateLibrary21RemoteIntPropertyEditV12wrappedValuexvp",
+            "mangledName": "$s18AppfigurateLibrary21RemoteIntPropertyEditV12wrappedValuexvp",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary21RemoteIntPropertyEditV12wrappedValuexvg",
+                "mangledName": "$s18AppfigurateLibrary21RemoteIntPropertyEditV12wrappedValuexvg",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._IntProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._IntProtocol>",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary21RemoteIntPropertyEditV12wrappedValuexvs",
+                "mangledName": "$s18AppfigurateLibrary21RemoteIntPropertyEditV12wrappedValuexvs",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._IntProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._IntProtocol>",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary21RemoteIntPropertyEditV12wrappedValuexvM",
+                "mangledName": "$s18AppfigurateLibrary21RemoteIntPropertyEditV12wrappedValuexvM",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._IntProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._IntProtocol>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18AppfigurateLibrary21RemoteIntPropertyEditV",
+        "mangledName": "$s18AppfigurateLibrary21RemoteIntPropertyEditV",
+        "moduleName": "AppfigurateLibrary",
+        "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._IntProtocol>",
+        "sugared_genericSig": "<T where T : AppfigurateLibrary._IntProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "_FloatProtocol",
         "printedName": "_FloatProtocol",
         "declKind": "Protocol",
@@ -2658,7 +3178,8 @@
         "sugared_genericSig": "<T where T : AppfigurateLibrary._FloatProtocol>",
         "declAttributes": [
           "AccessControl",
-          "PropertyWrapper"
+          "PropertyWrapper",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -4378,7 +4899,8 @@
         "sugared_genericSig": "<T where T : AppfigurateLibrary._DoubleProtocol>",
         "declAttributes": [
           "AccessControl",
-          "PropertyWrapper"
+          "PropertyWrapper",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -5649,6 +6171,265 @@
         "declKind": "Struct",
         "usr": "s:18AppfigurateLibrary22DoublePropertyListEditV",
         "mangledName": "$s18AppfigurateLibrary22DoublePropertyListEditV",
+        "moduleName": "AppfigurateLibrary",
+        "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._DoubleProtocol>",
+        "sugared_genericSig": "<T where T : AppfigurateLibrary._DoubleProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RemoteDoublePropertyEdit",
+        "printedName": "RemoteDoublePropertyEdit",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AppfigurateLibrary24RemoteDoublePropertyEditV11descriptionSSvp",
+            "mangledName": "$s18AppfigurateLibrary24RemoteDoublePropertyEditV11descriptionSSvp",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary24RemoteDoublePropertyEditV11descriptionSSvg",
+                "mangledName": "$s18AppfigurateLibrary24RemoteDoublePropertyEditV11descriptionSSvg",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._DoubleProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._DoubleProtocol>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "key",
+            "printedName": "key",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AppfigurateLibrary24RemoteDoublePropertyEditV3keySSvp",
+            "mangledName": "$s18AppfigurateLibrary24RemoteDoublePropertyEditV3keySSvp",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary24RemoteDoublePropertyEditV3keySSvg",
+                "mangledName": "$s18AppfigurateLibrary24RemoteDoublePropertyEditV3keySSvg",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._DoubleProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._DoubleProtocol>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(key:description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteDoublePropertyEdit",
+                "printedName": "AppfigurateLibrary.RemoteDoublePropertyEdit<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:18AppfigurateLibrary24RemoteDoublePropertyEditV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18AppfigurateLibrary24RemoteDoublePropertyEditV3key11descriptionACyxGSS_SStcfc",
+            "mangledName": "$s18AppfigurateLibrary24RemoteDoublePropertyEditV3key11descriptionACyxGSS_SStcfc",
+            "moduleName": "AppfigurateLibrary",
+            "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._DoubleProtocol>",
+            "sugared_genericSig": "<T where T : AppfigurateLibrary._DoubleProtocol>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AppfigurateLibrary24RemoteDoublePropertyEditV12wrappedValuexvp",
+            "mangledName": "$s18AppfigurateLibrary24RemoteDoublePropertyEditV12wrappedValuexvp",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary24RemoteDoublePropertyEditV12wrappedValuexvg",
+                "mangledName": "$s18AppfigurateLibrary24RemoteDoublePropertyEditV12wrappedValuexvg",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._DoubleProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._DoubleProtocol>",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary24RemoteDoublePropertyEditV12wrappedValuexvs",
+                "mangledName": "$s18AppfigurateLibrary24RemoteDoublePropertyEditV12wrappedValuexvs",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._DoubleProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._DoubleProtocol>",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary24RemoteDoublePropertyEditV12wrappedValuexvM",
+                "mangledName": "$s18AppfigurateLibrary24RemoteDoublePropertyEditV12wrappedValuexvM",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._DoubleProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._DoubleProtocol>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18AppfigurateLibrary24RemoteDoublePropertyEditV",
+        "mangledName": "$s18AppfigurateLibrary24RemoteDoublePropertyEditV",
         "moduleName": "AppfigurateLibrary",
         "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._DoubleProtocol>",
         "sugared_genericSig": "<T where T : AppfigurateLibrary._DoubleProtocol>",
@@ -7237,6 +8018,265 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "RemoteStringPropertyEdit",
+        "printedName": "RemoteStringPropertyEdit",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AppfigurateLibrary24RemoteStringPropertyEditV11descriptionSSvp",
+            "mangledName": "$s18AppfigurateLibrary24RemoteStringPropertyEditV11descriptionSSvp",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary24RemoteStringPropertyEditV11descriptionSSvg",
+                "mangledName": "$s18AppfigurateLibrary24RemoteStringPropertyEditV11descriptionSSvg",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._StringProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._StringProtocol>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "key",
+            "printedName": "key",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AppfigurateLibrary24RemoteStringPropertyEditV3keySSvp",
+            "mangledName": "$s18AppfigurateLibrary24RemoteStringPropertyEditV3keySSvp",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary24RemoteStringPropertyEditV3keySSvg",
+                "mangledName": "$s18AppfigurateLibrary24RemoteStringPropertyEditV3keySSvg",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._StringProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._StringProtocol>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(key:description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteStringPropertyEdit",
+                "printedName": "AppfigurateLibrary.RemoteStringPropertyEdit<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:18AppfigurateLibrary24RemoteStringPropertyEditV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18AppfigurateLibrary24RemoteStringPropertyEditV3key11descriptionACyxGSS_SStcfc",
+            "mangledName": "$s18AppfigurateLibrary24RemoteStringPropertyEditV3key11descriptionACyxGSS_SStcfc",
+            "moduleName": "AppfigurateLibrary",
+            "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._StringProtocol>",
+            "sugared_genericSig": "<T where T : AppfigurateLibrary._StringProtocol>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AppfigurateLibrary24RemoteStringPropertyEditV12wrappedValuexvp",
+            "mangledName": "$s18AppfigurateLibrary24RemoteStringPropertyEditV12wrappedValuexvp",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary24RemoteStringPropertyEditV12wrappedValuexvg",
+                "mangledName": "$s18AppfigurateLibrary24RemoteStringPropertyEditV12wrappedValuexvg",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._StringProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._StringProtocol>",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary24RemoteStringPropertyEditV12wrappedValuexvs",
+                "mangledName": "$s18AppfigurateLibrary24RemoteStringPropertyEditV12wrappedValuexvs",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._StringProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._StringProtocol>",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AppfigurateLibrary24RemoteStringPropertyEditV12wrappedValuexvM",
+                "mangledName": "$s18AppfigurateLibrary24RemoteStringPropertyEditV12wrappedValuexvM",
+                "moduleName": "AppfigurateLibrary",
+                "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._StringProtocol>",
+                "sugared_genericSig": "<T where T : AppfigurateLibrary._StringProtocol>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18AppfigurateLibrary24RemoteStringPropertyEditV",
+        "mangledName": "$s18AppfigurateLibrary24RemoteStringPropertyEditV",
+        "moduleName": "AppfigurateLibrary",
+        "genericSig": "<τ_0_0 where τ_0_0 : AppfigurateLibrary._StringProtocol>",
+        "sugared_genericSig": "<T where T : AppfigurateLibrary._StringProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -7295,45 +8335,6 @@
         "declKind": "Func",
         "usr": "s:18AppfigurateLibrary16ENCRYPTED_STRINGyS2S_SStF",
         "mangledName": "$s18AppfigurateLibrary16ENCRYPTED_STRINGyS2S_SStF",
-        "moduleName": "AppfigurateLibrary",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Function",
-        "name": "ENCRYPTED_STRING_IOS_WATCHOS",
-        "printedName": "ENCRYPTED_STRING_IOS_WATCHOS(_:_:_:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:18AppfigurateLibrary28ENCRYPTED_STRING_IOS_WATCHOSyS2S_S2StF",
-        "mangledName": "$s18AppfigurateLibrary28ENCRYPTED_STRING_IOS_WATCHOSyS2S_S2StF",
         "moduleName": "AppfigurateLibrary",
         "declAttributes": [
           "AccessControl"

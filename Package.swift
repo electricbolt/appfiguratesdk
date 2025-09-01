@@ -1,10 +1,10 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
     name: "Appfigurate",
     platforms: [
-        .iOS(.v13), .watchOS(.v5)
+        .iOS(.v15), .watchOS(.v5)
     ],
     products: [
         .library(

@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target armv7k-apple-watchos5.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AppfigurateLibrary
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target armv7k-apple-watchos5.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AppfigurateLibrary
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 @_exported import AppfigurateLibrary
 import Foundation
 import Swift
@@ -23,6 +23,15 @@ extension Swift.Bool : AppfigurateLibrary._BoolProtocol {
   public let description: Swift.String
   public let restart: Swift.Bool
   public init(description: Swift.String, restart: Swift.Bool)
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+@propertyWrapper public struct RemoteBoolProperty<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._BoolProtocol {
+  public let description: Swift.String
+  public let key: Swift.String
+  public init(key: Swift.String, description: Swift.String)
   public var wrappedValue: T {
     get
     set
@@ -74,6 +83,15 @@ extension Swift.Int : AppfigurateLibrary._IntProtocol {
   public let regex: Swift.String
   public let values: [Swift.String : Swift.Int]
   public init(min: Swift.Int, max: Swift.Int, regex: Swift.String, description: Swift.String, restart: Swift.Bool, values: [Swift.String : Swift.Int])
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+@propertyWrapper public struct RemoteIntPropertyEdit<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._IntProtocol {
+  public let description: Swift.String
+  public let key: Swift.String
+  public init(key: Swift.String, description: Swift.String)
   public var wrappedValue: T {
     get
     set
@@ -181,6 +199,15 @@ extension Swift.Double : AppfigurateLibrary._DoubleProtocol {
     set
   }
 }
+@propertyWrapper public struct RemoteDoublePropertyEdit<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._DoubleProtocol {
+  public let description: Swift.String
+  public let key: Swift.String
+  public init(key: Swift.String, description: Swift.String)
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
 public protocol _StringProtocol {
 }
 extension Swift.String : AppfigurateLibrary._StringProtocol {
@@ -228,7 +255,15 @@ extension Swift.String : AppfigurateLibrary._StringProtocol {
     set
   }
 }
-
+@propertyWrapper public struct RemoteStringPropertyEdit<T> : AppfigurateLibrary.AppfigurateProperty where T : AppfigurateLibrary._StringProtocol {
+  public let description: Swift.String
+  public let key: Swift.String
+  public init(key: Swift.String, description: Swift.String)
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
 
 
 @inlinable public func ENCRYPTED() -> Swift.Bool {
@@ -251,21 +286,5 @@ extension Swift.String : AppfigurateLibrary._StringProtocol {
   } else {
     APLLogS(.debug, "ENCRYPTED_STRING inlinable -> cipher")
     return cipher
-  }
-}
-@inlinable public func ENCRYPTED_STRING_IOS_WATCHOS(_ plain: Swift.String, _ cipherIOS: Swift.String, _ cipherWatchOS: Swift.String) -> Swift.String {
-  var debug = false
-  assert({debug = true; return true}())
-  if debug {
-    APLLogS(.debug, "ENCRYPTED_STRING_IOS_WATCHOS inlinable -> plain")
-    return plain
-  } else {
-    #if os(iOS)
-       APLLogS(.debug, "ENCRYPTED_STRING_IOS_WATCHOS inlinable -> cipherIOS")
-       return cipherIOS
-    #else
-       APLLogS(.debug, "ENCRYPTED_STRING_IOS_WATCHOS inlinable -> cipherWatchOS")
-       return cipherWatchOS
-    #endif
   }
 }
