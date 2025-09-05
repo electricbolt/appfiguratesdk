@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/AppfigurateLibrary.framework/AppfigurateLibrary</key>
 		<data>
-		wU577Gne7eVuLvzNIPxKc6Rh4vs=
+		NejMwzJ2KnGMWfnxB9y5C7ZgV4o=
 		</data>
 		<key>ios-arm64/AppfigurateLibrary.framework/Headers/Appfigurate.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>ios-arm64/AppfigurateLibrary.framework/Info.plist</key>
 		<data>
-		bR5wFkh94Ct54kPhsmepGs2yoV8=
+		HRYnylaEZnNk/nPZMFH32vmeCBk=
 		</data>
 		<key>ios-arm64/AppfigurateLibrary.framework/Modules/AppfigurateLibrary.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppfigurateLibrary.framework/AppfigurateLibrary</key>
 		<data>
-		CTymzcINpyWU2J3PMsTNODQwZqk=
+		VJlAANgTzrceiopQRwl0xqNoSII=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppfigurateLibrary.framework/Headers/Appfigurate.h</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppfigurateLibrary.framework/Info.plist</key>
 		<data>
-		U2hAcvi/J4Lr0V4xK8g8mTTJih8=
+		+6ZJkzkuaIMZpGpmazoctcEDLdY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppfigurateLibrary.framework/Modules/AppfigurateLibrary.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppfigurateLibrary.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		HIrINGEkaUZCCze4YHAhPooq2No=
+		I4cE1oaS1qGMOejidllhPbsTzf8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppfigurateLibrary.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -110,11 +110,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppfigurateLibrary.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		yTieVTvmb0z4ze6sIW4Dxw6LtzI=
+		9aofuj5erWCtYP59o9hkWmW72Rs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppfigurateLibrary.framework/_CodeSignature/CodeResources</key>
 		<data>
-		b0UbfZ/nJM9cykT+yg1zNs7sL98=
+		mrVnZC8vJR3YFYfHs2GqDccER00=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppfigurateLibrary.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/AppfigurateLibrary.framework/AppfigurateLibrary</key>
 		<data>
-		pQnMNGOV9GxC62CyjQNOX8eSihQ=
+		pJVVzWB65FVUUj/dzGpc/98nIjI=
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/AppfigurateLibrary.framework/Headers/Appfigurate.h</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/AppfigurateLibrary.framework/Info.plist</key>
 		<data>
-		3hlfS5YnE3uyrn/wtgn6THQjqaY=
+		d/6JPzHLGywAqHoSCP0z5Kqh5uc=
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/AppfigurateLibrary.framework/Modules/AppfigurateLibrary.swiftmodule/arm64-apple-watchos.abi.json</key>
 		<data>
@@ -194,7 +194,7 @@
 		</data>
 		<key>watchos-arm64_x86_64-simulator/AppfigurateLibrary.framework/AppfigurateLibrary</key>
 		<data>
-		doD03PSoV3RUBxCfkze1WE5tow0=
+		FCehKyHpiXOqiivetd/EH/XJ3jI=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/AppfigurateLibrary.framework/Headers/Appfigurate.h</key>
 		<data>
@@ -206,7 +206,7 @@
 		</data>
 		<key>watchos-arm64_x86_64-simulator/AppfigurateLibrary.framework/Info.plist</key>
 		<data>
-		VevmdbXF2U+apIwGOfdNVCgoLVE=
+		BSkKNn+BJzr9nejk1VDSWJetVR4=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/AppfigurateLibrary.framework/Modules/AppfigurateLibrary.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
@@ -250,7 +250,7 @@
 		</data>
 		<key>watchos-arm64_x86_64-simulator/AppfigurateLibrary.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		pJPWXlpbSsroU90SjN/A0rekPiw=
+		aAo8cxiQdjk14KcYxnsUNeQX96k=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/AppfigurateLibrary.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -258,11 +258,11 @@
 		</data>
 		<key>watchos-arm64_x86_64-simulator/AppfigurateLibrary.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		3L9tpiMXCKRZ2ssssJkOWjKob+c=
+		K5mGSpF78KcvfHA5KvWzSTfSiZI=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/AppfigurateLibrary.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Cg2ol4WiJ8RurnIpKb9oLg6KKs0=
+		1d8gQlx3nfFMlB+w4pTVkLeVzDI=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/AppfigurateLibrary.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -275,11 +275,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wU577Gne7eVuLvzNIPxKc6Rh4vs=
+			NejMwzJ2KnGMWfnxB9y5C7ZgV4o=
 			</data>
 			<key>hash2</key>
 			<data>
-			qLgHUsja8cFzgvkcEWb9KPkKDB+kp9eQxI/bJ4rrWuw=
+			TaI2xBdXbgfePi8J7ezFYNwY0mzbKF/TbVmYn3IOUL4=
 			</data>
 		</dict>
 		<key>ios-arm64/AppfigurateLibrary.framework/Headers/Appfigurate.h</key>
@@ -308,11 +308,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bR5wFkh94Ct54kPhsmepGs2yoV8=
+			HRYnylaEZnNk/nPZMFH32vmeCBk=
 			</data>
 			<key>hash2</key>
 			<data>
-			fwYjnGcyugL1uz0CYZvsC8ac6O2JC5zQC+ps6UF0H3E=
+			YfQHpeR3sZWzw32knCdOfGDf5V0gGDJoAWrtYwl6VLA=
 			</data>
 		</dict>
 		<key>ios-arm64/AppfigurateLibrary.framework/Modules/AppfigurateLibrary.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -385,11 +385,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CTymzcINpyWU2J3PMsTNODQwZqk=
+			VJlAANgTzrceiopQRwl0xqNoSII=
 			</data>
 			<key>hash2</key>
 			<data>
-			dcWVg3LpoULic/iiHrDqMlogpyY4bqQACi35fP0O2vE=
+			fIpOvbWgeCYVx5e0NUuwznqkyvgARBhtLr36/pvvp0c=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AppfigurateLibrary.framework/Headers/Appfigurate.h</key>
@@ -418,11 +418,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			U2hAcvi/J4Lr0V4xK8g8mTTJih8=
+			+6ZJkzkuaIMZpGpmazoctcEDLdY=
 			</data>
 			<key>hash2</key>
 			<data>
-			VDiS0w8p7EtRhDumKlEHVp973DLGLPolS1JKBMd/Gvg=
+			SCZgvwIVnsKtLkomQ5LyZI0sBn4JApZHqkzpMs9rerI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AppfigurateLibrary.framework/Modules/AppfigurateLibrary.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -539,11 +539,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HIrINGEkaUZCCze4YHAhPooq2No=
+			I4cE1oaS1qGMOejidllhPbsTzf8=
 			</data>
 			<key>hash2</key>
 			<data>
-			sP/lyNPdg+R9Cwl8IF3uFeKm7C/khRqaqPw3D2xJPXs=
+			/BBGcC4qP6613QEtWSmYrAbrimrVr4xt3m4cvYi+NGY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AppfigurateLibrary.framework/_CodeSignature/CodeRequirements</key>
@@ -561,22 +561,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yTieVTvmb0z4ze6sIW4Dxw6LtzI=
+			9aofuj5erWCtYP59o9hkWmW72Rs=
 			</data>
 			<key>hash2</key>
 			<data>
-			4TYRO6k5q55uVVLOVvV9GEaxD3mWXx2M0Tavf3gUuWk=
+			OcOU1pss68dWoyFtHjNij+cGCv/rj8tPLeiQ9HcJwfk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AppfigurateLibrary.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			b0UbfZ/nJM9cykT+yg1zNs7sL98=
+			mrVnZC8vJR3YFYfHs2GqDccER00=
 			</data>
 			<key>hash2</key>
 			<data>
-			3EgMXCTvVGsrkgB6ZBqoLXFe6k22y70EOAjoI3YMqOw=
+			KegWQgBNaVxTQ1ePhi3N+kZ+TJqdRnDquKAOYuQ5TBo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AppfigurateLibrary.framework/_CodeSignature/CodeSignature</key>
@@ -594,11 +594,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pQnMNGOV9GxC62CyjQNOX8eSihQ=
+			pJVVzWB65FVUUj/dzGpc/98nIjI=
 			</data>
 			<key>hash2</key>
 			<data>
-			kTxCHGL/1V4//2ZJr6t+sUVC34EaRLJNEFNsWKITNlk=
+			qvMtTdEge+vLhz6MuEISYP0GyTTeEM6b2p/LwssDXSc=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32_armv7k/AppfigurateLibrary.framework/Headers/Appfigurate.h</key>
@@ -627,11 +627,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3hlfS5YnE3uyrn/wtgn6THQjqaY=
+			d/6JPzHLGywAqHoSCP0z5Kqh5uc=
 			</data>
 			<key>hash2</key>
 			<data>
-			bPHwGsZ6x3Gnd8QkpEjGF4+2meeWxjk3ETrE/Q2Nt0A=
+			eToMxWOT+QRHLxI8WGnhey4RBWG71rrllvxQwfbyFdQ=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32_armv7k/AppfigurateLibrary.framework/Modules/AppfigurateLibrary.swiftmodule/arm64-apple-watchos.abi.json</key>
@@ -792,11 +792,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			doD03PSoV3RUBxCfkze1WE5tow0=
+			FCehKyHpiXOqiivetd/EH/XJ3jI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ocu7lA4IhlVq0dbmnn0O37gd3D/nT9CenPBfEjEDH8Y=
+			Vs/LfcT/K5tkC0oz5GQf88BF8qoNin7hDJjRzLsBFP8=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/AppfigurateLibrary.framework/Headers/Appfigurate.h</key>
@@ -825,11 +825,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VevmdbXF2U+apIwGOfdNVCgoLVE=
+			BSkKNn+BJzr9nejk1VDSWJetVR4=
 			</data>
 			<key>hash2</key>
 			<data>
-			zjg4b0eGSZqvTSxbt7xCWmlRqg17mOZ7O2L1nP6TwnY=
+			yIiBRh8AjDd6Ti0UIMclND3RsVpYY/oUvx2QgpTheXA=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/AppfigurateLibrary.framework/Modules/AppfigurateLibrary.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
@@ -946,11 +946,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pJPWXlpbSsroU90SjN/A0rekPiw=
+			aAo8cxiQdjk14KcYxnsUNeQX96k=
 			</data>
 			<key>hash2</key>
 			<data>
-			X3gBlTSRD3ACdju1HJn7ClJAYOM20h3wpO5fuFfHxg0=
+			rIvlUAQhGs+KvnBhW3jjfA5uGh8cqSr45yqLS3gBi7g=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/AppfigurateLibrary.framework/_CodeSignature/CodeRequirements</key>
@@ -968,22 +968,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3L9tpiMXCKRZ2ssssJkOWjKob+c=
+			K5mGSpF78KcvfHA5KvWzSTfSiZI=
 			</data>
 			<key>hash2</key>
 			<data>
-			qfCrvPWdwPDX9DeIqDr6FJouX/L6DuvgZ8nDvUVjrWc=
+			53/M5ztvCnNviAOktA09KcHXvH+o8In0nTQolLwU2Cw=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/AppfigurateLibrary.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Cg2ol4WiJ8RurnIpKb9oLg6KKs0=
+			1d8gQlx3nfFMlB+w4pTVkLeVzDI=
 			</data>
 			<key>hash2</key>
 			<data>
-			uMO13STN/4mcfEka/Xp1LgaulvYNWzybX6s2Kxs1+/s=
+			imqQiyqgnuHcBy2bQCwEWH3CDvJKGPhOb55q9NNG8kU=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/AppfigurateLibrary.framework/_CodeSignature/CodeSignature</key>
