@@ -1,10 +1,16 @@
 framework module AppfigurateLibrary {
-    umbrella header "Appfigurate.h"
+    umbrella header "AppfigurateLibrary.h"
     export *
+    explicit module APLValet {
+        header "APLValet.h"
+    }
+    explicit module APLInvocation {
+        header "APLInvocation.h"
+        header "APLMethodSignature.h"
+    }
     module * { export * }
 }
 
 module AppfigurateLibrary.Swift {
   header "AppfigurateLibrary-Swift.h"
-  requires objc
 }

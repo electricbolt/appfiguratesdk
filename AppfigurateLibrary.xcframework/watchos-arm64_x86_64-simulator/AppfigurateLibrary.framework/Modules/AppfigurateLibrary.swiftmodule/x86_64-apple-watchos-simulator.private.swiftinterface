@@ -1,18 +1,21 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target x86_64-apple-watchos5.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AppfigurateLibrary
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-compiler-version: Apple Swift version 6.3 effective-5.10 (swiftlang-6.3.0.123.5 clang-2100.0.123.102)
+// swift-module-flags: -target x86_64-apple-watchos8.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AppfigurateLibrary
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3
 @_exported import AppfigurateLibrary
+import CommonCrypto
 import Foundation
+import Security
 import Swift
+import SwiftUI
+import UIKit
+import WatchConnectivity
+import WatchKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class APLPropertyWrapperIntrospection : ObjectiveC.NSObject {
-  @objc public static func shared() -> AppfigurateLibrary.APLPropertyWrapperIntrospection
-  @objc public func getPropertyName(_ name: Swift.String!, configuration: AppfigurateLibrary.APLConfiguration!) -> [Swift.AnyHashable : Any]!
-  @objc deinit
-}
+import os.log
+import os
 public protocol AppfigurateProperty {
 }
 public protocol _BoolProtocol {
@@ -266,6 +269,27 @@ extension Swift.String : AppfigurateLibrary._StringProtocol {
 }
 
 
+public let APLConfigurationUpdatedNotificationName: Foundation.Notification.Name
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class __APLAPI : ObjectiveC.NSObject {
+  @objc public static let __shared: AppfigurateLibrary.__APLAPI
+  @objc public func __version() -> Swift.String
+  @objc public func __addConfigurationUpdatedListener(_ target: any AppfigurateLibrary.APLConfigurationUpdated)
+  @objc public func __addConfigurationUpdatedBlock(_ block: @escaping AppfigurateLibrary.APLConfigurationUpdatedBlock) -> any ObjectiveC.NSObjectProtocol
+  @objc public func __removeConfigurationUpdatedListener(_ target: any AppfigurateLibrary.APLConfigurationUpdated)
+  @objc public func __removeConfigurationUpdatedBlock(_ observer: any ObjectiveC.NSObjectProtocol)
+  @objc public func __saveConfiguration()
+  @objc public func __restoreConfiguration()
+  @objc public func __applicationDidFinishLaunching()
+  @objc public func __sessionDidReceiveMessage(_ message: [Swift.String : Any]) -> [Swift.String : Any]?
+  @objc public func __setLogging(_ logging: Swift.Bool)
+  @objc public func __log(_ logLevel: AppfigurateLibrary.APLLogLevel, msg: Swift.String)
+  @objc deinit
+}
+public func APLLogS(_ logLevel: AppfigurateLibrary.APLLogLevel, _ msg: Swift.String)
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func configurationView() -> some SwiftUICore.View
+  
+}
 @inlinable public func ENCRYPTED() -> Swift.Bool {
   var debug = false
   assert({debug = true; return true}())

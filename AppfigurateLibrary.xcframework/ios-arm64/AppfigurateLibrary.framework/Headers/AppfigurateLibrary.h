@@ -1,5 +1,5 @@
-// Appfigurate.h
-// Appfigurate™ Copyright© 2013-2025; Electric Bolt Limited.
+// AppfigurateLibrary.h
+// Appfigurate™ Copyright© 2013-2026; Electric Bolt Limited.
 
 #import <Foundation/Foundation.h>
 #if TARGET_OS_IOS
@@ -19,15 +19,15 @@
 /**
  NSException of name `AppfigurateLibraryException` thrown in the following scenarios in order to terminate the app when
  a fatal error occurs:
- - Invalid list values found.
- - Invalid APLKeychainAccessibility value '%@' in Info.plist.
- - Invalid configuration after reset method.
- - APLConfiguration subclass not found.
- - Missing application launch scheme CFBundleURLName/CFBundleURLSchemes in Info.plist.
- - Invalid APLLogging value '%@' in Info.plist.
- - The allowInvalidSignatures method must be overridden.
- - The reset method must be overridden.
- - The publicKey method must be overridden.
+ - Invalid list values found
+ - Invalid APLKeychainAccessibility value '%@' in Info.plist
+ - Invalid configuration after reset method
+ - APLConfiguration subclass not found
+ - Missing application launch scheme CFBundleURLName/CFBundleURLSchemes in Info.plist
+ - Invalid APLLogging value '%@' in Info.plist
+ - The allowInvalidSignatures method must be overridden
+ - The reset method must be overridden
+ - The publicKey method must be overridden
  */
 extern NSString* _Nonnull AppfigurateLibraryException;
 
@@ -969,6 +969,8 @@ NS_SWIFT_NAME(automationSendReadConfiguration());
 
 #endif
 
+- (NSDictionary<NSString*, id>* _Nonnull) dictionaryFromConfiguration;
+
 @end
 
 //----------------------------------------------------------------------------------------------------------------------
@@ -1043,7 +1045,7 @@ extern void APLApplicationDidFinishLaunchingWithOptions(NSDictionary* _Nullable 
  }
  ```
  */
-extern BOOL APLApplicationOpenURL(NSURL* _Nonnull url);
+extern BOOL APLApplicationOpenURL(NSURL* _Nullable url);
 
 #endif
 #if TARGET_OS_WATCH
@@ -1104,7 +1106,7 @@ extern void APLApplicationDidFinishLaunching(void);
      ...
  ```
  */
-extern NSDictionary* _Nullable APLSessionDidReceiveMessage(NSDictionary<NSString*,id>* _Nonnull message);
+extern NSDictionary<NSString*,id>* _Nullable APLSessionDidReceiveMessage(NSDictionary<NSString*,id>* _Nonnull message);
 
 #endif
 

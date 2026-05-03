@@ -15,54 +15,408 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "APLPropertyWrapperIntrospection",
-        "printedName": "APLPropertyWrapperIntrospection",
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WatchConnectivity",
+        "printedName": "WatchConnectivity",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary"
+      },
+      {
+        "kind": "Var",
+        "name": "APLConfigurationUpdatedNotificationName",
+        "printedName": "APLConfigurationUpdatedNotificationName",
         "children": [
           {
-            "kind": "Function",
-            "name": "shared",
-            "printedName": "shared()",
+            "kind": "TypeNominal",
+            "name": "Name",
+            "printedName": "Foundation.NSNotification.Name",
+            "usr": "c:@T@NSNotificationName"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:18AppfigurateLibrary39APLConfigurationUpdatedNotificationNameSo014NSNotificationF0avp",
+        "mangledName": "$s18AppfigurateLibrary39APLConfigurationUpdatedNotificationNameSo014NSNotificationF0avp",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "APLPropertyWrapperIntrospection",
-                "printedName": "AppfigurateLibrary.APLPropertyWrapperIntrospection",
-                "usr": "c:@M@AppfigurateLibrary@objc(cs)APLPropertyWrapperIntrospection"
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
               }
             ],
-            "declKind": "Func",
-            "usr": "c:@M@AppfigurateLibrary@objc(cs)APLPropertyWrapperIntrospection(cm)shared",
-            "mangledName": "$s18AppfigurateLibrary31APLPropertyWrapperIntrospectionC6sharedACyFZ",
+            "declKind": "Accessor",
+            "usr": "s:18AppfigurateLibrary39APLConfigurationUpdatedNotificationNameSo014NSNotificationF0avg",
+            "mangledName": "$s18AppfigurateLibrary39APLConfigurationUpdatedNotificationNameSo014NSNotificationF0avg",
+            "moduleName": "AppfigurateLibrary",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "__APLAPI",
+        "printedName": "__APLAPI",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "__shared",
+            "printedName": "__shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "__APLAPI",
+                "printedName": "AppfigurateLibrary.__APLAPI",
+                "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI(cpy)__shared",
+            "mangledName": "$s18AppfigurateLibrary8__APLAPIC8__sharedACvpZ",
             "moduleName": "AppfigurateLibrary",
             "static": true,
             "declAttributes": [
+              "HasInitialValue",
               "Final",
+              "HasStorage",
               "AccessControl",
               "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "__APLAPI",
+                    "printedName": "AppfigurateLibrary.__APLAPI",
+                    "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI(cm)__shared",
+                "mangledName": "$s18AppfigurateLibrary8__APLAPIC8__sharedACvgZ",
+                "moduleName": "AppfigurateLibrary",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "__version",
+            "printedName": "__version()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI(im)__version",
+            "mangledName": "$s18AppfigurateLibrary8__APLAPIC9__versionSSyF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
-            "name": "getPropertyName",
-            "printedName": "getPropertyName(_:configuration:)",
+            "name": "__addConfigurationUpdatedListener",
+            "printedName": "__addConfigurationUpdatedListener(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "[Swift.AnyHashable : Any]?",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APLConfigurationUpdated",
+                "printedName": "any AppfigurateLibrary.APLConfigurationUpdated",
+                "usr": "c:objc(pl)APLConfigurationUpdated"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI(im)__addConfigurationUpdatedListener:",
+            "mangledName": "$s18AppfigurateLibrary8__APLAPIC33__addConfigurationUpdatedListeneryySo016APLConfigurationF0_pF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "__addConfigurationUpdatedBlock",
+            "printedName": "__addConfigurationUpdatedBlock(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSObjectProtocol",
+                "printedName": "any ObjectiveC.NSObjectProtocol",
+                "usr": "c:objc(pl)NSObject"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Notification?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Notification?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Notification",
+                        "printedName": "Foundation.Notification",
+                        "usr": "s:10Foundation12NotificationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI(im)__addConfigurationUpdatedBlock:",
+            "mangledName": "$s18AppfigurateLibrary8__APLAPIC30__addConfigurationUpdatedBlockySo8NSObject_py10Foundation12NotificationVSgcF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "__removeConfigurationUpdatedListener",
+            "printedName": "__removeConfigurationUpdatedListener(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APLConfigurationUpdated",
+                "printedName": "any AppfigurateLibrary.APLConfigurationUpdated",
+                "usr": "c:objc(pl)APLConfigurationUpdated"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI(im)__removeConfigurationUpdatedListener:",
+            "mangledName": "$s18AppfigurateLibrary8__APLAPIC36__removeConfigurationUpdatedListeneryySo016APLConfigurationF0_pF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "__removeConfigurationUpdatedBlock",
+            "printedName": "__removeConfigurationUpdatedBlock(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSObjectProtocol",
+                "printedName": "any ObjectiveC.NSObjectProtocol",
+                "usr": "c:objc(pl)NSObject"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI(im)__removeConfigurationUpdatedBlock:",
+            "mangledName": "$s18AppfigurateLibrary8__APLAPIC33__removeConfigurationUpdatedBlockyySo8NSObject_pF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "__saveConfiguration",
+            "printedName": "__saveConfiguration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI(im)__saveConfiguration",
+            "mangledName": "$s18AppfigurateLibrary8__APLAPIC19__saveConfigurationyyF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "__restoreConfiguration",
+            "printedName": "__restoreConfiguration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI(im)__restoreConfiguration",
+            "mangledName": "$s18AppfigurateLibrary8__APLAPIC22__restoreConfigurationyyF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "__applicationDidFinishLaunching",
+            "printedName": "__applicationDidFinishLaunching(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.AnyHashable : Any]",
+                    "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "AnyHashable",
-                        "printedName": "Swift.AnyHashable",
-                        "usr": "s:s11AnyHashableV"
+                        "name": "LaunchOptionsKey",
+                        "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                        "usr": "c:@T@UIApplicationLaunchOptionsKey"
                       },
                       {
                         "kind": "TypeNominal",
@@ -74,39 +428,344 @@
                   }
                 ],
                 "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI(im)__applicationDidFinishLaunchingWithOptions:",
+            "mangledName": "$s18AppfigurateLibrary8__APLAPIC31__applicationDidFinishLaunching4withySDySo29UIApplicationLaunchOptionsKeyaypGSg_tF",
+            "moduleName": "AppfigurateLibrary",
+            "objc_name": "__applicationDidFinishLaunchingWithOptions:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "__applicationOpenURL",
+            "printedName": "__applicationOpenURL(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Swift.String?",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "AppfigurateLibrary.APLConfiguration?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "APLConfiguration",
-                    "printedName": "AppfigurateLibrary.APLConfiguration",
-                    "usr": "c:objc(cs)APLConfiguration"
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AppfigurateLibrary@objc(cs)APLPropertyWrapperIntrospection(im)getPropertyName:configuration:",
-            "mangledName": "$s18AppfigurateLibrary31APLPropertyWrapperIntrospectionC15getPropertyName_13configurationSDys11AnyHashableVypGSgSSSg_So16APLConfigurationCSgtF",
+            "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI(im)__applicationOpenURL:",
+            "mangledName": "$s18AppfigurateLibrary8__APLAPIC20__applicationOpenURLySb10Foundation0F0VSgF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "__fetchRemoteConfiguration",
+            "printedName": "__fetchRemoteConfiguration(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String, AppfigurateLibrary.APLRemotePropertyType, Any) -> ObjectiveC.NSObject",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, AppfigurateLibrary.APLRemotePropertyType, Any)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APLRemotePropertyType",
+                        "printedName": "AppfigurateLibrary.APLRemotePropertyType",
+                        "usr": "c:@E@APLRemotePropertyType"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI(im)__fetchRemoteConfiguration:",
+            "mangledName": "$s18AppfigurateLibrary8__APLAPIC26__fetchRemoteConfigurationyySo8NSObjectCSS_So21APLRemotePropertyTypeVyptcF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "__flushRemoteConfiguration",
+            "printedName": "__flushRemoteConfiguration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI(im)__flushRemoteConfiguration",
+            "mangledName": "$s18AppfigurateLibrary8__APLAPIC26__flushRemoteConfigurationyyF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "__automationSendMessage",
+            "printedName": "__automationSendMessage(_:plist:timeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI(im)__automationSendMessage:plist:timeout:",
+            "mangledName": "$s18AppfigurateLibrary8__APLAPIC23__automationSendMessage_5plist7timeoutypSgSS_AGSdtF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "__automationMessageReceivedBlock",
+            "printedName": "__automationMessageReceivedBlock(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String, Any?) -> Any?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Any?) -> Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, Any?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Any?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI(im)__automationMessageReceivedBlock:",
+            "mangledName": "$s18AppfigurateLibrary8__APLAPIC32__automationMessageReceivedBlockyyypSgSS_AEtcSgF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "__automationInitialise",
+            "printedName": "__automationInitialise()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI(im)__automationInitialise",
+            "mangledName": "$s18AppfigurateLibrary8__APLAPIC22__automationInitialiseyyF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "__setLogging",
+            "printedName": "__setLogging(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI(im)__setLogging:",
+            "mangledName": "$s18AppfigurateLibrary8__APLAPIC12__setLoggingyySbF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "__log",
+            "printedName": "__log(_:msg:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APLLogLevel",
+                "printedName": "AppfigurateLibrary.APLLogLevel",
+                "usr": "c:@E@APLLogLevel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI(im)__log:msg:",
+            "mangledName": "$s18AppfigurateLibrary8__APLAPIC5__log_3msgySo11APLLogLevelV_SStF",
             "moduleName": "AppfigurateLibrary",
             "declAttributes": [
               "AccessControl",
@@ -117,8 +776,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@AppfigurateLibrary@objc(cs)APLPropertyWrapperIntrospection",
-        "mangledName": "$s18AppfigurateLibrary31APLPropertyWrapperIntrospectionC",
+        "usr": "c:@M@AppfigurateLibrary@objc(cs)__APLAPI",
+        "mangledName": "$s18AppfigurateLibrary8__APLAPIC",
         "moduleName": "AppfigurateLibrary",
         "declAttributes": [
           "AccessControl",
@@ -133,38 +792,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -175,10 +806,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -189,11 +834,180 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary"
+      },
+      {
+        "kind": "Function",
+        "name": "APLLogS",
+        "printedName": "APLLogS(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "APLLogLevel",
+            "printedName": "AppfigurateLibrary.APLLogLevel",
+            "usr": "c:@E@APLLogLevel"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18AppfigurateLibrary7APLLogSyySo0C5LevelV_SStF",
+        "mangledName": "$s18AppfigurateLibrary7APLLogSyySo0C5LevelV_SStF",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC.runtime",
+        "printedName": "ObjectiveC.runtime",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WatchConnectivity",
+        "printedName": "WatchConnectivity",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -501,6 +1315,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -512,13 +1333,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -760,6 +1574,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -771,13 +1592,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -1204,6 +2018,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -1215,13 +2036,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -1619,6 +2433,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -1630,13 +2451,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -1972,6 +2786,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -1983,13 +2804,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -2481,6 +3295,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -2492,13 +3313,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -2740,6 +3554,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -2751,13 +3572,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -3184,6 +3998,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -3195,13 +4016,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -3599,6 +4413,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -3610,13 +4431,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -3952,6 +4766,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -3963,13 +4784,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -4461,6 +5275,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -4472,13 +5293,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -4905,6 +5719,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -4916,13 +5737,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -5320,6 +6134,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -5331,13 +6152,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -5673,6 +6487,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -5684,13 +6505,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -6182,6 +6996,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -6193,13 +7014,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -6441,6 +7255,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -6452,13 +7273,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -6781,6 +7595,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -6792,13 +7613,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -7134,6 +7948,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -7145,13 +7966,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -7539,6 +8353,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -7550,13 +8371,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -7996,6 +8810,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -8007,13 +8828,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
         ]
       },
@@ -8255,6 +9069,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppfigurateProperty",
+            "printedName": "AppfigurateProperty",
+            "usr": "s:18AppfigurateLibrary0A8PropertyP",
+            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -8266,14 +9087,125 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AppfigurateProperty",
-            "printedName": "AppfigurateProperty",
-            "usr": "s:18AppfigurateLibrary0A8PropertyP",
-            "mangledName": "$s18AppfigurateLibrary0A8PropertyP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary"
+      },
+      {
+        "kind": "Import",
+        "name": "AppfigurateLibrary.APLValet",
+        "printedName": "AppfigurateLibrary.APLValet",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppfigurateLibrary.APLInvocation",
+        "printedName": "AppfigurateLibrary.APLInvocation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -8342,6 +9274,1065 @@
         "funcSelfKind": "NonMutating"
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppfigurateLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APLConfiguration",
+        "printedName": "APLConfiguration",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "shared",
+            "printedName": "shared()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APLConfiguration",
+                "printedName": "AppfigurateLibrary.APLConfiguration",
+                "usr": "c:objc(cs)APLConfiguration"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfiguration(cm)sharedConfiguration",
+            "mangledName": "$sSo16APLConfigurationC18AppfigurateLibraryE6sharedAByFZ",
+            "moduleName": "AppfigurateLibrary",
+            "static": true,
+            "objc_name": "sharedConfiguration",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "publicKey",
+            "printedName": "publicKey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfiguration(im)publicKey",
+            "mangledName": "$sSo16APLConfigurationC18AppfigurateLibraryE9publicKeySSyF",
+            "moduleName": "AppfigurateLibrary",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allowInvalidSignatures",
+            "printedName": "allowInvalidSignatures()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfiguration(im)allowInvalidSignatures",
+            "mangledName": "$sSo16APLConfigurationC18AppfigurateLibraryE22allowInvalidSignaturesSbyF",
+            "moduleName": "AppfigurateLibrary",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "environmentTags",
+            "printedName": "environmentTags()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfiguration(im)environmentTags",
+            "mangledName": "$sSo16APLConfigurationC18AppfigurateLibraryE15environmentTagsSaySSGSgyF",
+            "moduleName": "AppfigurateLibrary",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "description",
+            "printedName": "description()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfiguration(im)description",
+            "mangledName": "$sSo16APLConfigurationC18AppfigurateLibraryE11descriptionSSyF",
+            "moduleName": "AppfigurateLibrary",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "modifications",
+            "printedName": "modifications()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfiguration(im)modifications",
+            "mangledName": "$sSo16APLConfigurationC18AppfigurateLibraryE13modificationsSSyF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfiguration(im)reset",
+            "mangledName": "$sSo16APLConfigurationC18AppfigurateLibraryE5resetyyF",
+            "moduleName": "AppfigurateLibrary",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remoteDefaults",
+            "printedName": "remoteDefaults()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : ObjectiveC.NSObject]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfiguration(im)remoteDefaults",
+            "mangledName": "$sSo16APLConfigurationC18AppfigurateLibraryE14remoteDefaultsSDySSSo8NSObjectCGyF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "automationLaunchArguments",
+            "printedName": "automationLaunchArguments()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfiguration(im)automationLaunchArguments",
+            "mangledName": "$sSo16APLConfigurationC18AppfigurateLibraryE25automationLaunchArgumentsSaySSGyF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "automationLaunchArgumentsReset",
+            "printedName": "automationLaunchArgumentsReset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfiguration(im)automationLaunchArgumentsReset",
+            "mangledName": "$sSo16APLConfigurationC18AppfigurateLibraryE30automationLaunchArgumentsResetSaySSGyF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "automationLaunchArguments",
+            "printedName": "automationLaunchArguments(withAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfiguration(im)automationLaunchArgumentsWithAction:",
+            "mangledName": "$sSo16APLConfigurationC18AppfigurateLibraryE25automationLaunchArguments10withActionSaySSGSS_tF",
+            "moduleName": "AppfigurateLibrary",
+            "objc_name": "automationLaunchArgumentsWithAction:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "automationSendConfiguration",
+            "printedName": "automationSendConfiguration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfiguration(im)automationSendConfiguration",
+            "mangledName": "$sSo16APLConfigurationC18AppfigurateLibraryE27automationSendConfigurationyyF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "automationSendConfigurationReset",
+            "printedName": "automationSendConfigurationReset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfiguration(im)automationSendConfigurationReset",
+            "mangledName": "$sSo16APLConfigurationC18AppfigurateLibraryE32automationSendConfigurationResetyyF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "automationSendConfiguration",
+            "printedName": "automationSendConfiguration(withAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfiguration(im)automationSendConfigurationWithAction:",
+            "mangledName": "$sSo16APLConfigurationC18AppfigurateLibraryE27automationSendConfiguration10withActionySS_tF",
+            "moduleName": "AppfigurateLibrary",
+            "objc_name": "automationSendConfigurationWithAction:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "automationSendReadConfiguration",
+            "printedName": "automationSendReadConfiguration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfiguration(im)automationSendReadConfiguration",
+            "mangledName": "$sSo16APLConfigurationC18AppfigurateLibraryE31automationSendReadConfigurationyyF",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dictionaryFromConfiguration",
+            "printedName": "dictionaryFromConfiguration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfiguration(im)dictionaryFromConfiguration",
+            "mangledName": "$sSo16APLConfigurationC18AppfigurateLibraryE27dictionaryFromConfigurationSDySSypGyF",
+            "moduleName": "AppfigurateLibrary",
+            "objc_name": "dictionaryFromConfiguration",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APLConfiguration",
+                "printedName": "AppfigurateLibrary.APLConfiguration",
+                "usr": "c:objc(cs)APLConfiguration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfiguration(im)init",
+            "mangledName": "$sSo16APLConfigurationC18AppfigurateLibraryEABycfc",
+            "moduleName": "AppfigurateLibrary",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setValue",
+            "printedName": "setValue(_:forUndefinedKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfiguration(im)setValue:forUndefinedKey:",
+            "mangledName": "$sSo16APLConfigurationC18AppfigurateLibraryE8setValue_15forUndefinedKeyyypSg_SStF",
+            "moduleName": "AppfigurateLibrary",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "setValue:forUndefinedKey:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)APLConfiguration",
+        "moduleName": "AppfigurateLibrary",
+        "isOpen": true,
+        "objc_name": "APLConfiguration",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APLConfigurationLabel",
+        "printedName": "APLConfigurationLabel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "labelTappedBlock",
+            "printedName": "labelTappedBlock",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfigurationLabel(py)labelTappedBlock",
+            "mangledName": "$sSo21APLConfigurationLabelC18AppfigurateLibraryE16labelTappedBlockyycSgvp",
+            "moduleName": "AppfigurateLibrary",
+            "declAttributes": [
+              "HasInitialValue",
+              "Dynamic",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfigurationLabel(im)labelTappedBlock",
+                "mangledName": "$sSo21APLConfigurationLabelC18AppfigurateLibraryE16labelTappedBlockyycSgvg",
+                "moduleName": "AppfigurateLibrary",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfigurationLabel(im)setLabelTappedBlock:",
+                "mangledName": "$sSo21APLConfigurationLabelC18AppfigurateLibraryE16labelTappedBlockyycSgvs",
+                "moduleName": "AppfigurateLibrary",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APLConfigurationLabel",
+                "printedName": "AppfigurateLibrary.APLConfigurationLabel",
+                "usr": "c:objc(cs)APLConfigurationLabel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfigurationLabel(im)initWithFrame:",
+            "mangledName": "$sSo21APLConfigurationLabelC18AppfigurateLibraryE5frameABSo6CGRectV_tcfc",
+            "moduleName": "AppfigurateLibrary",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AppfigurateLibrary.APLConfigurationLabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APLConfigurationLabel",
+                    "printedName": "AppfigurateLibrary.APLConfigurationLabel",
+                    "usr": "c:objc(cs)APLConfigurationLabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfigurationLabel(im)initWithCoder:",
+            "mangledName": "$sSo21APLConfigurationLabelC18AppfigurateLibraryE5coderABSgSo7NSCoderC_tcfc",
+            "moduleName": "AppfigurateLibrary",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Required",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sizeThatFits",
+            "printedName": "sizeThatFits(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AppfigurateLibrary@@objc(cs)APLConfigurationLabel(im)sizeThatFits:",
+            "mangledName": "$sSo21APLConfigurationLabelC18AppfigurateLibraryE12sizeThatFitsySo6CGSizeVAFF",
+            "moduleName": "AppfigurateLibrary",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "sizeThatFits:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)APLConfigurationLabel",
+        "moduleName": "AppfigurateLibrary",
+        "isOpen": true,
+        "objc_name": "APLConfigurationLabel",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UILabel",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UILabel",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "Bool",
         "printedName": "Bool",
@@ -8356,10 +10347,24 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
+            "name": "_BoolProtocol",
+            "printedName": "_BoolProtocol",
+            "usr": "s:18AppfigurateLibrary13_BoolProtocolP",
+            "mangledName": "$s18AppfigurateLibrary13_BoolProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
@@ -8370,24 +10375,45 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_BoolProtocol",
-            "printedName": "_BoolProtocol",
-            "usr": "s:18AppfigurateLibrary13_BoolProtocolP",
-            "mangledName": "$s18AppfigurateLibrary13_BoolProtocolP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByBuiltinBooleanLiteral",
-            "printedName": "_ExpressibleByBuiltinBooleanLiteral",
-            "usr": "s:s35_ExpressibleByBuiltinBooleanLiteralP",
-            "mangledName": "$ss35_ExpressibleByBuiltinBooleanLiteralP"
           },
           {
             "kind": "Conformance",
@@ -8413,20 +10439,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -8441,24 +10453,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -8469,17 +10474,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BitwiseCopyable",
-            "printedName": "BitwiseCopyable",
-            "usr": "s:s15BitwiseCopyableP",
-            "mangledName": "$ss15BitwiseCopyableP"
+            "name": "_ExpressibleByBuiltinBooleanLiteral",
+            "printedName": "_ExpressibleByBuiltinBooleanLiteral",
+            "usr": "s:s35_ExpressibleByBuiltinBooleanLiteralP",
+            "mangledName": "$ss35_ExpressibleByBuiltinBooleanLiteralP"
           },
           {
             "kind": "Conformance",
@@ -8520,24 +10518,39 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "FixedWidthInteger",
-            "printedName": "FixedWidthInteger",
-            "usr": "s:s17FixedWidthIntegerP",
-            "mangledName": "$ss17FixedWidthIntegerP"
+            "name": "_IntProtocol",
+            "printedName": "_IntProtocol",
+            "usr": "s:18AppfigurateLibrary12_IntProtocolP",
+            "mangledName": "$s18AppfigurateLibrary12_IntProtocolP"
           },
           {
             "kind": "Conformance",
-            "name": "SignedInteger",
-            "printedName": "SignedInteger",
-            "usr": "s:SZ",
-            "mangledName": "$sSZ"
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation18_FormatSpecifiableP",
+            "mangledName": "$s10Foundation18_FormatSpecifiableP"
           },
           {
             "kind": "Conformance",
-            "name": "_ExpressibleByBuiltinIntegerLiteral",
-            "printedName": "_ExpressibleByBuiltinIntegerLiteral",
-            "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
-            "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+            "name": "AdditiveArithmetic",
+            "printedName": "AdditiveArithmetic",
+            "usr": "s:s18AdditiveArithmeticP",
+            "mangledName": "$ss18AdditiveArithmeticP"
           },
           {
             "kind": "Conformance",
@@ -8563,17 +10576,45 @@
           },
           {
             "kind": "Conformance",
-            "name": "LosslessStringConvertible",
-            "printedName": "LosslessStringConvertible",
-            "usr": "s:s25LosslessStringConvertibleP",
-            "mangledName": "$ss25LosslessStringConvertibleP"
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "SignedNumeric",
-            "printedName": "SignedNumeric",
-            "usr": "s:s13SignedNumericP",
-            "mangledName": "$ss13SignedNumericP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
           },
           {
             "kind": "Conformance",
@@ -8584,54 +10625,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "Numeric",
-            "printedName": "Numeric",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Magnitude",
-                "printedName": "Magnitude",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UInt",
-                    "printedName": "Swift.UInt",
-                    "usr": "s:Su"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sj",
-            "mangledName": "$sSj"
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
           },
           {
             "kind": "Conformance",
-            "name": "Strideable",
-            "printedName": "Strideable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Stride",
-                "printedName": "Stride",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sx",
-            "mangledName": "$sSx"
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           },
           {
             "kind": "Conformance",
-            "name": "AdditiveArithmetic",
-            "printedName": "AdditiveArithmetic",
-            "usr": "s:s18AdditiveArithmeticP",
-            "mangledName": "$ss18AdditiveArithmeticP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -8657,80 +10675,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "Comparable",
-            "printedName": "Comparable",
-            "usr": "s:SL",
-            "mangledName": "$sSL"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_IntProtocol",
-            "printedName": "_IntProtocol",
-            "usr": "s:18AppfigurateLibrary12_IntProtocolP",
-            "mangledName": "$s18AppfigurateLibrary12_IntProtocolP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CodingKeyRepresentable",
-            "printedName": "CodingKeyRepresentable",
-            "usr": "s:s22CodingKeyRepresentableP",
-            "mangledName": "$ss22CodingKeyRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_CustomPlaygroundQuickLookable",
-            "printedName": "_CustomPlaygroundQuickLookable",
-            "usr": "s:s30_CustomPlaygroundQuickLookableP",
-            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "MirrorPath",
-            "printedName": "MirrorPath",
-            "usr": "s:s10MirrorPathP",
-            "mangledName": "$ss10MirrorPathP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "FixedWidthInteger",
+            "printedName": "FixedWidthInteger",
+            "usr": "s:s17FixedWidthIntegerP",
+            "mangledName": "$ss17FixedWidthIntegerP"
           },
           {
             "kind": "Conformance",
@@ -8741,24 +10689,39 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
           },
           {
             "kind": "Conformance",
-            "name": "_HasCustomAnyHashableRepresentation",
-            "printedName": "_HasCustomAnyHashableRepresentation",
-            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
-            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
+            "name": "Numeric",
+            "printedName": "Numeric",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Magnitude",
+                "printedName": "Magnitude",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sj",
+            "mangledName": "$sSj"
           },
           {
             "kind": "Conformance",
@@ -8862,32 +10825,74 @@
           },
           {
             "kind": "Conformance",
-            "name": "BitwiseCopyable",
-            "printedName": "BitwiseCopyable",
-            "usr": "s:s15BitwiseCopyableP",
-            "mangledName": "$ss15BitwiseCopyableP"
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
-            "name": "_FormatSpecifiable",
-            "printedName": "_FormatSpecifiable",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedInteger",
+            "printedName": "SignedInteger",
+            "usr": "s:SZ",
+            "mangledName": "$sSZ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedNumeric",
+            "printedName": "SignedNumeric",
+            "usr": "s:s13SignedNumericP",
+            "mangledName": "$ss13SignedNumericP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
             "children": [
               {
                 "kind": "TypeWitness",
-                "name": "_Arg",
-                "printedName": "_Arg",
+                "name": "Stride",
+                "printedName": "Stride",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int64",
-                    "printedName": "Swift.Int64",
-                    "usr": "s:s5Int64V"
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   }
                 ]
               }
             ],
-            "usr": "s:10Foundation18_FormatSpecifiableP",
-            "mangledName": "$s10Foundation18_FormatSpecifiableP"
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinIntegerLiteral",
+            "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+            "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+            "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
           },
           {
             "kind": "Conformance",
@@ -8910,6 +10915,28 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           }
         ]
       },
@@ -8928,20 +10955,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "_FloatProtocol",
             "printedName": "_FloatProtocol",
             "usr": "s:18AppfigurateLibrary14_FloatProtocolP",
@@ -8949,80 +10962,32 @@
           },
           {
             "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation18_FormatSpecifiableP",
+            "mangledName": "$s10Foundation18_FormatSpecifiableP"
           },
           {
             "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_CustomPlaygroundQuickLookable",
-            "printedName": "_CustomPlaygroundQuickLookable",
-            "usr": "s:s30_CustomPlaygroundQuickLookableP",
-            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_CVarArgPassedAsDouble",
-            "printedName": "_CVarArgPassedAsDouble",
-            "usr": "s:s22_CVarArgPassedAsDoubleP",
-            "mangledName": "$ss22_CVarArgPassedAsDoubleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_CVarArgAligned",
-            "printedName": "_CVarArgAligned",
-            "usr": "s:s15_CVarArgAlignedP",
-            "mangledName": "$ss15_CVarArgAlignedP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LosslessStringConvertible",
-            "printedName": "LosslessStringConvertible",
-            "usr": "s:s25LosslessStringConvertibleP",
-            "mangledName": "$ss25LosslessStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "TextOutputStreamable",
-            "printedName": "TextOutputStreamable",
-            "usr": "s:s20TextOutputStreamableP",
-            "mangledName": "$ss20TextOutputStreamableP"
+            "name": "AdditiveArithmetic",
+            "printedName": "AdditiveArithmetic",
+            "usr": "s:s18AdditiveArithmeticP",
+            "mangledName": "$ss18AdditiveArithmeticP"
           },
           {
             "kind": "Conformance",
@@ -9061,6 +11026,83 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ExpressibleByFloatLiteral",
             "printedName": "ExpressibleByFloatLiteral",
             "children": [
@@ -9080,71 +11122,6 @@
             ],
             "usr": "s:s25ExpressibleByFloatLiteralP",
             "mangledName": "$ss25ExpressibleByFloatLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "FloatingPoint",
-            "printedName": "FloatingPoint",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Exponent",
-                "printedName": "Exponent",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SF",
-            "mangledName": "$sSF"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SignedNumeric",
-            "printedName": "SignedNumeric",
-            "usr": "s:s13SignedNumericP",
-            "mangledName": "$ss13SignedNumericP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Numeric",
-            "printedName": "Numeric",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Magnitude",
-                "printedName": "Magnitude",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sj",
-            "mangledName": "$sSj"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AdditiveArithmetic",
-            "printedName": "AdditiveArithmetic",
-            "usr": "s:s18AdditiveArithmeticP",
-            "mangledName": "$ss18AdditiveArithmeticP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByBuiltinIntegerLiteral",
-            "printedName": "_ExpressibleByBuiltinIntegerLiteral",
-            "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
-            "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
           },
           {
             "kind": "Conformance",
@@ -9170,10 +11147,25 @@
           },
           {
             "kind": "Conformance",
-            "name": "_ExpressibleByBuiltinFloatLiteral",
-            "printedName": "_ExpressibleByBuiltinFloatLiteral",
-            "usr": "s:s33_ExpressibleByBuiltinFloatLiteralP",
-            "mangledName": "$ss33_ExpressibleByBuiltinFloatLiteralP"
+            "name": "FloatingPoint",
+            "printedName": "FloatingPoint",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Exponent",
+                "printedName": "Exponent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SF",
+            "mangledName": "$sSF"
           },
           {
             "kind": "Conformance",
@@ -9184,34 +11176,20 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
           },
           {
             "kind": "Conformance",
-            "name": "_HasCustomAnyHashableRepresentation",
-            "printedName": "_HasCustomAnyHashableRepresentation",
-            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
-            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Strideable",
-            "printedName": "Strideable",
+            "name": "Numeric",
+            "printedName": "Numeric",
             "children": [
               {
                 "kind": "TypeWitness",
-                "name": "Stride",
-                "printedName": "Stride",
+                "name": "Magnitude",
+                "printedName": "Magnitude",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -9222,15 +11200,8 @@
                 ]
               }
             ],
-            "usr": "s:Sx",
-            "mangledName": "$sSx"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Comparable",
-            "printedName": "Comparable",
-            "usr": "s:SL",
-            "mangledName": "$sSL"
+            "usr": "s:Sj",
+            "mangledName": "$sSj"
           },
           {
             "kind": "Conformance",
@@ -9334,20 +11305,34 @@
           },
           {
             "kind": "Conformance",
-            "name": "BitwiseCopyable",
-            "printedName": "BitwiseCopyable",
-            "usr": "s:s15BitwiseCopyableP",
-            "mangledName": "$ss15BitwiseCopyableP"
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
-            "name": "_FormatSpecifiable",
-            "printedName": "_FormatSpecifiable",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedNumeric",
+            "printedName": "SignedNumeric",
+            "usr": "s:s13SignedNumericP",
+            "mangledName": "$ss13SignedNumericP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
             "children": [
               {
                 "kind": "TypeWitness",
-                "name": "_Arg",
-                "printedName": "_Arg",
+                "name": "Stride",
+                "printedName": "Stride",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -9358,8 +11343,57 @@
                 ]
               }
             ],
-            "usr": "s:10Foundation18_FormatSpecifiableP",
-            "mangledName": "$s10Foundation18_FormatSpecifiableP"
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CVarArgAligned",
+            "printedName": "_CVarArgAligned",
+            "usr": "s:s15_CVarArgAlignedP",
+            "mangledName": "$ss15_CVarArgAlignedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CVarArgPassedAsDouble",
+            "printedName": "_CVarArgPassedAsDouble",
+            "usr": "s:s22_CVarArgPassedAsDoubleP",
+            "mangledName": "$ss22_CVarArgPassedAsDoubleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinFloatLiteral",
+            "printedName": "_ExpressibleByBuiltinFloatLiteral",
+            "usr": "s:s33_ExpressibleByBuiltinFloatLiteralP",
+            "mangledName": "$ss33_ExpressibleByBuiltinFloatLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinIntegerLiteral",
+            "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+            "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+            "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
           },
           {
             "kind": "Conformance",
@@ -9382,6 +11416,35 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VectorArithmetic",
+            "printedName": "VectorArithmetic",
+            "usr": "s:7SwiftUI16VectorArithmeticP",
+            "mangledName": "$s7SwiftUI16VectorArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           }
         ]
       },
@@ -9400,20 +11463,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "_DoubleProtocol",
             "printedName": "_DoubleProtocol",
             "usr": "s:18AppfigurateLibrary15_DoubleProtocolP",
@@ -9421,80 +11470,32 @@
           },
           {
             "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation18_FormatSpecifiableP",
+            "mangledName": "$s10Foundation18_FormatSpecifiableP"
           },
           {
             "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_CustomPlaygroundQuickLookable",
-            "printedName": "_CustomPlaygroundQuickLookable",
-            "usr": "s:s30_CustomPlaygroundQuickLookableP",
-            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_CVarArgPassedAsDouble",
-            "printedName": "_CVarArgPassedAsDouble",
-            "usr": "s:s22_CVarArgPassedAsDoubleP",
-            "mangledName": "$ss22_CVarArgPassedAsDoubleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_CVarArgAligned",
-            "printedName": "_CVarArgAligned",
-            "usr": "s:s15_CVarArgAlignedP",
-            "mangledName": "$ss15_CVarArgAlignedP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LosslessStringConvertible",
-            "printedName": "LosslessStringConvertible",
-            "usr": "s:s25LosslessStringConvertibleP",
-            "mangledName": "$ss25LosslessStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "TextOutputStreamable",
-            "printedName": "TextOutputStreamable",
-            "usr": "s:s20TextOutputStreamableP",
-            "mangledName": "$ss20TextOutputStreamableP"
+            "name": "AdditiveArithmetic",
+            "printedName": "AdditiveArithmetic",
+            "usr": "s:s18AdditiveArithmeticP",
+            "mangledName": "$ss18AdditiveArithmeticP"
           },
           {
             "kind": "Conformance",
@@ -9533,6 +11534,83 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ExpressibleByFloatLiteral",
             "printedName": "ExpressibleByFloatLiteral",
             "children": [
@@ -9552,71 +11630,6 @@
             ],
             "usr": "s:s25ExpressibleByFloatLiteralP",
             "mangledName": "$ss25ExpressibleByFloatLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "FloatingPoint",
-            "printedName": "FloatingPoint",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Exponent",
-                "printedName": "Exponent",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SF",
-            "mangledName": "$sSF"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SignedNumeric",
-            "printedName": "SignedNumeric",
-            "usr": "s:s13SignedNumericP",
-            "mangledName": "$ss13SignedNumericP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Numeric",
-            "printedName": "Numeric",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Magnitude",
-                "printedName": "Magnitude",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sj",
-            "mangledName": "$sSj"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AdditiveArithmetic",
-            "printedName": "AdditiveArithmetic",
-            "usr": "s:s18AdditiveArithmeticP",
-            "mangledName": "$ss18AdditiveArithmeticP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByBuiltinIntegerLiteral",
-            "printedName": "_ExpressibleByBuiltinIntegerLiteral",
-            "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
-            "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
           },
           {
             "kind": "Conformance",
@@ -9642,10 +11655,25 @@
           },
           {
             "kind": "Conformance",
-            "name": "_ExpressibleByBuiltinFloatLiteral",
-            "printedName": "_ExpressibleByBuiltinFloatLiteral",
-            "usr": "s:s33_ExpressibleByBuiltinFloatLiteralP",
-            "mangledName": "$ss33_ExpressibleByBuiltinFloatLiteralP"
+            "name": "FloatingPoint",
+            "printedName": "FloatingPoint",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Exponent",
+                "printedName": "Exponent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SF",
+            "mangledName": "$sSF"
           },
           {
             "kind": "Conformance",
@@ -9656,34 +11684,20 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
           },
           {
             "kind": "Conformance",
-            "name": "_HasCustomAnyHashableRepresentation",
-            "printedName": "_HasCustomAnyHashableRepresentation",
-            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
-            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Strideable",
-            "printedName": "Strideable",
+            "name": "Numeric",
+            "printedName": "Numeric",
             "children": [
               {
                 "kind": "TypeWitness",
-                "name": "Stride",
-                "printedName": "Stride",
+                "name": "Magnitude",
+                "printedName": "Magnitude",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -9694,15 +11708,8 @@
                 ]
               }
             ],
-            "usr": "s:Sx",
-            "mangledName": "$sSx"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Comparable",
-            "printedName": "Comparable",
-            "usr": "s:SL",
-            "mangledName": "$sSL"
+            "usr": "s:Sj",
+            "mangledName": "$sSj"
           },
           {
             "kind": "Conformance",
@@ -9806,20 +11813,34 @@
           },
           {
             "kind": "Conformance",
-            "name": "BitwiseCopyable",
-            "printedName": "BitwiseCopyable",
-            "usr": "s:s15BitwiseCopyableP",
-            "mangledName": "$ss15BitwiseCopyableP"
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
-            "name": "_FormatSpecifiable",
-            "printedName": "_FormatSpecifiable",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedNumeric",
+            "printedName": "SignedNumeric",
+            "usr": "s:s13SignedNumericP",
+            "mangledName": "$ss13SignedNumericP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
             "children": [
               {
                 "kind": "TypeWitness",
-                "name": "_Arg",
-                "printedName": "_Arg",
+                "name": "Stride",
+                "printedName": "Stride",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -9830,8 +11851,57 @@
                 ]
               }
             ],
-            "usr": "s:10Foundation18_FormatSpecifiableP",
-            "mangledName": "$s10Foundation18_FormatSpecifiableP"
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CVarArgAligned",
+            "printedName": "_CVarArgAligned",
+            "usr": "s:s15_CVarArgAlignedP",
+            "mangledName": "$ss15_CVarArgAlignedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CVarArgPassedAsDouble",
+            "printedName": "_CVarArgPassedAsDouble",
+            "usr": "s:s22_CVarArgPassedAsDoubleP",
+            "mangledName": "$ss22_CVarArgPassedAsDoubleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinFloatLiteral",
+            "printedName": "_ExpressibleByBuiltinFloatLiteral",
+            "usr": "s:s33_ExpressibleByBuiltinFloatLiteralP",
+            "mangledName": "$ss33_ExpressibleByBuiltinFloatLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinIntegerLiteral",
+            "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+            "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+            "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
           },
           {
             "kind": "Conformance",
@@ -9854,6 +11924,57 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VectorArithmetic",
+            "printedName": "VectorArithmetic",
+            "usr": "s:7SwiftUI16VectorArithmeticP",
+            "mangledName": "$s7SwiftUI16VectorArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           }
         ]
       },
@@ -9873,20 +11994,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "_StringProtocol",
             "printedName": "_StringProtocol",
             "usr": "s:18AppfigurateLibrary15_StringProtocolP",
@@ -9894,174 +12001,32 @@
           },
           {
             "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CodingKeyRepresentable",
-            "printedName": "CodingKeyRepresentable",
-            "usr": "s:s22CodingKeyRepresentableP",
-            "mangledName": "$ss22CodingKeyRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_HasContiguousBytes",
-            "printedName": "_HasContiguousBytes",
-            "usr": "s:s19_HasContiguousBytesP",
-            "mangledName": "$ss19_HasContiguousBytesP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_CustomPlaygroundQuickLookable",
-            "printedName": "_CustomPlaygroundQuickLookable",
-            "usr": "s:s30_CustomPlaygroundQuickLookableP",
-            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "TextOutputStream",
-            "printedName": "TextOutputStream",
-            "usr": "s:s16TextOutputStreamP",
-            "mangledName": "$ss16TextOutputStreamP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "TextOutputStreamable",
-            "printedName": "TextOutputStreamable",
-            "usr": "s:s20TextOutputStreamableP",
-            "mangledName": "$ss20TextOutputStreamableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
-            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
-            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
-            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
-            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
-            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
-            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByBuiltinStringLiteral",
-            "printedName": "_ExpressibleByBuiltinStringLiteral",
-            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
-            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ExpressibleByStringLiteral",
-            "printedName": "ExpressibleByStringLiteral",
+            "name": "Transferable",
+            "printedName": "Transferable",
             "children": [
               {
                 "kind": "TypeWitness",
-                "name": "StringLiteralType",
-                "printedName": "StringLiteralType",
+                "name": "Representation",
+                "printedName": "Representation",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
                   }
                 ]
               }
             ],
-            "usr": "s:s26ExpressibleByStringLiteralP",
-            "mangledName": "$ss26ExpressibleByStringLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
-            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ExtendedGraphemeClusterLiteralType",
-                "printedName": "ExtendedGraphemeClusterLiteralType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
-            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ExpressibleByUnicodeScalarLiteral",
-            "printedName": "ExpressibleByUnicodeScalarLiteral",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "UnicodeScalarLiteralType",
-                "printedName": "UnicodeScalarLiteralType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
-            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           },
           {
             "kind": "Conformance",
@@ -10131,6 +12096,20 @@
             ],
             "usr": "s:SK",
             "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
           },
           {
             "kind": "Conformance",
@@ -10216,6 +12195,214 @@
           },
           {
             "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringInterpolation",
+            "printedName": "ExpressibleByStringInterpolation",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringInterpolation",
+                "printedName": "StringInterpolation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultStringInterpolation",
+                    "printedName": "Swift.DefaultStringInterpolation",
+                    "usr": "s:s26DefaultStringInterpolationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s32ExpressibleByStringInterpolationP",
+            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sequence",
             "printedName": "Sequence",
             "children": [
@@ -10248,20 +12435,6 @@
             ],
             "usr": "s:ST",
             "mangledName": "$sST"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Comparable",
-            "printedName": "Comparable",
-            "usr": "s:SL",
-            "mangledName": "$sSL"
           },
           {
             "kind": "Conformance",
@@ -10326,61 +12499,52 @@
           },
           {
             "kind": "Conformance",
-            "name": "ExpressibleByStringInterpolation",
-            "printedName": "ExpressibleByStringInterpolation",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "StringInterpolation",
-                "printedName": "StringInterpolation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DefaultStringInterpolation",
-                    "printedName": "Swift.DefaultStringInterpolation",
-                    "usr": "s:s26DefaultStringInterpolationV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s32ExpressibleByStringInterpolationP",
-            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+            "name": "TextOutputStream",
+            "printedName": "TextOutputStream",
+            "usr": "s:s16TextOutputStreamP",
+            "mangledName": "$ss16TextOutputStreamP"
           },
           {
             "kind": "Conformance",
-            "name": "LosslessStringConvertible",
-            "printedName": "LosslessStringConvertible",
-            "usr": "s:s25LosslessStringConvertibleP",
-            "mangledName": "$ss25LosslessStringConvertibleP"
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
           },
           {
             "kind": "Conformance",
-            "name": "RangeReplaceableCollection",
-            "printedName": "RangeReplaceableCollection",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "SubSequence",
-                "printedName": "SubSequence",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Substring",
-                    "printedName": "Swift.Substring",
-                    "usr": "s:Ss"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sm",
-            "mangledName": "$sSm"
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
           },
           {
             "kind": "Conformance",
-            "name": "MirrorPath",
-            "printedName": "MirrorPath",
-            "usr": "s:s10MirrorPathP",
-            "mangledName": "$ss10MirrorPathP"
+            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinStringLiteral",
+            "printedName": "_ExpressibleByBuiltinStringLiteral",
+            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
           },
           {
             "kind": "Conformance",
@@ -10403,18 +12567,583 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configurationView",
+            "printedName": "configurationView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP18AppfigurateLibraryE013configurationC0QryF",
+            "mangledName": "$s7SwiftUI4ViewP18AppfigurateLibraryE013configurationC0QryF",
+            "moduleName": "AppfigurateLibrary",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUICore",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "TypeEraser",
+          "TypeEraser",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Custom"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           }
         ]
       }
     ],
     "json_format_version": 8
   },
-  "ConstValues": []
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/WCSessionHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 949,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/WCSessionHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 1003,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/API.swift",
+      "kind": "StringLiteral",
+      "offset": 616,
+      "length": 27,
+      "value": "\"APL_CONFIGURATION_UPDATED\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/API.swift",
+      "kind": "StringLiteral",
+      "offset": 959,
+      "length": 7,
+      "value": "\"5.0.0\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "IntegerLiteral",
+      "offset": 204,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "IntegerLiteral",
+      "offset": 324,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "BooleanLiteral",
+      "offset": 461,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "BooleanLiteral",
+      "offset": 559,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "BooleanLiteral",
+      "offset": 891,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "BooleanLiteral",
+      "offset": 928,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 1087,
+      "length": 32,
+      "value": "\"nz.co.electricbolt.appfigurate\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 1131,
+      "length": 9,
+      "value": "\"library\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 1246,
+      "length": 42,
+      "value": "\"nz.co.electricbolt.appfigurate.extension\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 1300,
+      "length": 9,
+      "value": "\"library\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 1406,
+      "length": 48,
+      "value": "\"nz.co.electricbolt.appfigurate.watch.extension\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 1466,
+      "length": 9,
+      "value": "\"library\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 1578,
+      "length": 45,
+      "value": "\"nz.co.electricbolt.appfigurate.watch.intent\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 1635,
+      "length": 9,
+      "value": "\"library\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 3888,
+      "length": 12,
+      "value": "\"APLLogging\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 4320,
+      "length": 6,
+      "value": "\"FINE\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 4435,
+      "length": 7,
+      "value": "\"DEBUG\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 4444,
+      "length": 5,
+      "value": "\"YES\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4482,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 4541,
+      "length": 4,
+      "value": "\"NO\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 4547,
+      "length": 5,
+      "value": "\"OFF\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4585,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 4710,
+      "length": 48,
+      "value": "\"Invalid APLLogging value '$obj)' in Info.plist\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 4836,
+      "length": 48,
+      "value": "\"Invalid APLLogging value '$obj)' in Info.plist\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 4922,
+      "length": 34,
+      "value": "\"Initialising Appfigurate Library\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Automation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1732,
+      "length": 5,
+      "value": "65535"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Automation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1796,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Automation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1814,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Automation.swift",
+      "kind": "StringLiteral",
+      "offset": 1849,
+      "length": 18,
+      "value": "\"__APLConfigApply\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Automation.swift",
+      "kind": "StringLiteral",
+      "offset": 1981,
+      "length": 19,
+      "value": "\"__APLConfigAction\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Automation.swift",
+      "kind": "StringLiteral",
+      "offset": 2121,
+      "length": 18,
+      "value": "\"__APLConfigReset\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Automation.swift",
+      "kind": "StringLiteral",
+      "offset": 2193,
+      "length": 17,
+      "value": "\"__APLConfigRead\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Automation.swift",
+      "kind": "StringLiteral",
+      "offset": 2257,
+      "length": 6,
+      "value": "\"SEND\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Automation.swift",
+      "kind": "StringLiteral",
+      "offset": 2283,
+      "length": 6,
+      "value": "\"RESP\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Automation.swift",
+      "kind": "StringLiteral",
+      "offset": 2308,
+      "length": 5,
+      "value": "\"STX\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Automation.swift",
+      "kind": "StringLiteral",
+      "offset": 2332,
+      "length": 5,
+      "value": "\"ETX\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Automation.swift",
+      "kind": "StringLiteral",
+      "offset": 2356,
+      "length": 5,
+      "value": "\"ACK\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Automation.swift",
+      "kind": "StringLiteral",
+      "offset": 2397,
+      "length": 19,
+      "value": "\"APLAutomationUUID\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Automation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3090,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Automation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7016,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Automation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7074,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Automation.swift",
+      "kind": "StringLiteral",
+      "offset": 18067,
+      "length": 19,
+      "value": "\"launchEnvironment\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Automation.swift",
+      "kind": "StringLiteral",
+      "offset": 18226,
+      "length": 19,
+      "value": "\"launchEnvironment\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/CRC32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 247,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/CRC32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 251,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/CRC32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 310,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/CRC32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 314,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/CRC32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 344,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/CRC32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 350,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/CRC32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 388,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/CRC32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 393,
+      "length": 10,
+      "value": "0xEDB88320"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/CRC32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 462,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/AppIconLoader.swift",
+      "kind": "Array",
+      "offset": 1765,
+      "length": 195,
+      "value": "[120, 180, 152, 167, 60, 76]"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/AppIconLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1997,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Configuration+SaveRestore.swift",
+      "kind": "StringLiteral",
+      "offset": 139,
+      "length": 6,
+      "value": "\"Data\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Configuration+SaveRestore.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 8,
+      "value": "\"Expiry\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Configuration+SaveRestore.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 11,
+      "value": "\"Signature\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/ConfigurationSwiftUILabel.swift",
+      "kind": "StringLiteral",
+      "offset": 1953,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Remote.swift",
+      "kind": "BooleanLiteral",
+      "offset": 268,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Configuration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10407,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Configuration.swift",
+      "kind": "Dictionary",
+      "offset": 10534,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/Configuration.swift",
+      "kind": "Array",
+      "offset": 10590,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/ConfigurationProperty.swift",
+      "kind": "BooleanLiteral",
+      "offset": 302,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/ConfigurationProperty.swift",
+      "kind": "StringLiteral",
+      "offset": 331,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/SecureEnclave.swift",
+      "kind": "StringLiteral",
+      "offset": 402,
+      "length": 38,
+      "value": "\"AppfigurateLibrary-SecureEnclave-Tag\""
+    },
+    {
+      "filePath": "\/Users\/Shared\/build\/appfigurate\/appfiguratelibrary-apple\/AppfigurateLibrary\/AppfigurateLibrary\/SecureEnclave.swift",
+      "kind": "StringLiteral",
+      "offset": 2143,
+      "length": 5,
+      "value": "\"dku\""
+    }
+  ]
 }
